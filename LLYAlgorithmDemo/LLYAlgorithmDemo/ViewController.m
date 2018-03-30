@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "TwoSum.h"
+#import "BinarySearch.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    TwoSum *twoSum = [[TwoSum alloc]init];
+//    TwoSum *twoSum = [[TwoSum alloc]init];
+    BinarySearch *binarySearch = [[BinarySearch alloc]init];
 }
 
 

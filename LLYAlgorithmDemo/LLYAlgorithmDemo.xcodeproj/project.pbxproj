@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F2AED206E4785001C56E6 /* BinarySearch.m */; };
 		0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8496092063B4610060FC6D /* AppDelegate.m */; };
 		0A84960D2063B4610060FC6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84960C2063B4610060FC6D /* ViewController.m */; };
 		0A8496102063B4610060FC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84960E2063B4610060FC6D /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A7F2AEC206E4785001C56E6 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		0A7F2AED206E4785001C56E6 /* BinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		0A8496052063B4610060FC6D /* LLYAlgorithmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYAlgorithmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8496082063B4610060FC6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A8496092063B4610060FC6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 			children = (
 				0A84963B2063B5110060FC6D /* TwoSum.h */,
 				0A84963C2063B5110060FC6D /* TwoSum.m */,
+				0A7F2AEC206E4785001C56E6 /* BinarySearch.h */,
+				0A7F2AED206E4785001C56E6 /* BinarySearch.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
 				0A8496182063B4610060FC6D /* main.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
