@@ -10,6 +10,7 @@
 
 #import "TwoSum.h"
 #import "BinarySearch.h"
+#import "Recurrence.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
 //    TwoSum *twoSum = [[TwoSum alloc]init];
-    BinarySearch *binarySearch = [[BinarySearch alloc]init];
+//    BinarySearch *binarySearch = [[BinarySearch alloc]init];
+    Recurrence *recurrence = [[Recurrence alloc]init];
 }
 
 
