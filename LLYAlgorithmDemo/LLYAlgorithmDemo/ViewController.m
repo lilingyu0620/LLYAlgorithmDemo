@@ -11,6 +11,7 @@
 #import "TwoSum.h"
 #import "BinarySearch.h"
 #import "Recurrence.h"
+#import "ArrayToSum.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,8 @@
     
 //    TwoSum *twoSum = [[TwoSum alloc]init];
 //    BinarySearch *binarySearch = [[BinarySearch alloc]init];
-    Recurrence *recurrence = [[Recurrence alloc]init];
+//    Recurrence *recurrence = [[Recurrence alloc]init];
+    ArrayToSum *array = [[ArrayToSum alloc]init];
 }
 
 
