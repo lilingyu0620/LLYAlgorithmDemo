@@ -17,6 +17,7 @@
 		0A8496222063B4610060FC6D /* LLYAlgorithmDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8496212063B4610060FC6D /* LLYAlgorithmDemoTests.m */; };
 		0A84962D2063B4610060FC6D /* LLYAlgorithmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84962C2063B4610060FC6D /* LLYAlgorithmDemoUITests.m */; };
 		0A84963D2063B5110060FC6D /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84963C2063B5110060FC6D /* TwoSum.m */; };
+		0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84B6282074743C00CD815E /* MaxSubStr.m */; };
 		0A96D7252071C0A0000720CA /* Recurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96D7242071C0A0000720CA /* Recurrence.m */; };
 		0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D49822073A14E0040A3C8 /* ArrayToSum.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,8 @@
 		0A84962E2063B4610060FC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A84963B2063B5110060FC6D /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
 		0A84963C2063B5110060FC6D /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
+		0A84B6272074743C00CD815E /* MaxSubStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxSubStr.h; sourceTree = "<group>"; };
+		0A84B6282074743C00CD815E /* MaxSubStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxSubStr.m; sourceTree = "<group>"; };
 		0A96D7232071C0A0000720CA /* Recurrence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recurrence.h; sourceTree = "<group>"; };
 		0A96D7242071C0A0000720CA /* Recurrence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recurrence.m; sourceTree = "<group>"; };
 		0A9D49812073A14E0040A3C8 /* ArrayToSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayToSum.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				0A96D7242071C0A0000720CA /* Recurrence.m */,
 				0A9D49812073A14E0040A3C8 /* ArrayToSum.h */,
 				0A9D49822073A14E0040A3C8 /* ArrayToSum.m */,
+				0A84B6272074743C00CD815E /* MaxSubStr.h */,
+				0A84B6282074743C00CD815E /* MaxSubStr.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */,
 				0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */,
+				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
