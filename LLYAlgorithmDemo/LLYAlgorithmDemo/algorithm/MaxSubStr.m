@@ -16,6 +16,8 @@
 //
 //Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
+//理解题目：找出字符串中的最大不重复子串。即该子串中没有重复的字符。
+
 #import "MaxSubStr.h"
 
 @implementation MaxSubStr

@@ -13,6 +13,7 @@
 #import "Recurrence.h"
 #import "ArrayToSum.h"
 #import "MaxSubStr.h"
+#import "ArrayMedian.h"
 
 @interface ViewController ()
 
@@ -28,7 +29,8 @@
 //    BinarySearch *binarySearch = [[BinarySearch alloc]init];
 //    Recurrence *recurrence = [[Recurrence alloc]init];
 //    ArrayToSum *array = [[ArrayToSum alloc]init];
-    MaxSubStr *subStr = [[MaxSubStr alloc]init];
+//    MaxSubStr *subStr = [[MaxSubStr alloc]init];
+    ArrayMedian *median = [[ArrayMedian alloc]init];
 }
 
 
