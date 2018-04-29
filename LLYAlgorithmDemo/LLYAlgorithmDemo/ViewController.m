@@ -14,6 +14,7 @@
 #import "ArrayToSum.h"
 #import "MaxSubStr.h"
 #import "ArrayMedian.h"
+#import "HanoiTower.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,8 @@
 //    Recurrence *recurrence = [[Recurrence alloc]init];
 //    ArrayToSum *array = [[ArrayToSum alloc]init];
 //    MaxSubStr *subStr = [[MaxSubStr alloc]init];
-    ArrayMedian *median = [[ArrayMedian alloc]init];
+//    ArrayMedian *median = [[ArrayMedian alloc]init];
+    HanoiTower *hanoiTower = [[HanoiTower alloc]init];
 }
 
 

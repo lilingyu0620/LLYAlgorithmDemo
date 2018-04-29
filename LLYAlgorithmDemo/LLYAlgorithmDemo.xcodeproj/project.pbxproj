@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A579C5220958A80004B78A3 /* HanoiTower.m */; };
 		0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F2AED206E4785001C56E6 /* BinarySearch.m */; };
 		0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8444A7207F6AC800E5E598 /* ArrayMedian.m */; };
 		0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8496092063B4610060FC6D /* AppDelegate.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A579C5120958A80004B78A3 /* HanoiTower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTower.h; sourceTree = "<group>"; };
+		0A579C5220958A80004B78A3 /* HanoiTower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanoiTower.m; sourceTree = "<group>"; };
 		0A7F2AEC206E4785001C56E6 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		0A7F2AED206E4785001C56E6 /* BinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		0A8444A6207F6AC800E5E598 /* ArrayMedian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMedian.h; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				0A84B6282074743C00CD815E /* MaxSubStr.m */,
 				0A8444A6207F6AC800E5E598 /* ArrayMedian.h */,
 				0A8444A7207F6AC800E5E598 /* ArrayMedian.m */,
+				0A579C5120958A80004B78A3 /* HanoiTower.h */,
+				0A579C5220958A80004B78A3 /* HanoiTower.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
 				0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */,
+				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
 				0A8496182063B4610060FC6D /* main.m in Sources */,
 				0A96D7252071C0A0000720CA /* Recurrence.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
