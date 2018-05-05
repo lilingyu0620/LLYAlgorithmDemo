@@ -18,7 +18,8 @@
         NSLog(@"sum = %d",sum);
         int max = [self max:@[@3,@2,@25,@4,@7,@10,@5] index:0];
         NSLog(@"max = %d",max);
-
+        int fibonacci = [self fibonacci:10];
+        NSLog(@"fibonacci = %d",fibonacci);
     }
     return self;
 }
@@ -49,5 +50,11 @@
     return max;
 }
 
+
+- (int)fibonacci:(int)num{
+    if (num == 0) return 0;
+    if (num == 1) return 1;
+    return [self fibonacci:(num - 1)] + [self fibonacci:(num - 2)];
+}
 
 @end
