@@ -16,6 +16,7 @@
 #import "ArrayMedian.h"
 #import "HanoiTower.h"
 #import "PalindromicStr.h"
+#import "ZigZagStr.h"
 
 @interface ViewController ()
 
@@ -29,12 +30,14 @@
     
 //    TwoSum *twoSum = [[TwoSum alloc]init];
 //    BinarySearch *binarySearch = [[BinarySearch alloc]init];
-    Recurrence *recurrence = [[Recurrence alloc]init];
+//    Recurrence *recurrence = [[Recurrence alloc]init];
 //    ArrayToSum *array = [[ArrayToSum alloc]init];
 //    MaxSubStr *subStr = [[MaxSubStr alloc]init];
 //    ArrayMedian *median = [[ArrayMedian alloc]init];
 //    HanoiTower *hanoiTower = [[HanoiTower alloc]init];
-    PalindromicStr *paliStr = [[PalindromicStr alloc]init];
+//    PalindromicStr *paliStr = [[PalindromicStr alloc]init];
+    
+    ZigZagStr *zigZagStr = [[ZigZagStr alloc]init];
 }
 
 
