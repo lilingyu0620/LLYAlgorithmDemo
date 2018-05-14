@@ -18,6 +18,7 @@
 #import "PalindromicStr.h"
 #import "ZigZagStr.h"
 #import "ReverseInteger.h"
+#import "StringToInteger.h"
 
 @interface ViewController ()
 
@@ -38,7 +39,8 @@
 //    HanoiTower *hanoiTower = [[HanoiTower alloc]init];
 //    PalindromicStr *paliStr = [[PalindromicStr alloc]init];
 //    ZigZagStr *zigZagStr = [[ZigZagStr alloc]init];
-    ReverseInteger *reverseInter = [[ReverseInteger alloc]init];
+//    ReverseInteger *reverseInter = [[ReverseInteger alloc]init];
+    StringToInteger *strToInt = [[StringToInteger alloc]init];
 }
 
 
