@@ -17,6 +17,7 @@
 #import "HanoiTower.h"
 #import "PalindromicStr.h"
 #import "ZigZagStr.h"
+#import "ReverseInteger.h"
 
 @interface ViewController ()
 
@@ -36,8 +37,8 @@
 //    ArrayMedian *median = [[ArrayMedian alloc]init];
 //    HanoiTower *hanoiTower = [[HanoiTower alloc]init];
 //    PalindromicStr *paliStr = [[PalindromicStr alloc]init];
-    
-    ZigZagStr *zigZagStr = [[ZigZagStr alloc]init];
+//    ZigZagStr *zigZagStr = [[ZigZagStr alloc]init];
+    ReverseInteger *reverseInter = [[ReverseInteger alloc]init];
 }
 
 
