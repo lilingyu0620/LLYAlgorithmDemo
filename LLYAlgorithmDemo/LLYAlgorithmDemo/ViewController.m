@@ -19,6 +19,7 @@
 #import "ZigZagStr.h"
 #import "ReverseInteger.h"
 #import "StringToInteger.h"
+#import "RegularExpressionMatching.h"
 
 @interface ViewController ()
 
@@ -40,7 +41,8 @@
 //    PalindromicStr *paliStr = [[PalindromicStr alloc]init];
 //    ZigZagStr *zigZagStr = [[ZigZagStr alloc]init];
 //    ReverseInteger *reverseInter = [[ReverseInteger alloc]init];
-    StringToInteger *strToInt = [[StringToInteger alloc]init];
+//    StringToInteger *strToInt = [[StringToInteger alloc]init];
+    RegularExpressionMatching *regularExpressionMatching = [[RegularExpressionMatching alloc]init];
 }
 
 
