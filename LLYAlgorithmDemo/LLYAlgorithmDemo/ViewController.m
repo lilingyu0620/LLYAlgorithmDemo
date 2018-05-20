@@ -20,6 +20,7 @@
 #import "ReverseInteger.h"
 #import "StringToInteger.h"
 #import "RegularExpressionMatching.h"
+#import "HeapSort.h"
 
 @interface ViewController ()
 
@@ -42,7 +43,8 @@
 //    ZigZagStr *zigZagStr = [[ZigZagStr alloc]init];
 //    ReverseInteger *reverseInter = [[ReverseInteger alloc]init];
 //    StringToInteger *strToInt = [[StringToInteger alloc]init];
-    RegularExpressionMatching *regularExpressionMatching = [[RegularExpressionMatching alloc]init];
+//    RegularExpressionMatching *regularExpressionMatching = [[RegularExpressionMatching alloc]init];
+    HeapSort *heapSort = [[HeapSort alloc]init];
 }
 
 
