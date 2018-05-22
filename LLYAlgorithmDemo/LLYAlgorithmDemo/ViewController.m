@@ -21,6 +21,7 @@
 #import "StringToInteger.h"
 #import "RegularExpressionMatching.h"
 #import "HeapSort.h"
+#import "GenerateParentheses.h"
 
 @interface ViewController ()
 
@@ -44,7 +45,8 @@
 //    ReverseInteger *reverseInter = [[ReverseInteger alloc]init];
 //    StringToInteger *strToInt = [[StringToInteger alloc]init];
 //    RegularExpressionMatching *regularExpressionMatching = [[RegularExpressionMatching alloc]init];
-    HeapSort *heapSort = [[HeapSort alloc]init];
+//    HeapSort *heapSort = [[HeapSort alloc]init];
+    GenerateParentheses *generateParentheses = [[GenerateParentheses alloc]init];
 }
 
 
