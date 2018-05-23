@@ -22,6 +22,8 @@
 #import "RegularExpressionMatching.h"
 #import "HeapSort.h"
 #import "GenerateParentheses.h"
+#import "QuickSort.h"
+#import "MergeSort.h"
 
 @interface ViewController ()
 
@@ -46,7 +48,9 @@
 //    StringToInteger *strToInt = [[StringToInteger alloc]init];
 //    RegularExpressionMatching *regularExpressionMatching = [[RegularExpressionMatching alloc]init];
 //    HeapSort *heapSort = [[HeapSort alloc]init];
-    GenerateParentheses *generateParentheses = [[GenerateParentheses alloc]init];
+//    GenerateParentheses *generateParentheses = [[GenerateParentheses alloc]init];
+//    QuickSort *quickSort = [[QuickSort alloc]init];
+    MergeSort *mergeSort = [[MergeSort alloc]init];
 }
 
 
