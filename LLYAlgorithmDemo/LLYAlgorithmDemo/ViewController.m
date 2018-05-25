@@ -24,6 +24,7 @@
 #import "GenerateParentheses.h"
 #import "QuickSort.h"
 #import "MergeSort.h"
+#import "KMP.h"
 
 @interface ViewController ()
 
@@ -50,7 +51,8 @@
 //    HeapSort *heapSort = [[HeapSort alloc]init];
 //    GenerateParentheses *generateParentheses = [[GenerateParentheses alloc]init];
 //    QuickSort *quickSort = [[QuickSort alloc]init];
-    MergeSort *mergeSort = [[MergeSort alloc]init];
+//    MergeSort *mergeSort = [[MergeSort alloc]init];
+    KMP *kmp = [[KMP alloc]init];
 }
 
 
