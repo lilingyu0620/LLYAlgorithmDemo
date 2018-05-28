@@ -25,6 +25,7 @@
 #import "QuickSort.h"
 #import "MergeSort.h"
 #import "KMP.h"
+#import "ArrayThreeSumZero.h"
 
 @interface ViewController ()
 
@@ -52,7 +53,8 @@
 //    GenerateParentheses *generateParentheses = [[GenerateParentheses alloc]init];
 //    QuickSort *quickSort = [[QuickSort alloc]init];
 //    MergeSort *mergeSort = [[MergeSort alloc]init];
-    KMP *kmp = [[KMP alloc]init];
+//    KMP *kmp = [[KMP alloc]init];
+    ArrayThreeSumZero *array = [[ArrayThreeSumZero alloc]init];
 }
 
 
