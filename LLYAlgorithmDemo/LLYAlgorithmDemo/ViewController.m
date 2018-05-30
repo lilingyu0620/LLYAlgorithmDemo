@@ -27,6 +27,7 @@
 #import "KMP.h"
 #import "ArrayThreeSumZero.h"
 #import "PhoneNumToStr.h"
+#import "ValidParentheses.h"
 
 @interface ViewController ()
 
@@ -56,7 +57,8 @@
 //    MergeSort *mergeSort = [[MergeSort alloc]init];
 //    KMP *kmp = [[KMP alloc]init];
 //    ArrayThreeSumZero *array = [[ArrayThreeSumZero alloc]init];
-    PhoneNumToStr *phoneNumToStr = [[PhoneNumToStr alloc]init];
+//    PhoneNumToStr *phoneNumToStr = [[PhoneNumToStr alloc]init];
+    ValidParentheses *validParentheses = [[ValidParentheses alloc]init];
 }
 
 
