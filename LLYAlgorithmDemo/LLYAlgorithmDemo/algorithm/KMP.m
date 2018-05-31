@@ -21,15 +21,47 @@
         NSString *oriStr = @"aabbababbaaba";
         NSString *needleStr = @"bbaaba";
         
-        int index = [self forceIndex:oriStr needleStr:needleStr];
-        NSLog(@"index = %d",index);
+//        int index = [self forceIndex:oriStr needleStr:needleStr];
+//        NSLog(@"index = %d",index);
+//
+//        [self kmpArrayWithNeedleStr:needleStr];
+//        int indexKMP = [self indexKMP:oriStr needleStr:needleStr];
+//        NSLog(@"index = %d",indexKMP);
         
-        [self kmpArrayWithNeedleStr:needleStr];
-        int indexKMP = [self indexKMP:oriStr needleStr:needleStr];
-        NSLog(@"index = %d",indexKMP);
+        NSArray *array = [self findSubstring:@"barfoothefoobarman" subStrArray:@[@"foo",@"bar"]];
+        NSLog(@"array = %@",array);
+        
     }
     
     return self;
+}
+
+
+- (NSArray *)findSubstring:(NSString *)oriStr subStrArray:(NSArray *)subStrArray{
+    
+    NSMutableString *tmpStr = [NSMutableString string];
+    for (NSString *str in subStrArray) {
+        [tmpStr appendString:str];
+    }
+    
+    int index1 = [self forceIndex:oriStr needleStr:tmpStr];
+    if (index1 == -1) {
+        return nil;
+    }
+    
+    [tmpStr replaceCharactersInRange:NSMakeRange(0, tmpStr.length) withString:@""];
+    NSArray *reArray = [[subStrArray reverseObjectEnumerator] allObjects];
+    for (NSString *str in reArray) {
+        [tmpStr appendString:str];
+    }
+    
+    int index2 = [self forceIndex:oriStr needleStr:tmpStr];
+    if (index2 == -1) {
+        return nil;
+    }
+    
+    return @[@(index1),@(index2)];
+    
 }
 
 //暴力匹配
