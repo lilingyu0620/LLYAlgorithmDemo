@@ -29,6 +29,7 @@
 #import "PhoneNumToStr.h"
 #import "ValidParentheses.h"
 #import "LongestValidParentheses.h"
+#import "HalfRepeat.h"
 
 @interface ViewController ()
 
@@ -60,7 +61,8 @@
 //    ArrayThreeSumZero *array = [[ArrayThreeSumZero alloc]init];
 //    PhoneNumToStr *phoneNumToStr = [[PhoneNumToStr alloc]init];
 //    ValidParentheses *validParentheses = [[ValidParentheses alloc]init];
-    LongestValidParentheses *longestValidParentheses = [[LongestValidParentheses alloc]init];
+//    LongestValidParentheses *longestValidParentheses = [[LongestValidParentheses alloc]init];
+    HalfRepeat *halfRepeat = [[HalfRepeat alloc]init];
 }
 
 
