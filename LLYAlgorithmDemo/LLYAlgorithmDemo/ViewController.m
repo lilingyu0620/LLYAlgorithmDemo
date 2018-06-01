@@ -28,6 +28,7 @@
 #import "ArrayThreeSumZero.h"
 #import "PhoneNumToStr.h"
 #import "ValidParentheses.h"
+#import "LongestValidParentheses.h"
 
 @interface ViewController ()
 
@@ -55,10 +56,11 @@
 //    GenerateParentheses *generateParentheses = [[GenerateParentheses alloc]init];
 //    QuickSort *quickSort = [[QuickSort alloc]init];
 //    MergeSort *mergeSort = [[MergeSort alloc]init];
-    KMP *kmp = [[KMP alloc]init];
+//    KMP *kmp = [[KMP alloc]init];
 //    ArrayThreeSumZero *array = [[ArrayThreeSumZero alloc]init];
 //    PhoneNumToStr *phoneNumToStr = [[PhoneNumToStr alloc]init];
 //    ValidParentheses *validParentheses = [[ValidParentheses alloc]init];
+    LongestValidParentheses *longestValidParentheses = [[LongestValidParentheses alloc]init];
 }
 
 
