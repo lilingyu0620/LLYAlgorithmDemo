@@ -30,6 +30,8 @@
 #import "ValidParentheses.h"
 #import "LongestValidParentheses.h"
 #import "HalfRepeat.h"
+#import "MaxMinInArray.h"
+
 
 @interface ViewController ()
 
@@ -62,7 +64,8 @@
 //    PhoneNumToStr *phoneNumToStr = [[PhoneNumToStr alloc]init];
 //    ValidParentheses *validParentheses = [[ValidParentheses alloc]init];
 //    LongestValidParentheses *longestValidParentheses = [[LongestValidParentheses alloc]init];
-    HalfRepeat *halfRepeat = [[HalfRepeat alloc]init];
+//    HalfRepeat *halfRepeat = [[HalfRepeat alloc]init];
+    MaxMinInArray *maxMinArray = [[MaxMinInArray alloc]init];
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
 		0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A579C5220958A80004B78A3 /* HanoiTower.m */; };
 		0A67A5D220C0EE97001AB5EF /* LongestValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A67A5D120C0EE97001AB5EF /* LongestValidParentheses.m */; };
 		0A67A5D520C168D9001AB5EF /* HalfRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A67A5D420C168D9001AB5EF /* HalfRepeat.m */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5728D020C25B5F008E5F6D /* MaxMinInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxMinInArray.h; sourceTree = "<group>"; };
+		0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxMinInArray.m; sourceTree = "<group>"; };
 		0A579C5120958A80004B78A3 /* HanoiTower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTower.h; sourceTree = "<group>"; };
 		0A579C5220958A80004B78A3 /* HanoiTower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanoiTower.m; sourceTree = "<group>"; };
 		0A67A5D020C0EE97001AB5EF /* LongestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestValidParentheses.h; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 				0A67A5D120C0EE97001AB5EF /* LongestValidParentheses.m */,
 				0A67A5D320C168D9001AB5EF /* HalfRepeat.h */,
 				0A67A5D420C168D9001AB5EF /* HalfRepeat.m */,
+				0A5728D020C25B5F008E5F6D /* MaxMinInArray.h */,
+				0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */,
 				0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */,
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
+				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
 				0A8496182063B4610060FC6D /* main.m in Sources */,
 				0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */,
 				0A96D7252071C0A0000720CA /* Recurrence.m in Sources */,
