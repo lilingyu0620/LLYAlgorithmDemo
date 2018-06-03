@@ -31,6 +31,7 @@
 #import "LongestValidParentheses.h"
 #import "HalfRepeat.h"
 #import "MaxMinInArray.h"
+#import "SearchinRotatedSortedArray.h"
 
 
 @interface ViewController ()
@@ -65,7 +66,8 @@
 //    ValidParentheses *validParentheses = [[ValidParentheses alloc]init];
 //    LongestValidParentheses *longestValidParentheses = [[LongestValidParentheses alloc]init];
 //    HalfRepeat *halfRepeat = [[HalfRepeat alloc]init];
-    MaxMinInArray *maxMinArray = [[MaxMinInArray alloc]init];
+//    MaxMinInArray *maxMinArray = [[MaxMinInArray alloc]init];
+    SearchinRotatedSortedArray *searchinRotatedSortedArray = [[SearchinRotatedSortedArray alloc]init];
 }
 
 

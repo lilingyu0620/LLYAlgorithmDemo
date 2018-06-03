@@ -14,6 +14,7 @@
 		0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A694F3D2099982300694E35 /* PalindromicStr.m */; };
 		0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FB48220A13C4C00F9504D /* ZigZagStr.m */; };
 		0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */; };
+		0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */; };
 		0A7B31C720B82DB3001076FA /* KMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C620B82DB2001076FA /* KMP.m */; };
 		0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */; };
 		0A7E268320B501AE000902C6 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268220B501AE000902C6 /* QuickSort.m */; };
@@ -72,6 +73,8 @@
 		0A6FB48220A13C4C00F9504D /* ZigZagStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZigZagStr.m; sourceTree = "<group>"; };
 		0A76527C20BCEF0100A3BA70 /* PhoneNumToStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumToStr.h; sourceTree = "<group>"; };
 		0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumToStr.m; sourceTree = "<group>"; };
+		0A7988B720C398A900729764 /* SearchinRotatedSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchinRotatedSortedArray.h; sourceTree = "<group>"; };
+		0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchinRotatedSortedArray.m; sourceTree = "<group>"; };
 		0A7B31C520B82DB2001076FA /* KMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMP.h; sourceTree = "<group>"; };
 		0A7B31C620B82DB2001076FA /* KMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMP.m; sourceTree = "<group>"; };
 		0A7D76A120BE36A60084C7A9 /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 				0A67A5D420C168D9001AB5EF /* HalfRepeat.m */,
 				0A5728D020C25B5F008E5F6D /* MaxMinInArray.h */,
 				0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */,
+				0A7988B720C398A900729764 /* SearchinRotatedSortedArray.h */,
+				0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
+				0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */,
 				0A94B28420A9837E00477751 /* StringToInteger.m in Sources */,
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,
 				0A7E268320B501AE000902C6 /* QuickSort.m in Sources */,
