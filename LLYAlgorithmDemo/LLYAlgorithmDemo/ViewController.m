@@ -32,6 +32,7 @@
 #import "HalfRepeat.h"
 #import "MaxMinInArray.h"
 #import "SearchinRotatedSortedArray.h"
+#import "JosephRing.h"
 
 
 @interface ViewController ()
@@ -67,7 +68,8 @@
 //    LongestValidParentheses *longestValidParentheses = [[LongestValidParentheses alloc]init];
 //    HalfRepeat *halfRepeat = [[HalfRepeat alloc]init];
 //    MaxMinInArray *maxMinArray = [[MaxMinInArray alloc]init];
-    SearchinRotatedSortedArray *searchinRotatedSortedArray = [[SearchinRotatedSortedArray alloc]init];
+//    SearchinRotatedSortedArray *searchinRotatedSortedArray = [[SearchinRotatedSortedArray alloc]init];
+    JosephRing *josephRing = [[JosephRing alloc]init];
 }
 
 
