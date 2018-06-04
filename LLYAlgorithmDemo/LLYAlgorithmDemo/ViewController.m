@@ -34,6 +34,7 @@
 #import "SearchinRotatedSortedArray.h"
 #import "JosephRing.h"
 #import "SearchforaRange.h"
+#import "CombinationSum.h"
 
 
 @interface ViewController ()
@@ -71,7 +72,8 @@
 //    MaxMinInArray *maxMinArray = [[MaxMinInArray alloc]init];
 //    SearchinRotatedSortedArray *searchinRotatedSortedArray = [[SearchinRotatedSortedArray alloc]init];
 //    JosephRing *josephRing = [[JosephRing alloc]init];
-    SearchforaRange *searchforaRange = [[SearchforaRange alloc]init];
+//    SearchforaRange *searchforaRange = [[SearchforaRange alloc]init];
+    CombinationSum *combinationSum = [[CombinationSum alloc]init];
 }
 
 
