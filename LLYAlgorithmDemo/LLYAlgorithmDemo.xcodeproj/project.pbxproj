@@ -40,6 +40,7 @@
 		0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A95A39A20BBAA2F00804608 /* ArrayThreeSumZero.m */; };
 		0A96D7252071C0A0000720CA /* Recurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96D7242071C0A0000720CA /* Recurrence.m */; };
 		0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D49822073A14E0040A3C8 /* ArrayToSum.m */; };
+		0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,8 @@
 		0A96D7242071C0A0000720CA /* Recurrence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recurrence.m; sourceTree = "<group>"; };
 		0A9D49812073A14E0040A3C8 /* ArrayToSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayToSum.h; sourceTree = "<group>"; };
 		0A9D49822073A14E0040A3C8 /* ArrayToSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayToSum.m; sourceTree = "<group>"; };
+		0A9DA6F820C4D32F00475C74 /* SearchforaRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchforaRange.h; sourceTree = "<group>"; };
+		0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchforaRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +264,8 @@
 				0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */,
 				0A7988BA20C3A69200729764 /* JosephRing.h */,
 				0A7988BB20C3A69200729764 /* JosephRing.m */,
+				0A9DA6F820C4D32F00475C74 /* SearchforaRange.h */,
+				0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				0A67A5D520C168D9001AB5EF /* HalfRepeat.m in Sources */,
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
+				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
 				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,
 				0A86B76820B4389100D17FC6 /* GenerateParentheses.m in Sources */,
 			);

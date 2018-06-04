@@ -33,6 +33,7 @@
 #import "MaxMinInArray.h"
 #import "SearchinRotatedSortedArray.h"
 #import "JosephRing.h"
+#import "SearchforaRange.h"
 
 
 @interface ViewController ()
@@ -69,7 +70,8 @@
 //    HalfRepeat *halfRepeat = [[HalfRepeat alloc]init];
 //    MaxMinInArray *maxMinArray = [[MaxMinInArray alloc]init];
 //    SearchinRotatedSortedArray *searchinRotatedSortedArray = [[SearchinRotatedSortedArray alloc]init];
-    JosephRing *josephRing = [[JosephRing alloc]init];
+//    JosephRing *josephRing = [[JosephRing alloc]init];
+    SearchforaRange *searchforaRange = [[SearchforaRange alloc]init];
 }
 
 
