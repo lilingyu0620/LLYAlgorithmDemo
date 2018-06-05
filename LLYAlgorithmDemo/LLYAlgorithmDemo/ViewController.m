@@ -36,6 +36,7 @@
 #import "SearchforaRange.h"
 #import "CombinationSum.h"
 #import "CombinationSum2.h"
+#import "FirstMissingPositive.h"
 
 
 @interface ViewController ()
@@ -75,7 +76,8 @@
 //    JosephRing *josephRing = [[JosephRing alloc]init];
 //    SearchforaRange *searchforaRange = [[SearchforaRange alloc]init];
 //    CombinationSum *combinationSum = [[CombinationSum alloc]init];
-    CombinationSum2 *combinationSum2 = [[CombinationSum2 alloc]init];
+//    CombinationSum2 *combinationSum2 = [[CombinationSum2 alloc]init];
+    FirstMissingPositive *firstMissingPositive = [[FirstMissingPositive alloc]init];
 }
 
 
