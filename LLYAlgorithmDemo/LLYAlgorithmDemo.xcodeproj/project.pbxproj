@@ -22,6 +22,7 @@
 		0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */; };
 		0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E220C78424002EB139 /* TrappingRainWater.m */; };
 		0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E520C7D08C002EB139 /* MultiplyStrings.m */; };
+		0A7DB7E920C7D685002EB139 /* Permutations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E820C7D685002EB139 /* Permutations.m */; };
 		0A7E268320B501AE000902C6 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268220B501AE000902C6 /* QuickSort.m */; };
 		0A7E268620B50235000902C6 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268520B50235000902C6 /* MergeSort.m */; };
 		0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E4F7520AEE10C00D363F7 /* RegularExpressionMatching.m */; };
@@ -96,6 +97,8 @@
 		0A7DB7E220C78424002EB139 /* TrappingRainWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrappingRainWater.m; sourceTree = "<group>"; };
 		0A7DB7E420C7D08C002EB139 /* MultiplyStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplyStrings.h; sourceTree = "<group>"; };
 		0A7DB7E520C7D08C002EB139 /* MultiplyStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyStrings.m; sourceTree = "<group>"; };
+		0A7DB7E720C7D685002EB139 /* Permutations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Permutations.h; sourceTree = "<group>"; };
+		0A7DB7E820C7D685002EB139 /* Permutations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Permutations.m; sourceTree = "<group>"; };
 		0A7E268120B501AE000902C6 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		0A7E268220B501AE000902C6 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		0A7E268420B50235000902C6 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
@@ -291,6 +294,8 @@
 				0A7DB7E220C78424002EB139 /* TrappingRainWater.m */,
 				0A7DB7E420C7D08C002EB139 /* MultiplyStrings.h */,
 				0A7DB7E520C7D08C002EB139 /* MultiplyStrings.m */,
+				0A7DB7E720C7D685002EB139 /* Permutations.h */,
+				0A7DB7E820C7D685002EB139 /* Permutations.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
+				0A7DB7E920C7D685002EB139 /* Permutations.m in Sources */,
 				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
 				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
 				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,

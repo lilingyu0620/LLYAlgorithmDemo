@@ -39,6 +39,7 @@
 #import "FirstMissingPositive.h"
 #import "TrappingRainWater.h"
 #import "MultiplyStrings.h"
+#import "Permutations.h"
 
 
 @interface ViewController ()
@@ -81,7 +82,8 @@
 //    CombinationSum2 *combinationSum2 = [[CombinationSum2 alloc]init];
 //    FirstMissingPositive *firstMissingPositive = [[FirstMissingPositive alloc]init];
 //    TrappingRainWater *trappingRainWater = [[TrappingRainWater alloc]init];
-    MultiplyStrings *multiplyStrings = [[MultiplyStrings alloc]init];
+//    MultiplyStrings *multiplyStrings = [[MultiplyStrings alloc]init];
+    Permutations *permutations = [[Permutations alloc]init];
 }
 
 
