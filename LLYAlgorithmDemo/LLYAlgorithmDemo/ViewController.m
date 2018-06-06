@@ -37,6 +37,7 @@
 #import "CombinationSum.h"
 #import "CombinationSum2.h"
 #import "FirstMissingPositive.h"
+#import "TrappingRainWater.h"
 
 
 @interface ViewController ()
@@ -77,7 +78,8 @@
 //    SearchforaRange *searchforaRange = [[SearchforaRange alloc]init];
 //    CombinationSum *combinationSum = [[CombinationSum alloc]init];
 //    CombinationSum2 *combinationSum2 = [[CombinationSum2 alloc]init];
-    FirstMissingPositive *firstMissingPositive = [[FirstMissingPositive alloc]init];
+//    FirstMissingPositive *firstMissingPositive = [[FirstMissingPositive alloc]init];
+    TrappingRainWater *trappingRainWater = [[TrappingRainWater alloc]init];
 }
 
 

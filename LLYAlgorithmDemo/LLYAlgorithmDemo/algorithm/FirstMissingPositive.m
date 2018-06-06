@@ -16,13 +16,13 @@
     self = [super init];
     if (self) {
         
-        int samllNum = [self firstMissingPositive:@[@2,@4,@-1,@1]];
+        int samllNum = [self firstMissingPositive:@[@6,@5,@4,@3,@2,@1]];
         NSLog(@"samllNum = %d",samllNum);
         
     }
     return self;
 }
-//假设最小的miss正数是1 遍历列表 如果当前列表中已经有了1 则将最小正数+1
+//假设最小的miss正数是1 遍历列表 如果当前列表中已经有了1 则将最小正数+1 然后从头来过
 
 - (int)firstMissingPositive:(NSArray *)array{
     

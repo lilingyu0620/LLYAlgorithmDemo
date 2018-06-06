@@ -20,6 +20,7 @@
 		0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */; };
 		0A7B31C720B82DB3001076FA /* KMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C620B82DB2001076FA /* KMP.m */; };
 		0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */; };
+		0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E220C78424002EB139 /* TrappingRainWater.m */; };
 		0A7E268320B501AE000902C6 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268220B501AE000902C6 /* QuickSort.m */; };
 		0A7E268620B50235000902C6 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268520B50235000902C6 /* MergeSort.m */; };
 		0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E4F7520AEE10C00D363F7 /* RegularExpressionMatching.m */; };
@@ -90,6 +91,8 @@
 		0A7B31C620B82DB2001076FA /* KMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMP.m; sourceTree = "<group>"; };
 		0A7D76A120BE36A60084C7A9 /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
+		0A7DB7E120C78424002EB139 /* TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrappingRainWater.h; sourceTree = "<group>"; };
+		0A7DB7E220C78424002EB139 /* TrappingRainWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrappingRainWater.m; sourceTree = "<group>"; };
 		0A7E268120B501AE000902C6 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		0A7E268220B501AE000902C6 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		0A7E268420B50235000902C6 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
@@ -281,6 +284,8 @@
 				0A7A869720C62CE700F48A3C /* CombinationSum2.m */,
 				0A7A869D20C68EA400F48A3C /* FirstMissingPositive.h */,
 				0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */,
+				0A7DB7E120C78424002EB139 /* TrappingRainWater.h */,
+				0A7DB7E220C78424002EB139 /* TrappingRainWater.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -448,6 +453,7 @@
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
 				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
+				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
 				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,
 				0A86B76820B4389100D17FC6 /* GenerateParentheses.m in Sources */,
 			);
