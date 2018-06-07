@@ -24,19 +24,58 @@
 
 #import "Permutations.h"
 
-@implementation Permutations
-
+@implementation Permutations{
+    
+    NSMutableArray *_oriArray;
+    NSMutableArray *_resArray;
+    
+}
 
 - (instancetype)init{
     
     self = [super init];
     
     if (self) {
-        NSMutableArray *array = [self permutations:@[@1,@2,@3,@4]];
-        NSLog(@"array = %@",array);
+        
+//        NSMutableArray *array = [self permutations:@[@1,@2,@3,@4]];
+//        NSLog(@"array = %@",array);
+        
+        _oriArray = [NSMutableArray arrayWithArray:@[@1,@2,@3]];
+        _resArray = [NSMutableArray array];
+
+        [self recursion:_oriArray index:0];
+        NSLog(@"_resArray = %@",_resArray);
+
     }
     
     return self;
+}
+
+
+- (void)recursion:(NSMutableArray *)array index:(int)i{
+    
+    if (i == array.count - 1) {
+        [_resArray addObject:[NSArray arrayWithArray:array]];
+        return;
+    }
+    
+    for (int k = i; k < array.count; k++) {
+        
+        [self swap:array i:i j:k];
+        NSLog(@"array = %@",array);
+        [self recursion:array index:(i + 1)];
+        
+        [self swap:array i:i j:k];
+    }
+}
+
+
+- (void)swap:(NSMutableArray *)array i:(int)i j:(int)j{
+    
+    id tmp = array[i];
+    array[i] = array[j];
+    array[j] = tmp;
+    
 }
 
 

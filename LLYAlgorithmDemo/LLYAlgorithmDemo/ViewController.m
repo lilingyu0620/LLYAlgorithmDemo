@@ -40,6 +40,7 @@
 #import "TrappingRainWater.h"
 #import "MultiplyStrings.h"
 #import "Permutations.h"
+#import "Permutations2.h"
 
 
 @interface ViewController ()
@@ -84,6 +85,7 @@
 //    TrappingRainWater *trappingRainWater = [[TrappingRainWater alloc]init];
 //    MultiplyStrings *multiplyStrings = [[MultiplyStrings alloc]init];
     Permutations *permutations = [[Permutations alloc]init];
+//    Permutations2 *permutations2 = [[Permutations2 alloc]init];
 }
 
 

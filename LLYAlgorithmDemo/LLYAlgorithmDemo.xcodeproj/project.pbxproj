@@ -14,6 +14,7 @@
 		0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A694F3D2099982300694E35 /* PalindromicStr.m */; };
 		0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FB48220A13C4C00F9504D /* ZigZagStr.m */; };
 		0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */; };
+		0A79658D20C8E2A80028836F /* Permutations2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79658C20C8E2A80028836F /* Permutations2.m */; };
 		0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */; };
 		0A7988BC20C3A69200729764 /* JosephRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988BB20C3A69200729764 /* JosephRing.m */; };
 		0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869720C62CE700F48A3C /* CombinationSum2.m */; };
@@ -81,6 +82,8 @@
 		0A6FB48220A13C4C00F9504D /* ZigZagStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZigZagStr.m; sourceTree = "<group>"; };
 		0A76527C20BCEF0100A3BA70 /* PhoneNumToStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumToStr.h; sourceTree = "<group>"; };
 		0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumToStr.m; sourceTree = "<group>"; };
+		0A79658B20C8E2A80028836F /* Permutations2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Permutations2.h; sourceTree = "<group>"; };
+		0A79658C20C8E2A80028836F /* Permutations2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Permutations2.m; sourceTree = "<group>"; };
 		0A7988B720C398A900729764 /* SearchinRotatedSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchinRotatedSortedArray.h; sourceTree = "<group>"; };
 		0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchinRotatedSortedArray.m; sourceTree = "<group>"; };
 		0A7988BA20C3A69200729764 /* JosephRing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JosephRing.h; sourceTree = "<group>"; };
@@ -296,6 +299,8 @@
 				0A7DB7E520C7D08C002EB139 /* MultiplyStrings.m */,
 				0A7DB7E720C7D685002EB139 /* Permutations.h */,
 				0A7DB7E820C7D685002EB139 /* Permutations.m */,
+				0A79658B20C8E2A80028836F /* Permutations2.h */,
+				0A79658C20C8E2A80028836F /* Permutations2.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -448,6 +453,7 @@
 				0A96D7252071C0A0000720CA /* Recurrence.m in Sources */,
 				0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */,
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
+				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
