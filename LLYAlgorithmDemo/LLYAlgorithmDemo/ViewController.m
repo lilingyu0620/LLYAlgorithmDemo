@@ -41,6 +41,7 @@
 #import "MultiplyStrings.h"
 #import "Permutations.h"
 #import "Permutations2.h"
+#import "RotateImage.h"
 
 
 @interface ViewController ()
@@ -84,8 +85,9 @@
 //    FirstMissingPositive *firstMissingPositive = [[FirstMissingPositive alloc]init];
 //    TrappingRainWater *trappingRainWater = [[TrappingRainWater alloc]init];
 //    MultiplyStrings *multiplyStrings = [[MultiplyStrings alloc]init];
-    Permutations *permutations = [[Permutations alloc]init];
+//    Permutations *permutations = [[Permutations alloc]init];
 //    Permutations2 *permutations2 = [[Permutations2 alloc]init];
+    RotateImage *rotateImage = [[RotateImage alloc]init];
 }
 
 
