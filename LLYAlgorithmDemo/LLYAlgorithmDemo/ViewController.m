@@ -42,7 +42,7 @@
 #import "Permutations.h"
 #import "Permutations2.h"
 #import "RotateImage.h"
-
+#import "GroupAnagrams.h"
 
 @interface ViewController ()
 
@@ -87,7 +87,8 @@
 //    MultiplyStrings *multiplyStrings = [[MultiplyStrings alloc]init];
 //    Permutations *permutations = [[Permutations alloc]init];
 //    Permutations2 *permutations2 = [[Permutations2 alloc]init];
-    RotateImage *rotateImage = [[RotateImage alloc]init];
+//    RotateImage *rotateImage = [[RotateImage alloc]init];
+    GroupAnagrams *groupAnagrams = [[GroupAnagrams alloc]init];
 }
 
 
