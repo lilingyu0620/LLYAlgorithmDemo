@@ -50,6 +50,7 @@
 		0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D49822073A14E0040A3C8 /* ArrayToSum.m */; };
 		0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */; };
 		0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA73D20C5441E00475C74 /* CombinationSum.m */; };
+		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,8 @@
 		0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchforaRange.m; sourceTree = "<group>"; };
 		0A9DA73C20C5441E00475C74 /* CombinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum.h; sourceTree = "<group>"; };
 		0A9DA73D20C5441E00475C74 /* CombinationSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum.m; sourceTree = "<group>"; };
+		0AA12DEB20D3677E0035530A /* NQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueue.h; sourceTree = "<group>"; };
+		0AA12DEC20D3677E0035530A /* NQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +314,8 @@
 				0A7CD33A20CA23CB003D10DF /* RotateImage.m */,
 				0A49421D20D27AA5000B3A78 /* GroupAnagrams.h */,
 				0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */,
+				0AA12DEB20D3677E0035530A /* NQueue.h */,
+				0AA12DEC20D3677E0035530A /* NQueue.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -454,6 +459,7 @@
 				0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */,
 				0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */,
 				0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */,
+				0AA12DED20D3677E0035530A /* NQueue.m in Sources */,
 				0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */,
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,

@@ -43,6 +43,7 @@
 #import "Permutations2.h"
 #import "RotateImage.h"
 #import "GroupAnagrams.h"
+#import "NQueue.h"
 
 @interface ViewController ()
 
@@ -88,7 +89,8 @@
 //    Permutations *permutations = [[Permutations alloc]init];
 //    Permutations2 *permutations2 = [[Permutations2 alloc]init];
 //    RotateImage *rotateImage = [[RotateImage alloc]init];
-    GroupAnagrams *groupAnagrams = [[GroupAnagrams alloc]init];
+//    GroupAnagrams *groupAnagrams = [[GroupAnagrams alloc]init];
+    NQueue *nQueue = [[NQueue alloc]init];
 }
 
 
