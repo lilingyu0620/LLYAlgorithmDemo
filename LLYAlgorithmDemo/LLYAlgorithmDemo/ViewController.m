@@ -44,6 +44,7 @@
 #import "RotateImage.h"
 #import "GroupAnagrams.h"
 #import "NQueue.h"
+#import "SpiralMatrix.h"
 
 @interface ViewController ()
 
@@ -90,7 +91,8 @@
 //    Permutations2 *permutations2 = [[Permutations2 alloc]init];
 //    RotateImage *rotateImage = [[RotateImage alloc]init];
 //    GroupAnagrams *groupAnagrams = [[GroupAnagrams alloc]init];
-    NQueue *nQueue = [[NQueue alloc]init];
+//    NQueue *nQueue = [[NQueue alloc]init];
+    SpiralMatrix *spiralMatrix = [[SpiralMatrix alloc]init];
 }
 
 
