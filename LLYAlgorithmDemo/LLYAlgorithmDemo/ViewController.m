@@ -45,6 +45,7 @@
 #import "GroupAnagrams.h"
 #import "NQueue.h"
 #import "SpiralMatrix.h"
+#import "JumpGame.h"
 
 @interface ViewController ()
 
@@ -92,7 +93,8 @@
 //    RotateImage *rotateImage = [[RotateImage alloc]init];
 //    GroupAnagrams *groupAnagrams = [[GroupAnagrams alloc]init];
 //    NQueue *nQueue = [[NQueue alloc]init];
-    SpiralMatrix *spiralMatrix = [[SpiralMatrix alloc]init];
+//    SpiralMatrix *spiralMatrix = [[SpiralMatrix alloc]init];
+    JumpGame *jumpGame = [[JumpGame alloc]init];
 }
 
 

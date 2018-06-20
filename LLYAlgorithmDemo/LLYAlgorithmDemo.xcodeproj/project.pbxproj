@@ -29,6 +29,7 @@
 		0A7E268320B501AE000902C6 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268220B501AE000902C6 /* QuickSort.m */; };
 		0A7E268620B50235000902C6 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268520B50235000902C6 /* MergeSort.m */; };
 		0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E4F7520AEE10C00D363F7 /* RegularExpressionMatching.m */; };
+		0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F0FEA20D9F4C30017F480 /* JumpGame.m */; };
 		0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F2AED206E4785001C56E6 /* BinarySearch.m */; };
 		0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8444A7207F6AC800E5E598 /* ArrayMedian.m */; };
 		0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8496092063B4610060FC6D /* AppDelegate.m */; };
@@ -116,6 +117,8 @@
 		0A7E268520B50235000902C6 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		0A7E4F7420AEE10C00D363F7 /* RegularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMatching.h; sourceTree = "<group>"; };
 		0A7E4F7520AEE10C00D363F7 /* RegularExpressionMatching.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionMatching.m; sourceTree = "<group>"; };
+		0A7F0FE920D9F4C30017F480 /* JumpGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpGame.h; sourceTree = "<group>"; };
+		0A7F0FEA20D9F4C30017F480 /* JumpGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpGame.m; sourceTree = "<group>"; };
 		0A7F2AEC206E4785001C56E6 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		0A7F2AED206E4785001C56E6 /* BinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		0A8444A6207F6AC800E5E598 /* ArrayMedian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMedian.h; sourceTree = "<group>"; };
@@ -321,6 +324,8 @@
 				0AA12DEC20D3677E0035530A /* NQueue.m */,
 				0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */,
 				0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */,
+				0A7F0FE920D9F4C30017F480 /* JumpGame.h */,
+				0A7F0FEA20D9F4C30017F480 /* JumpGame.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -477,6 +482,7 @@
 				0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
+				0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
 				0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */,
