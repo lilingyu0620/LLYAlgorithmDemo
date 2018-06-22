@@ -47,6 +47,7 @@
 #import "SpiralMatrix.h"
 #import "JumpGame.h"
 #import "MergeIntervals.h"
+#import "InsertInterval.h"
 
 @interface ViewController ()
 
@@ -96,7 +97,8 @@
 //    NQueue *nQueue = [[NQueue alloc]init];
 //    SpiralMatrix *spiralMatrix = [[SpiralMatrix alloc]init];
 //    JumpGame *jumpGame = [[JumpGame alloc]init];
-    MergeIntervals *mergeIntervals = [[MergeIntervals alloc]init];
+//    MergeIntervals *mergeIntervals = [[MergeIntervals alloc]init];
+    InsertInterval *insertInterval = [[InsertInterval alloc]init];
 }
 
 

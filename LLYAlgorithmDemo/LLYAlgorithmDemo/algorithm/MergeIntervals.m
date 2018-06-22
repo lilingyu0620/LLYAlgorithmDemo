@@ -52,7 +52,7 @@
             int tmpNum = [tmpArray[i] intValue];
             if (lastNum >= tmpNum) {
                 [retArray removeLastObject];
-                NSArray *newArray = [NSArray arrayWithObjects:lastArray.firstObject,tmpArray.lastObject, nil];
+                NSArray *newArray = [NSArray arrayWithObjects:lastArray.firstObject,MAX(lastArray.lastObject, tmpArray.lastObject), nil];
                 [retArray addObject:newArray];
                 isMerge = YES;
             }
