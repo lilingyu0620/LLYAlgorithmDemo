@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
+		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
 		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
 		0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A579C5220958A80004B78A3 /* HanoiTower.m */; };
 		0A67A5D220C0EE97001AB5EF /* LongestValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A67A5D120C0EE97001AB5EF /* LongestValidParentheses.m */; };
@@ -77,6 +78,8 @@
 /* Begin PBXFileReference section */
 		0A49421D20D27AA5000B3A78 /* GroupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnagrams.h; sourceTree = "<group>"; };
 		0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnagrams.m; sourceTree = "<group>"; };
+		0A4A2FA420DF7266006183F5 /* PermutationSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermutationSequence.h; sourceTree = "<group>"; };
+		0A4A2FA520DF7266006183F5 /* PermutationSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermutationSequence.m; sourceTree = "<group>"; };
 		0A5728D020C25B5F008E5F6D /* MaxMinInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxMinInArray.h; sourceTree = "<group>"; };
 		0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxMinInArray.m; sourceTree = "<group>"; };
 		0A579C5120958A80004B78A3 /* HanoiTower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTower.h; sourceTree = "<group>"; };
@@ -336,6 +339,8 @@
 				0A85B34E20DB3CE200EF4DBB /* MergeIntervals.m */,
 				0A8B295F20DC926B006AF03B /* InsertInterval.h */,
 				0A8B296020DC926B006AF03B /* InsertInterval.m */,
+				0A4A2FA420DF7266006183F5 /* PermutationSequence.h */,
+				0A4A2FA520DF7266006183F5 /* PermutationSequence.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */,
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
 				0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */,
+				0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */,

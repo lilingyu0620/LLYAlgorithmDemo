@@ -48,6 +48,7 @@
 #import "JumpGame.h"
 #import "MergeIntervals.h"
 #import "InsertInterval.h"
+#import "PermutationSequence.h"
 
 @interface ViewController ()
 
@@ -98,7 +99,8 @@
 //    SpiralMatrix *spiralMatrix = [[SpiralMatrix alloc]init];
 //    JumpGame *jumpGame = [[JumpGame alloc]init];
 //    MergeIntervals *mergeIntervals = [[MergeIntervals alloc]init];
-    InsertInterval *insertInterval = [[InsertInterval alloc]init];
+//    InsertInterval *insertInterval = [[InsertInterval alloc]init];
+    PermutationSequence *permutationSequence = [[PermutationSequence alloc]init];
 }
 
 
