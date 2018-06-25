@@ -49,6 +49,7 @@
 #import "MergeIntervals.h"
 #import "InsertInterval.h"
 #import "PermutationSequence.h"
+#import "RotateList.h"
 
 @interface ViewController ()
 
@@ -100,7 +101,8 @@
 //    JumpGame *jumpGame = [[JumpGame alloc]init];
 //    MergeIntervals *mergeIntervals = [[MergeIntervals alloc]init];
 //    InsertInterval *insertInterval = [[InsertInterval alloc]init];
-    PermutationSequence *permutationSequence = [[PermutationSequence alloc]init];
+//    PermutationSequence *permutationSequence = [[PermutationSequence alloc]init];
+    RotateList *rotateList = [[RotateList alloc]init];
 }
 
 
