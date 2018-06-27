@@ -51,6 +51,7 @@
 #import "PermutationSequence.h"
 #import "RotateList.h"
 #import "UniquePaths.h"
+#import "MinimumPathSum.h"
 
 @interface ViewController ()
 
@@ -104,7 +105,8 @@
 //    InsertInterval *insertInterval = [[InsertInterval alloc]init];
 //    PermutationSequence *permutationSequence = [[PermutationSequence alloc]init];
 //    RotateList *rotateList = [[RotateList alloc]init];
-    UniquePaths *uniquePaths = [[UniquePaths alloc]init];
+//    UniquePaths *uniquePaths = [[UniquePaths alloc]init];
+    MinimumPathSum *minimumPathSum = [[MinimumPathSum alloc]init];
 }
 
 
