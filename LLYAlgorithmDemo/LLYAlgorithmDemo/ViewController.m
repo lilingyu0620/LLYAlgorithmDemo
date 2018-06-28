@@ -52,6 +52,7 @@
 #import "RotateList.h"
 #import "UniquePaths.h"
 #import "MinimumPathSum.h"
+#import "SetMatrixZeroes.h"
 
 @interface ViewController ()
 
@@ -106,7 +107,8 @@
 //    PermutationSequence *permutationSequence = [[PermutationSequence alloc]init];
 //    RotateList *rotateList = [[RotateList alloc]init];
 //    UniquePaths *uniquePaths = [[UniquePaths alloc]init];
-    MinimumPathSum *minimumPathSum = [[MinimumPathSum alloc]init];
+//    MinimumPathSum *minimumPathSum = [[MinimumPathSum alloc]init];
+    SetMatrixZeroes *setMatrixZeroes = [[SetMatrixZeroes alloc]init];
 }
 
 
