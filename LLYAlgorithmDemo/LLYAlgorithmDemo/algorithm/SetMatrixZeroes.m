@@ -17,11 +17,47 @@
     self = [super init];
     if (self) {
         _array = [NSMutableArray arrayWithObjects:[NSMutableArray arrayWithArray:@[@0,@1,@1,@0]],[NSMutableArray arrayWithArray:@[@1,@1,@1,@1]],[NSMutableArray arrayWithArray:@[@1,@1,@1,@1]], nil];
-        NSMutableArray *tmpArray = [NSMutableArray arrayWithObjects:[NSMutableArray arrayWithArray:@[@0,@1,@1,@0]],[NSMutableArray arrayWithArray:@[@1,@1,@1,@1]],[NSMutableArray arrayWithArray:@[@1,@1,@1,@1]], nil];
-        [self setMatrixZeroes:tmpArray];
+//        NSMutableArray *tmpArray = [NSMutableArray arrayWithObjects:[NSMutableArray arrayWithArray:@[@0,@1,@1,@0]],[NSMutableArray arrayWithArray:@[@1,@1,@1,@1]],[NSMutableArray arrayWithArray:@[@1,@1,@1,@1]], nil];
+//        [self setMatrixZeroes:tmpArray];
+//        NSLog(@"_array = %@",_array);
+        
+        [self setMatrixZeroes2:_array];
         NSLog(@"_array = %@",_array);
     }
     return self;
+}
+
+- (void)setMatrixZeroes2:(NSMutableArray *)array{
+    
+    int clo0 = 1;
+    
+    NSMutableArray *clo0Array = array.firstObject;
+    
+    for (int i = 0; i < array.count; i++) {
+        NSMutableArray *tmpArray = array[i];
+        if ([tmpArray[0] intValue] == 0) {
+            clo0 = 0;
+        }
+        for (int j = 1; j < tmpArray.count; j++) {
+            if ([tmpArray[j] intValue] == 0) {
+                tmpArray[0] = @0;
+                clo0Array[j] = @0;
+            }
+        }
+    }
+    
+    for (int i = array.count - 1; i >= 0; i--) {
+        NSMutableArray *tmpArray = array[i];
+        for (int j = tmpArray.count - 1; j >= 0; j--) {
+            if ([tmpArray[0] intValue] == 0 || [clo0Array[j] intValue] == 0) {
+                tmpArray[j] = @0;
+            }
+        }
+        if (clo0 == 0) {
+            tmpArray[0] = @0;
+        }
+    }
+    
 }
 
 - (void)setMatrixZeroes:(NSMutableArray *)array{
