@@ -53,6 +53,7 @@
 #import "UniquePaths.h"
 #import "MinimumPathSum.h"
 #import "SetMatrixZeroes.h"
+#import "Search2DMatrix.h"
 
 @interface ViewController ()
 
@@ -108,7 +109,8 @@
 //    RotateList *rotateList = [[RotateList alloc]init];
 //    UniquePaths *uniquePaths = [[UniquePaths alloc]init];
 //    MinimumPathSum *minimumPathSum = [[MinimumPathSum alloc]init];
-    SetMatrixZeroes *setMatrixZeroes = [[SetMatrixZeroes alloc]init];
+//    SetMatrixZeroes *setMatrixZeroes = [[SetMatrixZeroes alloc]init];
+    Search2DMatrix *search2DMatrix = [[Search2DMatrix alloc]init];
 }
 
 

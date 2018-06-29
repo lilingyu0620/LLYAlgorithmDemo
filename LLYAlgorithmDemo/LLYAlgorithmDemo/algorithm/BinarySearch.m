@@ -30,20 +30,19 @@
     
     min = 0;
     max = sourceArray.count - 1;
-    mid = (min + max)/2;
     
     while (min <= max) {
+        mid = (max - min)/2 + min;
         int tmp = [sourceArray[mid] intValue];
         if (tmp > target) {
-            max = mid;
+            max = mid - 1;
         }
         else if(tmp < target){
-            min = mid;
+            min = mid + 1;
         }
         else{
             return mid;
         }
-        mid = (min + max)/2;
     }
     
     return -1;
