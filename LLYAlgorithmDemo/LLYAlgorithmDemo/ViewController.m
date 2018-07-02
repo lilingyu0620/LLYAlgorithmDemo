@@ -54,6 +54,7 @@
 #import "MinimumPathSum.h"
 #import "SetMatrixZeroes.h"
 #import "Search2DMatrix.h"
+#import "Combinations.h"
 
 @interface ViewController ()
 
@@ -110,7 +111,8 @@
 //    UniquePaths *uniquePaths = [[UniquePaths alloc]init];
 //    MinimumPathSum *minimumPathSum = [[MinimumPathSum alloc]init];
 //    SetMatrixZeroes *setMatrixZeroes = [[SetMatrixZeroes alloc]init];
-    Search2DMatrix *search2DMatrix = [[Search2DMatrix alloc]init];
+//    Search2DMatrix *search2DMatrix = [[Search2DMatrix alloc]init];
+    Combinations *combinations = [[Combinations alloc]init];
 }
 
 
