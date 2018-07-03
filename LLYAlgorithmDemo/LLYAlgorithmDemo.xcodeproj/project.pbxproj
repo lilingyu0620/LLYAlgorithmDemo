@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
 		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
 		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
@@ -60,6 +61,7 @@
 		0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */; };
 		0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA73D20C5441E00475C74 /* CombinationSum.m */; };
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
+		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A361D3D20E8967000CE410D /* MinimumWindowSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumWindowSubstring.h; sourceTree = "<group>"; };
+		0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumWindowSubstring.m; sourceTree = "<group>"; };
 		0A49421D20D27AA5000B3A78 /* GroupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnagrams.h; sourceTree = "<group>"; };
 		0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnagrams.m; sourceTree = "<group>"; };
 		0A4A2FA420DF7266006183F5 /* PermutationSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermutationSequence.h; sourceTree = "<group>"; };
@@ -187,6 +191,8 @@
 		0A9DA73D20C5441E00475C74 /* CombinationSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum.m; sourceTree = "<group>"; };
 		0AA12DEB20D3677E0035530A /* NQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueue.h; sourceTree = "<group>"; };
 		0AA12DEC20D3677E0035530A /* NQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQueue.m; sourceTree = "<group>"; };
+		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
+		0AA5246820E746C800EB1A2C /* SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortColors.m; sourceTree = "<group>"; };
 		0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiralMatrix.h; sourceTree = "<group>"; };
 		0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiralMatrix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -366,6 +372,10 @@
 				0A7C2C3320E500F100549F5F /* SetMatrixZeroes.m */,
 				0A66DFBF20E64EF600E0F35A /* Search2DMatrix.h */,
 				0A66DFC020E64EF600E0F35A /* Search2DMatrix.m */,
+				0AA5246720E746C800EB1A2C /* SortColors.h */,
+				0AA5246820E746C800EB1A2C /* SortColors.m */,
+				0A361D3D20E8967000CE410D /* MinimumWindowSubstring.h */,
+				0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -510,6 +520,7 @@
 				0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */,
 				0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */,
 				0AA12DED20D3677E0035530A /* NQueue.m in Sources */,
+				0AA5246920E746C800EB1A2C /* SortColors.m in Sources */,
 				0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */,
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
@@ -522,6 +533,7 @@
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
 				0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */,
 				0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */,
+				0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */,

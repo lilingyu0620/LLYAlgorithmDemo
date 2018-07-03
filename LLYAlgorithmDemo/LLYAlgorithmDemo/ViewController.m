@@ -54,6 +54,8 @@
 #import "MinimumPathSum.h"
 #import "SetMatrixZeroes.h"
 #import "Search2DMatrix.h"
+#import "SortColors.h"
+#import "MinimumWindowSubstring.h"
 
 @interface ViewController ()
 
@@ -110,7 +112,9 @@
 //    UniquePaths *uniquePaths = [[UniquePaths alloc]init];
 //    MinimumPathSum *minimumPathSum = [[MinimumPathSum alloc]init];
 //    SetMatrixZeroes *setMatrixZeroes = [[SetMatrixZeroes alloc]init];
-    Search2DMatrix *search2DMatrix = [[Search2DMatrix alloc]init];
+//    Search2DMatrix *search2DMatrix = [[Search2DMatrix alloc]init];
+//    SortColors *sortColors = [[SortColors alloc]init];
+    MinimumWindowSubstring *minimumWindowSubstring = [[MinimumWindowSubstring alloc]init];
 }
 
 
