@@ -57,6 +57,7 @@
 #import "SortColors.h"
 #import "MinimumWindowSubstring.h"
 #import "Combinations.h"
+#import "Subsets.h"
 
 @interface ViewController ()
 
@@ -116,7 +117,8 @@
 //    Search2DMatrix *search2DMatrix = [[Search2DMatrix alloc]init];
 //    SortColors *sortColors = [[SortColors alloc]init];
 //    MinimumWindowSubstring *minimumWindowSubstring = [[MinimumWindowSubstring alloc]init];
-    Combinations *combinations = [[Combinations alloc]init];
+//    Combinations *combinations = [[Combinations alloc]init];
+    Subsets *subsets = [[Subsets alloc]init];
 }
 
 
