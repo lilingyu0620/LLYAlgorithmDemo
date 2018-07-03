@@ -60,6 +60,7 @@
 		0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D49822073A14E0040A3C8 /* ArrayToSum.m */; };
 		0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */; };
 		0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA73D20C5441E00475C74 /* CombinationSum.m */; };
+		0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */; };
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
@@ -189,6 +190,8 @@
 		0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchforaRange.m; sourceTree = "<group>"; };
 		0A9DA73C20C5441E00475C74 /* CombinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum.h; sourceTree = "<group>"; };
 		0A9DA73D20C5441E00475C74 /* CombinationSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum.m; sourceTree = "<group>"; };
+		0A9E6D1520E9BD8B005FCAB9 /* Combinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Combinations.h; sourceTree = "<group>"; };
+		0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Combinations.m; sourceTree = "<group>"; };
 		0AA12DEB20D3677E0035530A /* NQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueue.h; sourceTree = "<group>"; };
 		0AA12DEC20D3677E0035530A /* NQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQueue.m; sourceTree = "<group>"; };
 		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
@@ -376,6 +379,8 @@
 				0AA5246820E746C800EB1A2C /* SortColors.m */,
 				0A361D3D20E8967000CE410D /* MinimumWindowSubstring.h */,
 				0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */,
+				0A9E6D1520E9BD8B005FCAB9 /* Combinations.h */,
+				0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -536,6 +541,7 @@
 				0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
+				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,
 				0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */,
 				0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
