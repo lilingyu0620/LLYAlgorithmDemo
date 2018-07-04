@@ -58,6 +58,7 @@
 #import "MinimumWindowSubstring.h"
 #import "Combinations.h"
 #import "Subsets.h"
+#import "RemoveDuplicates.h"
 
 @interface ViewController ()
 
@@ -118,7 +119,11 @@
 //    SortColors *sortColors = [[SortColors alloc]init];
 //    MinimumWindowSubstring *minimumWindowSubstring = [[MinimumWindowSubstring alloc]init];
 //    Combinations *combinations = [[Combinations alloc]init];
-    Subsets *subsets = [[Subsets alloc]init];
+//    Subsets *subsets = [[Subsets alloc]init];
+    
+    RemoveDuplicates *removeDuplicates = [[RemoveDuplicates alloc]init];
+    
+    
 }
 
 
