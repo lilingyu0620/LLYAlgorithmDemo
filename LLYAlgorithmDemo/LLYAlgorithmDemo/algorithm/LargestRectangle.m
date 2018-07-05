@@ -33,6 +33,10 @@
 
 - (int)largestRectangle:(NSArray *)array{
     
+    if (!array || array.count == 0) {
+        return -1;
+    }
+    
     int ret = 0;
     NSMutableArray *tmpArray = [NSMutableArray array];
     
