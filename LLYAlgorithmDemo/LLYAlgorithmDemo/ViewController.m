@@ -59,6 +59,7 @@
 #import "Combinations.h"
 #import "Subsets.h"
 #import "RemoveDuplicates.h"
+#import "LargestRectangle.h"
 
 @interface ViewController ()
 
@@ -120,8 +121,9 @@
 //    MinimumWindowSubstring *minimumWindowSubstring = [[MinimumWindowSubstring alloc]init];
 //    Combinations *combinations = [[Combinations alloc]init];
 //    Subsets *subsets = [[Subsets alloc]init];
+//    RemoveDuplicates *removeDuplicates = [[RemoveDuplicates alloc]init];
     
-    RemoveDuplicates *removeDuplicates = [[RemoveDuplicates alloc]init];
+    LargestRectangle *largestRectangle = [[LargestRectangle alloc]init];
     
     
 }
