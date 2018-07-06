@@ -20,6 +20,7 @@
 		0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A694F3D2099982300694E35 /* PalindromicStr.m */; };
 		0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FB48220A13C4C00F9504D /* ZigZagStr.m */; };
 		0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */; };
+		0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A783E7220EF10DE002C134A /* MaximalRectangle.m */; };
 		0A79658D20C8E2A80028836F /* Permutations2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79658C20C8E2A80028836F /* Permutations2.m */; };
 		0A79697320EC650A00FA72B3 /* RemoveDuplicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79697220EC650A00FA72B3 /* RemoveDuplicates.m */; };
 		0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */; };
@@ -113,6 +114,8 @@
 		0A6FB48220A13C4C00F9504D /* ZigZagStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZigZagStr.m; sourceTree = "<group>"; };
 		0A76527C20BCEF0100A3BA70 /* PhoneNumToStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumToStr.h; sourceTree = "<group>"; };
 		0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumToStr.m; sourceTree = "<group>"; };
+		0A783E7120EF10DE002C134A /* MaximalRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximalRectangle.h; sourceTree = "<group>"; };
+		0A783E7220EF10DE002C134A /* MaximalRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximalRectangle.m; sourceTree = "<group>"; };
 		0A79658B20C8E2A80028836F /* Permutations2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Permutations2.h; sourceTree = "<group>"; };
 		0A79658C20C8E2A80028836F /* Permutations2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Permutations2.m; sourceTree = "<group>"; };
 		0A79697120EC650A00FA72B3 /* RemoveDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicates.h; sourceTree = "<group>"; };
@@ -396,6 +399,8 @@
 				0A79697220EC650A00FA72B3 /* RemoveDuplicates.m */,
 				0A7FA18E20EDC02E00E55D56 /* LargestRectangle.h */,
 				0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */,
+				0A783E7120EF10DE002C134A /* MaximalRectangle.h */,
+				0A783E7220EF10DE002C134A /* MaximalRectangle.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -536,6 +541,7 @@
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
 				0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */,
+				0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */,
 				0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */,
 				0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */,
 				0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */,
