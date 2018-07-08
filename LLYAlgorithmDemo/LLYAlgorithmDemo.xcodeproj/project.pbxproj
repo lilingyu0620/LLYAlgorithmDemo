@@ -67,6 +67,7 @@
 		0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */; };
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
+		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
 /* End PBXBuildFile section */
 
@@ -208,6 +209,8 @@
 		0AA12DEC20D3677E0035530A /* NQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQueue.m; sourceTree = "<group>"; };
 		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
 		0AA5246820E746C800EB1A2C /* SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortColors.m; sourceTree = "<group>"; };
+		0ABC520220F1E2CF00F9D854 /* Subsets2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subsets2.h; sourceTree = "<group>"; };
+		0ABC520320F1E2CF00F9D854 /* Subsets2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets2.m; sourceTree = "<group>"; };
 		0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiralMatrix.h; sourceTree = "<group>"; };
 		0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiralMatrix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -401,6 +404,8 @@
 				0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */,
 				0A783E7120EF10DE002C134A /* MaximalRectangle.h */,
 				0A783E7220EF10DE002C134A /* MaximalRectangle.m */,
+				0ABC520220F1E2CF00F9D854 /* Subsets2.h */,
+				0ABC520320F1E2CF00F9D854 /* Subsets2.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -574,6 +579,7 @@
 				0A79697320EC650A00FA72B3 /* RemoveDuplicates.m in Sources */,
 				0A94B28420A9837E00477751 /* StringToInteger.m in Sources */,
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,
+				0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */,
 				0A7E268320B501AE000902C6 /* QuickSort.m in Sources */,
 				0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */,
 				0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */,

@@ -61,6 +61,7 @@
 #import "RemoveDuplicates.h"
 #import "LargestRectangle.h"
 #import "MaximalRectangle.h"
+#import "Subsets2.h"
 
 @interface ViewController ()
 
@@ -124,8 +125,9 @@
 //    Subsets *subsets = [[Subsets alloc]init];
 //    RemoveDuplicates *removeDuplicates = [[RemoveDuplicates alloc]init];
 //    LargestRectangle *largestRectangle = [[LargestRectangle alloc]init];
+//    MaximalRectangle *maximalRectangle = [[MaximalRectangle alloc]init];
     
-    MaximalRectangle *maximalRectangle = [[MaximalRectangle alloc]init];
+    Subsets2 *subsets2 = [[Subsets2 alloc]init];
     
     
 }
