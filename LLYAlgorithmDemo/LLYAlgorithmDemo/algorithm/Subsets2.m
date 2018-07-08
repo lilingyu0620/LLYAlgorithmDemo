@@ -10,7 +10,7 @@
 
 @implementation Subsets2{
     NSArray *_oriArray;
-    NSMutableArray *_array;
+    NSMutableSet *_array;
 }
 
 - (instancetype)init
@@ -18,8 +18,8 @@
     self = [super init];
     if (self) {
         
-        _oriArray =@[@1,@2,@2];
-        _array = [NSMutableArray array];
+        _oriArray =@[@1,@2,@1,@2];
+        _array = [NSMutableSet set];
         
         [self subsets2:[NSMutableArray array] index:0];
         
