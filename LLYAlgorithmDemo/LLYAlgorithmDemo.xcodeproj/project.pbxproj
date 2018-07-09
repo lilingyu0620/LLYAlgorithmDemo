@@ -69,6 +69,7 @@
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
+		0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB488D20F3140D008C786A /* DecodeWays.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +214,8 @@
 		0ABC520320F1E2CF00F9D854 /* Subsets2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets2.m; sourceTree = "<group>"; };
 		0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiralMatrix.h; sourceTree = "<group>"; };
 		0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiralMatrix.m; sourceTree = "<group>"; };
+		0ADB488C20F3140D008C786A /* DecodeWays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecodeWays.h; sourceTree = "<group>"; };
+		0ADB488D20F3140D008C786A /* DecodeWays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecodeWays.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,6 +409,8 @@
 				0A783E7220EF10DE002C134A /* MaximalRectangle.m */,
 				0ABC520220F1E2CF00F9D854 /* Subsets2.h */,
 				0ABC520320F1E2CF00F9D854 /* Subsets2.m */,
+				0ADB488C20F3140D008C786A /* DecodeWays.h */,
+				0ADB488D20F3140D008C786A /* DecodeWays.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -596,6 +601,7 @@
 				0A7DB7E920C7D685002EB139 /* Permutations.m in Sources */,
 				0A9C205920E0811C00CB1914 /* RotateList.m in Sources */,
 				0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */,
+				0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */,
 				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
 				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
 				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,
