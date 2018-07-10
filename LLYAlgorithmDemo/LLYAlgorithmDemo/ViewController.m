@@ -63,6 +63,7 @@
 #import "MaximalRectangle.h"
 #import "Subsets2.h"
 #import "DecodeWays.h"
+#import "RestoreIPAddresses.h"
 
 @interface ViewController ()
 
@@ -128,8 +129,9 @@
 //    LargestRectangle *largestRectangle = [[LargestRectangle alloc]init];
 //    MaximalRectangle *maximalRectangle = [[MaximalRectangle alloc]init];
 //    Subsets2 *subsets2 = [[Subsets2 alloc]init];
+//    DecodeWays *decodeWays = [[DecodeWays alloc]init];
     
-    DecodeWays *decodeWays = [[DecodeWays alloc]init];
+    RestoreIPAddresses *restoreIPAddresses = [[RestoreIPAddresses alloc]init];
     
     
 }
