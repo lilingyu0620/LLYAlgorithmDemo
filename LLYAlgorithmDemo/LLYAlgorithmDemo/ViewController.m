@@ -64,6 +64,7 @@
 #import "Subsets2.h"
 #import "DecodeWays.h"
 #import "RestoreIPAddresses.h"
+#import "InterleavingString.h"
 
 @interface ViewController ()
 
@@ -130,8 +131,9 @@
 //    MaximalRectangle *maximalRectangle = [[MaximalRectangle alloc]init];
 //    Subsets2 *subsets2 = [[Subsets2 alloc]init];
 //    DecodeWays *decodeWays = [[DecodeWays alloc]init];
+//    RestoreIPAddresses *restoreIPAddresses = [[RestoreIPAddresses alloc]init];
     
-    RestoreIPAddresses *restoreIPAddresses = [[RestoreIPAddresses alloc]init];
+    InterleavingString *interleavingString = [[InterleavingString alloc]init];
     
     
 }
