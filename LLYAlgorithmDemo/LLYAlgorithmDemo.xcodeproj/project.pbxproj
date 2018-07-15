@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F54DF20FB8686000EDAF3 /* RotateArray.m */; };
 		0A30B09820EB13710012089F /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A30B09720EB13710012089F /* Subsets.m */; };
 		0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
@@ -92,6 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2F54DE20FB8686000EDAF3 /* RotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray.h; sourceTree = "<group>"; };
+		0A2F54DF20FB8686000EDAF3 /* RotateArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateArray.m; sourceTree = "<group>"; };
 		0A30B09620EB13710012089F /* Subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subsets.h; sourceTree = "<group>"; };
 		0A30B09720EB13710012089F /* Subsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets.m; sourceTree = "<group>"; };
 		0A361D3D20E8967000CE410D /* MinimumWindowSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumWindowSubstring.h; sourceTree = "<group>"; };
@@ -421,6 +424,8 @@
 				0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */,
 				0A983D5620F5AB5D00066AA1 /* InterleavingString.h */,
 				0A983D5720F5AB5D00066AA1 /* InterleavingString.m */,
+				0A2F54DE20FB8686000EDAF3 /* RotateArray.h */,
+				0A2F54DF20FB8686000EDAF3 /* RotateArray.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -607,6 +612,7 @@
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
+				0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */,
 				0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */,
 				0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */,
 				0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */,
