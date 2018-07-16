@@ -66,6 +66,7 @@
 #import "RestoreIPAddresses.h"
 #import "InterleavingString.h"
 #import "RotateArray.h"
+#import "RotateArray2.h"
 
 @interface ViewController ()
 
@@ -135,7 +136,8 @@
 //    RestoreIPAddresses *restoreIPAddresses = [[RestoreIPAddresses alloc]init];
 //    InterleavingString *interleavingString = [[InterleavingString alloc]init];
     
-    RotateArray *rotateArray = [[RotateArray alloc]init];
+//    RotateArray *rotateArray = [[RotateArray alloc]init];
+    RotateArray2 *rotateArray2 = [[RotateArray2 alloc]init];
     
     
 }
