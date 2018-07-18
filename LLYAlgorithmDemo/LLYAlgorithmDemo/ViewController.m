@@ -67,6 +67,7 @@
 #import "InterleavingString.h"
 #import "RotateArray.h"
 #import "RotateArray2.h"
+#import "DistinctSubsequences.h"
 
 @interface ViewController ()
 
@@ -137,7 +138,8 @@
 //    InterleavingString *interleavingString = [[InterleavingString alloc]init];
     
 //    RotateArray *rotateArray = [[RotateArray alloc]init];
-    RotateArray2 *rotateArray2 = [[RotateArray2 alloc]init];
+//    RotateArray2 *rotateArray2 = [[RotateArray2 alloc]init];
+    DistinctSubsequences *distinctSubsequences = [[DistinctSubsequences alloc]init];
     
     
 }
