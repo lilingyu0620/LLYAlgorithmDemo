@@ -68,6 +68,7 @@
 #import "RotateArray.h"
 #import "RotateArray2.h"
 #import "DistinctSubsequences.h"
+#import "YangHuiTriangle.h"
 
 @interface ViewController ()
 
@@ -139,7 +140,8 @@
     
 //    RotateArray *rotateArray = [[RotateArray alloc]init];
 //    RotateArray2 *rotateArray2 = [[RotateArray2 alloc]init];
-    DistinctSubsequences *distinctSubsequences = [[DistinctSubsequences alloc]init];
+//    DistinctSubsequences *distinctSubsequences = [[DistinctSubsequences alloc]init];
+    YangHuiTriangle *yangHuiTriangle = [[YangHuiTriangle alloc]init];
     
     
 }
