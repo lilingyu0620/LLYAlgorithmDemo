@@ -40,6 +40,9 @@
 //        int result = [self buySellStock:@[@7,@6,@4,@3,@2,@1]];
         NSLog(@"result = %d",result);
         
+        result = [self buySellStock2:@[@7,@1,@5,@3,@6,@4]];
+        NSLog(@"result = %d",result);
+        
     }
     return self;
 }
@@ -52,6 +55,17 @@
         maxPre = MAX(maxCur, maxPre);
     }
     return maxPre;
+}
+
+- (int)buySellStock2:(NSArray *)array{
+    
+    int total = 0;
+    for (int i = 1; i < array.count; i++) {
+        if ([array[i] intValue] > [array[i-1] intValue]) {
+            total += [array[i] intValue] - [array[i-1] intValue];
+        }
+    }
+    return total;
 }
 
 @end
