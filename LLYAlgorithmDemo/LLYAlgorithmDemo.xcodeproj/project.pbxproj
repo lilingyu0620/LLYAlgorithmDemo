@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
 		0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C48FF20FC6667003DFC44 /* RotateArray2.m */; };
 		0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F54DF20FB8686000EDAF3 /* RotateArray.m */; };
 		0A30B09820EB13710012089F /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A30B09720EB13710012089F /* Subsets.m */; };
@@ -98,6 +99,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A23DDF321030A9000BD0625 /* BuySellStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuySellStock.h; sourceTree = "<group>"; };
+		0A23DDF421030A9000BD0625 /* BuySellStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuySellStock.m; sourceTree = "<group>"; };
 		0A2C48FE20FC6667003DFC44 /* RotateArray2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray2.h; sourceTree = "<group>"; };
 		0A2C48FF20FC6667003DFC44 /* RotateArray2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateArray2.m; sourceTree = "<group>"; };
 		0A2F54DE20FB8686000EDAF3 /* RotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray.h; sourceTree = "<group>"; };
@@ -451,6 +454,8 @@
 				0A79025A21017BCD004037A1 /* YangHuiTriangle2.m */,
 				0A79025C210181BE004037A1 /* TriangleMinPath.h */,
 				0A79025D210181BE004037A1 /* TriangleMinPath.m */,
+				0A23DDF321030A9000BD0625 /* BuySellStock.h */,
+				0A23DDF421030A9000BD0625 /* BuySellStock.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -638,6 +643,7 @@
 				0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */,
 				0A67A5D520C168D9001AB5EF /* HalfRepeat.m in Sources */,
 				0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */,
+				0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */,
 				0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */,
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,

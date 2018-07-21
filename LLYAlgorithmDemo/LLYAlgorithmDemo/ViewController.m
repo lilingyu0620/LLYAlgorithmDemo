@@ -71,6 +71,7 @@
 #import "YangHuiTriangle.h"
 #import "YangHuiTriangle2.h"
 #import "TriangleMinPath.h"
+#import "BuySellStock.h"
 
 @interface ViewController ()
 
@@ -145,7 +146,9 @@
 //    DistinctSubsequences *distinctSubsequences = [[DistinctSubsequences alloc]init];
 //    YangHuiTriangle *yangHuiTriangle = [[YangHuiTriangle alloc]init];
 //    YangHuiTriangle2 *yangHuiTriangle2 = [[YangHuiTriangle2 alloc]init];
-    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
+//    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
+    
+    BuySellStock *buySellStock = [[BuySellStock alloc]init];
     
     
 }
