@@ -43,6 +43,9 @@
         result = [self buySellStock2:@[@7,@1,@5,@3,@6,@4]];
         NSLog(@"result = %d",result);
         
+        result = [self buySellStock3:@[@3,@3,@5,@0,@0,@3,@1,@4]];
+        NSLog(@"result = %d",result);
+        
     }
     return self;
 }
@@ -66,6 +69,23 @@
         }
     }
     return total;
+}
+
+- (int)buySellStock3:(NSArray *)array{
+    
+    NSInteger buy1 = NSIntegerMin ,sell1 = 0;
+    NSInteger buy2 = NSIntegerMin,sell2 = 0;
+    
+    for (int i = 0; i < array.count; i++) {
+        
+        buy1 = MAX(buy1, -[array[i] intValue]);
+        sell1 = MAX(sell1, [array[i] intValue] + buy1);
+        buy2 = MAX(buy2, sell1 - [array[i] intValue]);
+        sell2 = MAX(sell2, [array[i] intValue] + buy2);
+        
+    }
+    
+    return sell2;
 }
 
 @end
