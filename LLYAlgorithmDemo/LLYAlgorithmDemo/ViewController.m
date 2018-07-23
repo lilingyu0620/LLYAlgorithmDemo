@@ -72,6 +72,7 @@
 #import "YangHuiTriangle2.h"
 #import "TriangleMinPath.h"
 #import "BuySellStock.h"
+#import "WordLadder.h"
 
 @interface ViewController ()
 
@@ -148,7 +149,9 @@
 //    YangHuiTriangle2 *yangHuiTriangle2 = [[YangHuiTriangle2 alloc]init];
 //    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
     
-    BuySellStock *buySellStock = [[BuySellStock alloc]init];
+//    BuySellStock *buySellStock = [[BuySellStock alloc]init];
+    
+    WordLadder *wordLadder = [[WordLadder alloc]init];
     
     
 }

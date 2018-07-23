@@ -73,6 +73,7 @@
 		0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D49822073A14E0040A3C8 /* ArrayToSum.m */; };
 		0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */; };
 		0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA73D20C5441E00475C74 /* CombinationSum.m */; };
+		0A9E3FCF210571F000B1D9B7 /* WordLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E3FCE210571F000B1D9B7 /* WordLadder.m */; };
 		0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */; };
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
@@ -231,6 +232,8 @@
 		0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchforaRange.m; sourceTree = "<group>"; };
 		0A9DA73C20C5441E00475C74 /* CombinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum.h; sourceTree = "<group>"; };
 		0A9DA73D20C5441E00475C74 /* CombinationSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum.m; sourceTree = "<group>"; };
+		0A9E3FCD210571F000B1D9B7 /* WordLadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordLadder.h; sourceTree = "<group>"; };
+		0A9E3FCE210571F000B1D9B7 /* WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLadder.m; sourceTree = "<group>"; };
 		0A9E6D1520E9BD8B005FCAB9 /* Combinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Combinations.h; sourceTree = "<group>"; };
 		0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Combinations.m; sourceTree = "<group>"; };
 		0AA12DEB20D3677E0035530A /* NQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueue.h; sourceTree = "<group>"; };
@@ -456,6 +459,8 @@
 				0A79025D210181BE004037A1 /* TriangleMinPath.m */,
 				0A23DDF321030A9000BD0625 /* BuySellStock.h */,
 				0A23DDF421030A9000BD0625 /* BuySellStock.m */,
+				0A9E3FCD210571F000B1D9B7 /* WordLadder.h */,
+				0A9E3FCE210571F000B1D9B7 /* WordLadder.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -648,6 +653,7 @@
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
+				0A9E3FCF210571F000B1D9B7 /* WordLadder.m in Sources */,
 				0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */,
 				0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */,
 				0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */,
