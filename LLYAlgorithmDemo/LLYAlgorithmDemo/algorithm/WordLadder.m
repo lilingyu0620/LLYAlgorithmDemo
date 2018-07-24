@@ -52,6 +52,9 @@
         int lenght = [self wordLadder:@[@"hot",@"dot",@"dog",@"lot",@"log",@"cog"] startWord:@"hit" endWord:@"cog"];
         NSLog(@"length = %d",lenght);
         
+        NSMutableArray *array = [self wordLadder2:@[@"hot",@"dot",@"dog",@"lot",@"log",@"cog"] startWord:@"hit" endWord:@"cog"];
+        NSLog(@"array = %@",array);
+        
     }
     return self;
 }
@@ -62,8 +65,9 @@
     NSMutableArray *retArray = [NSMutableArray array];
     
     if (![endWord isEqualToString:array.lastObject]) {
-        return -1;
+        return 0;
     }
+    
     
     [retArray addObject:startWord];
     
@@ -86,8 +90,43 @@
         return retArray.count;
     }
     else{
-        return -1;
+        return 0;
     }
+}
+
+
+- (NSMutableArray *)wordLadder2:(NSArray *)array startWord:(NSString *)startWord endWord:(NSString *)endWord{
+    
+    NSMutableArray *retArray = [NSMutableArray array];
+    
+    if (![endWord isEqualToString:array.lastObject]) {
+        return 0;
+    }
+    
+    NSMutableArray *tmpArray = [NSMutableArray array];
+    
+    [tmpArray addObject:startWord];
+    
+    NSString *tmpStr = startWord;
+    for (int i = 0; i < array.count; i++) {
+        
+        NSString *str = array[i];
+        if ([self diffCharNum:tmpStr str2:str] == 1) {
+            [tmpArray addObject:str];
+            tmpStr  = str;
+        }
+        
+        if ([self diffCharNum:tmpStr str2:endWord] == 1) {
+            [tmpArray addObject:endWord];
+            [retArray addObject:[NSArray arrayWithArray:tmpArray]];
+            [tmpArray removeLastObject];
+            if (i < array.count - 1) {
+                tmpStr = array[i+1];
+            }
+        }
+    }
+    
+    return retArray;
 }
 
 - (int)diffCharNum:(NSString *)str1 str2:(NSString *)str2{

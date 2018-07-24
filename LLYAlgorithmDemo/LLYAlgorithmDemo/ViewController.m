@@ -73,6 +73,7 @@
 #import "TriangleMinPath.h"
 #import "BuySellStock.h"
 #import "WordLadder.h"
+#import "LongestConsecutiveSequence.h"
 
 @interface ViewController ()
 
@@ -141,17 +142,16 @@
 //    DecodeWays *decodeWays = [[DecodeWays alloc]init];
 //    RestoreIPAddresses *restoreIPAddresses = [[RestoreIPAddresses alloc]init];
 //    InterleavingString *interleavingString = [[InterleavingString alloc]init];
-    
 //    RotateArray *rotateArray = [[RotateArray alloc]init];
 //    RotateArray2 *rotateArray2 = [[RotateArray2 alloc]init];
 //    DistinctSubsequences *distinctSubsequences = [[DistinctSubsequences alloc]init];
 //    YangHuiTriangle *yangHuiTriangle = [[YangHuiTriangle alloc]init];
 //    YangHuiTriangle2 *yangHuiTriangle2 = [[YangHuiTriangle2 alloc]init];
 //    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
-    
 //    BuySellStock *buySellStock = [[BuySellStock alloc]init];
+//    WordLadder *wordLadder = [[WordLadder alloc]init];
     
-    WordLadder *wordLadder = [[WordLadder alloc]init];
+    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
     
     
 }
