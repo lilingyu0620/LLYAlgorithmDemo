@@ -74,6 +74,7 @@
 #import "BuySellStock.h"
 #import "WordLadder.h"
 #import "LongestConsecutiveSequence.h"
+#import "SurroundedRegions.h"
 
 @interface ViewController ()
 
@@ -150,8 +151,9 @@
 //    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
 //    BuySellStock *buySellStock = [[BuySellStock alloc]init];
 //    WordLadder *wordLadder = [[WordLadder alloc]init];
+//    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
     
-    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
+    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
     
     
 }
