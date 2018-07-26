@@ -75,6 +75,7 @@
 #import "WordLadder.h"
 #import "LongestConsecutiveSequence.h"
 #import "SurroundedRegions.h"
+#import "PalindromePartitioning.h"
 
 @interface ViewController ()
 
@@ -152,9 +153,9 @@
 //    BuySellStock *buySellStock = [[BuySellStock alloc]init];
 //    WordLadder *wordLadder = [[WordLadder alloc]init];
 //    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
+//    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
     
-    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
-    
+    PalindromePartitioning *palindromePartitioning = [[PalindromePartitioning alloc]init];
     
 }
 
