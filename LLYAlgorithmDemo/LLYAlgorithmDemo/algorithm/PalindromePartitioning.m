@@ -25,7 +25,8 @@
 @implementation PalindromePartitioning{
     
     NSMutableArray *_array;
-    
+    NSInteger _minCut;
+
 }
 
 - (instancetype)init
@@ -36,6 +37,14 @@
         _array = [NSMutableArray array];
         [self palindromePartitioning:@[@"a",@"a",@"b"] tmpArray:[NSMutableArray array] index:0];
         NSLog(@"array = %@",_array);
+        
+        _minCut = NSIntegerMax;
+        NSLog(@"minCut = %ld",(long)_minCut);
+        [self palindromePartitioning2:@[@"a",@"a",@"b"] tmpArray:[NSMutableArray array] index:0];
+        NSLog(@"minCut = %ld",(long)_minCut);
+        
+        _minCut = [self dpPalindromePartitioning:@[@"a",@"a",@"b"]];
+        NSLog(@"minCut = %ld",(long)_minCut);
         
     }
     return self;
@@ -63,6 +72,62 @@
     }
     
 }
+
+- (void)palindromePartitioning2:(NSArray *)array tmpArray:(NSMutableArray *)tmpArray index:(int)index{
+    
+    if (index >= array.count && tmpArray.count < _minCut) {
+        _minCut = tmpArray.count;
+    }
+    
+    for (int i = index; i < array.count; i++) {
+        
+        if ([self isPartitioning:array index1:index index2:i]) {
+            
+            if (index == i) {
+                [tmpArray addObject:array[i]];
+            }
+            else{
+                [tmpArray addObject:[array subarrayWithRange:NSMakeRange(index, i - index + 1)]];
+            }
+            [self palindromePartitioning2:array tmpArray:tmpArray index:i+1];
+            [tmpArray removeLastObject];
+        }
+    }
+    
+}
+
+- (int)dpPalindromePartitioning:(NSArray *)array{
+    
+    NSMutableArray *dpArray = [NSMutableArray array];
+    
+    for (int i = 0; i < array.count; i++) {
+        [dpArray addObject:@(0)];
+    }
+    
+    for (int start = array.count - 1; start >= 0; start--) {
+        
+        dpArray[start] = @(array.count - 1 - start);
+        
+        for (int end = start; end < array.count; end++) {
+            
+            if ([self isPartitioning:array index1:start index2:end]) {
+                
+                if (end == array.count - 1) {
+                    dpArray[start] = @(0);
+                }
+                else{
+                    dpArray[start] = @(MIN([dpArray[start] intValue], [dpArray[end+1] intValue] + 1));
+                }
+            }
+            
+        }
+        
+    }
+    
+    return [dpArray.firstObject intValue];
+    
+}
+
 
 - (BOOL)isPartitioning:(NSArray *)array index1:(int)index1 index2:(int)index2{
     
