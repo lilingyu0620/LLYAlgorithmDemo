@@ -67,6 +67,7 @@
 		0A89F88020B15914008E5811 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F87F20B15914008E5811 /* HeapSort.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
+		0A930964210C21E5004D4815 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A930963210C21E5004D4815 /* GasStation.m */; };
 		0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28020A94FD500477751 /* ReverseInteger.m */; };
 		0A94B28420A9837E00477751 /* StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28320A9837E00477751 /* StringToInteger.m */; };
 		0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A95A39A20BBAA2F00804608 /* ArrayThreeSumZero.m */; };
@@ -223,6 +224,8 @@
 		0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistinctSubsequences.m; sourceTree = "<group>"; };
 		0A8B295F20DC926B006AF03B /* InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertInterval.h; sourceTree = "<group>"; };
 		0A8B296020DC926B006AF03B /* InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertInterval.m; sourceTree = "<group>"; };
+		0A930962210C21E5004D4815 /* GasStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
+		0A930963210C21E5004D4815 /* GasStation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasStation.m; sourceTree = "<group>"; };
 		0A94B27F20A94FD500477751 /* ReverseInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
 		0A94B28020A94FD500477751 /* ReverseInteger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseInteger.m; sourceTree = "<group>"; };
 		0A94B28220A9837E00477751 /* StringToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringToInteger.h; sourceTree = "<group>"; };
@@ -476,6 +479,8 @@
 				0A7E6D50210811B80010735A /* SurroundedRegions.m */,
 				0A7BF28121097BDB00441F4A /* PalindromePartitioning.h */,
 				0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */,
+				0A930962210C21E5004D4815 /* GasStation.h */,
+				0A930963210C21E5004D4815 /* GasStation.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -649,6 +654,7 @@
 				0A79025B21017BCD004037A1 /* YangHuiTriangle2.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
+				0A930964210C21E5004D4815 /* GasStation.m in Sources */,
 				0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */,
 				0A66DFC120E64EF600E0F35A /* Search2DMatrix.m in Sources */,
 				0A79697320EC650A00FA72B3 /* RemoveDuplicates.m in Sources */,
