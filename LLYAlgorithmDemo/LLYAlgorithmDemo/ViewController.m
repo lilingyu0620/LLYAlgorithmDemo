@@ -78,6 +78,7 @@
 #import "PalindromePartitioning.h"
 #import "GasStation.h"
 #import "Candy.h"
+#import "SingleNumber.h"
 
 @interface ViewController ()
 
@@ -158,9 +159,9 @@
 //    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
 //    PalindromePartitioning *palindromePartitioning = [[PalindromePartitioning alloc]init];
 //    GasStation *gasStation = [[GasStation alloc]init];
+//    Candy *candy = [[Candy alloc]init];
     
-    Candy *candy = [[Candy alloc]init];
-    
+    SingleNumber *singleNumber = [[SingleNumber alloc]init];
 }
 
 

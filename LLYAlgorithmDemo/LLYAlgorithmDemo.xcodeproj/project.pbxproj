@@ -50,6 +50,7 @@
 		0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F0FEA20D9F4C30017F480 /* JumpGame.m */; };
 		0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F2AED206E4785001C56E6 /* BinarySearch.m */; };
 		0A7F3138210D826B00BB8DC7 /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F3137210D826B00BB8DC7 /* Candy.m */; };
+		0A7F313B210D9FF400BB8DC7 /* SingleNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F313A210D9FF400BB8DC7 /* SingleNumber.m */; };
 		0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */; };
 		0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FF36C21003EE90004FF8C /* YangHuiTriangle.m */; };
 		0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8444A7207F6AC800E5E598 /* ArrayMedian.m */; };
@@ -191,6 +192,8 @@
 		0A7F2AED206E4785001C56E6 /* BinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		0A7F3136210D826B00BB8DC7 /* Candy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
 		0A7F3137210D826B00BB8DC7 /* Candy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Candy.m; sourceTree = "<group>"; };
+		0A7F3139210D9FF400BB8DC7 /* SingleNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
+		0A7F313A210D9FF400BB8DC7 /* SingleNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleNumber.m; sourceTree = "<group>"; };
 		0A7FA18E20EDC02E00E55D56 /* LargestRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargestRectangle.h; sourceTree = "<group>"; };
 		0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargestRectangle.m; sourceTree = "<group>"; };
 		0A7FF36B21003EE90004FF8C /* YangHuiTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YangHuiTriangle.h; sourceTree = "<group>"; };
@@ -486,6 +489,8 @@
 				0A930963210C21E5004D4815 /* GasStation.m */,
 				0A7F3136210D826B00BB8DC7 /* Candy.h */,
 				0A7F3137210D826B00BB8DC7 /* Candy.m */,
+				0A7F3139210D9FF400BB8DC7 /* SingleNumber.h */,
+				0A7F313A210D9FF400BB8DC7 /* SingleNumber.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -635,6 +640,7 @@
 				0AA5246920E746C800EB1A2C /* SortColors.m in Sources */,
 				0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */,
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
+				0A7F313B210D9FF400BB8DC7 /* SingleNumber.m in Sources */,
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
 				0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */,
 				0A8496182063B4610060FC6D /* main.m in Sources */,
