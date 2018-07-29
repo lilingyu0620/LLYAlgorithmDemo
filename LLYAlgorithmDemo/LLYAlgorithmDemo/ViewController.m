@@ -77,6 +77,7 @@
 #import "SurroundedRegions.h"
 #import "PalindromePartitioning.h"
 #import "GasStation.h"
+#import "Candy.h"
 
 @interface ViewController ()
 
@@ -156,8 +157,9 @@
 //    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
 //    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
 //    PalindromePartitioning *palindromePartitioning = [[PalindromePartitioning alloc]init];
+//    GasStation *gasStation = [[GasStation alloc]init];
     
-    GasStation *gasStation = [[GasStation alloc]init];
+    Candy *candy = [[Candy alloc]init];
     
 }
 

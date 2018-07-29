@@ -49,6 +49,7 @@
 		0A7E6D51210811B80010735A /* SurroundedRegions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E6D50210811B80010735A /* SurroundedRegions.m */; };
 		0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F0FEA20D9F4C30017F480 /* JumpGame.m */; };
 		0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F2AED206E4785001C56E6 /* BinarySearch.m */; };
+		0A7F3138210D826B00BB8DC7 /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F3137210D826B00BB8DC7 /* Candy.m */; };
 		0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */; };
 		0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FF36C21003EE90004FF8C /* YangHuiTriangle.m */; };
 		0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8444A7207F6AC800E5E598 /* ArrayMedian.m */; };
@@ -188,6 +189,8 @@
 		0A7F0FEA20D9F4C30017F480 /* JumpGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpGame.m; sourceTree = "<group>"; };
 		0A7F2AEC206E4785001C56E6 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		0A7F2AED206E4785001C56E6 /* BinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
+		0A7F3136210D826B00BB8DC7 /* Candy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
+		0A7F3137210D826B00BB8DC7 /* Candy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Candy.m; sourceTree = "<group>"; };
 		0A7FA18E20EDC02E00E55D56 /* LargestRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargestRectangle.h; sourceTree = "<group>"; };
 		0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargestRectangle.m; sourceTree = "<group>"; };
 		0A7FF36B21003EE90004FF8C /* YangHuiTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YangHuiTriangle.h; sourceTree = "<group>"; };
@@ -481,6 +484,8 @@
 				0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */,
 				0A930962210C21E5004D4815 /* GasStation.h */,
 				0A930963210C21E5004D4815 /* GasStation.m */,
+				0A7F3136210D826B00BB8DC7 /* Candy.h */,
+				0A7F3137210D826B00BB8DC7 /* Candy.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -672,6 +677,7 @@
 				0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */,
 				0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */,
 				0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */,
+				0A7F3138210D826B00BB8DC7 /* Candy.m in Sources */,
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,
 				0A7BF28321097BDB00441F4A /* PalindromePartitioning.m in Sources */,
