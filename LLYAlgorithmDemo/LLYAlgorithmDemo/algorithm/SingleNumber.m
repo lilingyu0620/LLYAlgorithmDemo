@@ -31,10 +31,13 @@
     if (self) {
         
 //        int single = [self singleNumber:@[@2,@2,@1]];
-        int single = [self singleNumber:@[@4,@1,@2,@1,@2]];
+        int single = [self singleNumber:@[@0,@1,@0,@1,@0,@1,@99]];
         NSLog(@"single = %ld",(long)single);
         
         single = [self singleNumber2:@[@4,@1,@2,@1,@2]];
+        NSLog(@"single = %ld",(long)single);
+        
+        single = [self singleNumber3:@[@0,@1,@0,@1,@0,@1,@99]];
         NSLog(@"single = %ld",(long)single);
         
     }
@@ -83,6 +86,19 @@
         result ^= [array[i] intValue];
     }
     return result;
+}
+
+- (int)singleNumber3:(NSArray *)array{
+    
+    int one = 0,two = 0;
+    for (int i = 0; i < array.count; i++) {
+        
+        one = (one ^ [array[i] intValue]) & ~two;
+        two = (two ^ [array[i] intValue]) & ~one;
+        
+    }
+    
+    return one;
 }
 
 @end
