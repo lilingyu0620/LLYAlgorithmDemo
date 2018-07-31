@@ -69,6 +69,7 @@
 		0A89F88020B15914008E5811 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F87F20B15914008E5811 /* HeapSort.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
+		0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D9414210FFF0700C890E2 /* WordBreak.m */; };
 		0A930964210C21E5004D4815 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A930963210C21E5004D4815 /* GasStation.m */; };
 		0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28020A94FD500477751 /* ReverseInteger.m */; };
 		0A94B28420A9837E00477751 /* StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28320A9837E00477751 /* StringToInteger.m */; };
@@ -230,6 +231,8 @@
 		0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistinctSubsequences.m; sourceTree = "<group>"; };
 		0A8B295F20DC926B006AF03B /* InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertInterval.h; sourceTree = "<group>"; };
 		0A8B296020DC926B006AF03B /* InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertInterval.m; sourceTree = "<group>"; };
+		0A8D9413210FFF0700C890E2 /* WordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordBreak.h; sourceTree = "<group>"; };
+		0A8D9414210FFF0700C890E2 /* WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBreak.m; sourceTree = "<group>"; };
 		0A930962210C21E5004D4815 /* GasStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
 		0A930963210C21E5004D4815 /* GasStation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasStation.m; sourceTree = "<group>"; };
 		0A94B27F20A94FD500477751 /* ReverseInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
@@ -491,6 +494,8 @@
 				0A7F3137210D826B00BB8DC7 /* Candy.m */,
 				0A7F3139210D9FF400BB8DC7 /* SingleNumber.h */,
 				0A7F313A210D9FF400BB8DC7 /* SingleNumber.m */,
+				0A8D9413210FFF0700C890E2 /* WordBreak.h */,
+				0A8D9414210FFF0700C890E2 /* WordBreak.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -630,6 +635,7 @@
 			files = (
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
+				0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */,
 				0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */,
 				0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */,
 				0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */,

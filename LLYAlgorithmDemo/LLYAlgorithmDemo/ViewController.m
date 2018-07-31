@@ -79,6 +79,7 @@
 #import "GasStation.h"
 #import "Candy.h"
 #import "SingleNumber.h"
+#import "WordBreak.h"
 
 @interface ViewController ()
 
@@ -160,8 +161,9 @@
 //    PalindromePartitioning *palindromePartitioning = [[PalindromePartitioning alloc]init];
 //    GasStation *gasStation = [[GasStation alloc]init];
 //    Candy *candy = [[Candy alloc]init];
+//    SingleNumber *singleNumber = [[SingleNumber alloc]init];
     
-    SingleNumber *singleNumber = [[SingleNumber alloc]init];
+    WordBreak *wordBreak = [[WordBreak alloc]init];
 }
 
 
