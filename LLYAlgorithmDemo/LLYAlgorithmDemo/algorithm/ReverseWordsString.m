@@ -43,7 +43,6 @@
     
     int start = 0,end = 0;
     for (int i = 0; i <= pureStr.length; i++) {
-        start = MIN(start, i);
         if (i == pureStr.length || [pureStr characterAtIndex:i] == ' ') {
             end = i-1;
             [self reverseWordsString:pureStr index1:start index2:end];
