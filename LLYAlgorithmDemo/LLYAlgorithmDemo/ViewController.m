@@ -80,6 +80,7 @@
 #import "Candy.h"
 #import "SingleNumber.h"
 #import "WordBreak.h"
+#import "ReverseWordsString.h"
 
 @interface ViewController ()
 
@@ -162,8 +163,9 @@
 //    GasStation *gasStation = [[GasStation alloc]init];
 //    Candy *candy = [[Candy alloc]init];
 //    SingleNumber *singleNumber = [[SingleNumber alloc]init];
+//    WordBreak *wordBreak = [[WordBreak alloc]init];
     
-    WordBreak *wordBreak = [[WordBreak alloc]init];
+    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
 }
 
 
