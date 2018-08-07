@@ -24,6 +24,7 @@
 		0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A694F3D2099982300694E35 /* PalindromicStr.m */; };
 		0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FB48220A13C4C00F9504D /* ZigZagStr.m */; };
 		0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */; };
+		0A78105F21194329004A0771 /* MaximumProductSubarray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78105E21194329004A0771 /* MaximumProductSubarray.m */; };
 		0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A783E7220EF10DE002C134A /* MaximalRectangle.m */; };
 		0A79025B21017BCD004037A1 /* YangHuiTriangle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79025A21017BCD004037A1 /* YangHuiTriangle2.m */; };
 		0A79025E210181BE004037A1 /* TriangleMinPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79025D210181BE004037A1 /* TriangleMinPath.m */; };
@@ -142,6 +143,8 @@
 		0A6FB48220A13C4C00F9504D /* ZigZagStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZigZagStr.m; sourceTree = "<group>"; };
 		0A76527C20BCEF0100A3BA70 /* PhoneNumToStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumToStr.h; sourceTree = "<group>"; };
 		0A76527D20BCEF0100A3BA70 /* PhoneNumToStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumToStr.m; sourceTree = "<group>"; };
+		0A78105D21194329004A0771 /* MaximumProductSubarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumProductSubarray.h; sourceTree = "<group>"; };
+		0A78105E21194329004A0771 /* MaximumProductSubarray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximumProductSubarray.m; sourceTree = "<group>"; };
 		0A783E7120EF10DE002C134A /* MaximalRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximalRectangle.h; sourceTree = "<group>"; };
 		0A783E7220EF10DE002C134A /* MaximalRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximalRectangle.m; sourceTree = "<group>"; };
 		0A79025921017BCD004037A1 /* YangHuiTriangle2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YangHuiTriangle2.h; sourceTree = "<group>"; };
@@ -501,6 +504,8 @@
 				0A8D9414210FFF0700C890E2 /* WordBreak.m */,
 				0A86F4152117E2D0008CE881 /* ReverseWordsString.h */,
 				0A86F4162117E2D0008CE881 /* ReverseWordsString.m */,
+				0A78105D21194329004A0771 /* MaximumProductSubarray.h */,
+				0A78105E21194329004A0771 /* MaximumProductSubarray.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -653,6 +658,7 @@
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
 				0A7F313B210D9FF400BB8DC7 /* SingleNumber.m in Sources */,
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
+				0A78105F21194329004A0771 /* MaximumProductSubarray.m in Sources */,
 				0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */,
 				0A8496182063B4610060FC6D /* main.m in Sources */,
 				0A7988BC20C3A69200729764 /* JosephRing.m in Sources */,

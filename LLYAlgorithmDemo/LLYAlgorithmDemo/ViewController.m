@@ -81,6 +81,7 @@
 #import "SingleNumber.h"
 #import "WordBreak.h"
 #import "ReverseWordsString.h"
+#import "MaximumProductSubarray.h"
 
 @interface ViewController ()
 
@@ -164,8 +165,9 @@
 //    Candy *candy = [[Candy alloc]init];
 //    SingleNumber *singleNumber = [[SingleNumber alloc]init];
 //    WordBreak *wordBreak = [[WordBreak alloc]init];
+//    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
     
-    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
+    MaximumProductSubarray *maximumProductSubarray = [[MaximumProductSubarray alloc]init];
 }
 
 
