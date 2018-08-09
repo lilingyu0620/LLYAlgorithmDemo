@@ -82,6 +82,7 @@
 #import "WordBreak.h"
 #import "ReverseWordsString.h"
 #import "MaximumProductSubarray.h"
+#import "MaximumGap.h"
 
 @interface ViewController ()
 
@@ -166,8 +167,9 @@
 //    SingleNumber *singleNumber = [[SingleNumber alloc]init];
 //    WordBreak *wordBreak = [[WordBreak alloc]init];
 //    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
+//    MaximumProductSubarray *maximumProductSubarray = [[MaximumProductSubarray alloc]init];
     
-    MaximumProductSubarray *maximumProductSubarray = [[MaximumProductSubarray alloc]init];
+    MaximumGap *maximumGap = [[MaximumGap alloc]init];
 }
 
 

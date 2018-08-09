@@ -32,6 +32,7 @@
 		0A79697320EC650A00FA72B3 /* RemoveDuplicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79697220EC650A00FA72B3 /* RemoveDuplicates.m */; };
 		0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */; };
 		0A7988BC20C3A69200729764 /* JosephRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988BB20C3A69200729764 /* JosephRing.m */; };
+		0A79B977211BD2B20010BA78 /* MaximumGap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B976211BD2B20010BA78 /* MaximumGap.m */; };
 		0A7A0BC220E1D232009AC44D /* UniquePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0BC120E1D232009AC44D /* UniquePaths.m */; };
 		0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869720C62CE700F48A3C /* CombinationSum2.m */; };
 		0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */; };
@@ -159,6 +160,8 @@
 		0A7988B820C398A900729764 /* SearchinRotatedSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchinRotatedSortedArray.m; sourceTree = "<group>"; };
 		0A7988BA20C3A69200729764 /* JosephRing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JosephRing.h; sourceTree = "<group>"; };
 		0A7988BB20C3A69200729764 /* JosephRing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JosephRing.m; sourceTree = "<group>"; };
+		0A79B975211BD2B20010BA78 /* MaximumGap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumGap.h; sourceTree = "<group>"; };
+		0A79B976211BD2B20010BA78 /* MaximumGap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximumGap.m; sourceTree = "<group>"; };
 		0A7A0BC020E1D232009AC44D /* UniquePaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniquePaths.h; sourceTree = "<group>"; };
 		0A7A0BC120E1D232009AC44D /* UniquePaths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniquePaths.m; sourceTree = "<group>"; };
 		0A7A869620C62CE700F48A3C /* CombinationSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum2.h; sourceTree = "<group>"; };
@@ -506,6 +509,8 @@
 				0A86F4162117E2D0008CE881 /* ReverseWordsString.m */,
 				0A78105D21194329004A0771 /* MaximumProductSubarray.h */,
 				0A78105E21194329004A0771 /* MaximumProductSubarray.m */,
+				0A79B975211BD2B20010BA78 /* MaximumGap.h */,
+				0A79B976211BD2B20010BA78 /* MaximumGap.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -660,6 +665,7 @@
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
 				0A78105F21194329004A0771 /* MaximumProductSubarray.m in Sources */,
 				0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */,
+				0A79B977211BD2B20010BA78 /* MaximumGap.m in Sources */,
 				0A8496182063B4610060FC6D /* main.m in Sources */,
 				0A7988BC20C3A69200729764 /* JosephRing.m in Sources */,
 				0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */,
