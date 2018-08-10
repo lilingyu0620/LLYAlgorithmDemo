@@ -39,6 +39,7 @@
 		0A7B31C720B82DB3001076FA /* KMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C620B82DB2001076FA /* KMP.m */; };
 		0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */; };
 		0A7B9CE3211D35B500B493D0 /* TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE2211D35B500B493D0 /* TwoSum2.m */; };
+		0A7B9CE6211D7A8700B493D0 /* ExcelSheetColumnTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */; };
 		0A7BF28321097BDB00441F4A /* PalindromePartitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */; };
 		0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C2C3320E500F100549F5F /* SetMatrixZeroes.m */; };
 		0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD33A20CA23CB003D10DF /* RotateImage.m */; };
@@ -175,6 +176,8 @@
 		0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestoreIPAddresses.m; sourceTree = "<group>"; };
 		0A7B9CE1211D35B500B493D0 /* TwoSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum2.h; sourceTree = "<group>"; };
 		0A7B9CE2211D35B500B493D0 /* TwoSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum2.m; sourceTree = "<group>"; };
+		0A7B9CE4211D7A8700B493D0 /* ExcelSheetColumnTitle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelSheetColumnTitle.h; sourceTree = "<group>"; };
+		0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelSheetColumnTitle.m; sourceTree = "<group>"; };
 		0A7BF28121097BDB00441F4A /* PalindromePartitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromePartitioning.h; sourceTree = "<group>"; };
 		0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromePartitioning.m; sourceTree = "<group>"; };
 		0A7C2C3220E500F100549F5F /* SetMatrixZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetMatrixZeroes.h; sourceTree = "<group>"; };
@@ -516,6 +519,8 @@
 				0A79B976211BD2B20010BA78 /* MaximumGap.m */,
 				0A7B9CE1211D35B500B493D0 /* TwoSum2.h */,
 				0A7B9CE2211D35B500B493D0 /* TwoSum2.m */,
+				0A7B9CE4211D7A8700B493D0 /* ExcelSheetColumnTitle.h */,
+				0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -713,6 +718,7 @@
 				0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */,
 				0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */,
 				0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */,
+				0A7B9CE6211D7A8700B493D0 /* ExcelSheetColumnTitle.m in Sources */,
 				0A7F3138210D826B00BB8DC7 /* Candy.m in Sources */,
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,

@@ -84,6 +84,7 @@
 #import "MaximumProductSubarray.h"
 #import "MaximumGap.h"
 #import "TwoSum2.h"
+#import "ExcelSheetColumnTitle.h"
 
 @interface ViewController ()
 
@@ -170,8 +171,9 @@
 //    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
 //    MaximumProductSubarray *maximumProductSubarray = [[MaximumProductSubarray alloc]init];
 //    MaximumGap *maximumGap = [[MaximumGap alloc]init];
+//    TwoSum2 *twoSum2 = [[TwoSum2 alloc]init];
     
-    TwoSum2 *twoSum2 = [[TwoSum2 alloc]init];
+    ExcelSheetColumnTitle *excelSheetColumnTitle = [[ExcelSheetColumnTitle alloc]init];
 }
 
 
