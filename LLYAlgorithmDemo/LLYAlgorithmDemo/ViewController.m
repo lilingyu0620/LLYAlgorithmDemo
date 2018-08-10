@@ -83,6 +83,7 @@
 #import "ReverseWordsString.h"
 #import "MaximumProductSubarray.h"
 #import "MaximumGap.h"
+#import "TwoSum2.h"
 
 @interface ViewController ()
 
@@ -168,8 +169,9 @@
 //    WordBreak *wordBreak = [[WordBreak alloc]init];
 //    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
 //    MaximumProductSubarray *maximumProductSubarray = [[MaximumProductSubarray alloc]init];
+//    MaximumGap *maximumGap = [[MaximumGap alloc]init];
     
-    MaximumGap *maximumGap = [[MaximumGap alloc]init];
+    TwoSum2 *twoSum2 = [[TwoSum2 alloc]init];
 }
 
 

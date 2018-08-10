@@ -38,6 +38,7 @@
 		0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */; };
 		0A7B31C720B82DB3001076FA /* KMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C620B82DB2001076FA /* KMP.m */; };
 		0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */; };
+		0A7B9CE3211D35B500B493D0 /* TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE2211D35B500B493D0 /* TwoSum2.m */; };
 		0A7BF28321097BDB00441F4A /* PalindromePartitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */; };
 		0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C2C3320E500F100549F5F /* SetMatrixZeroes.m */; };
 		0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD33A20CA23CB003D10DF /* RotateImage.m */; };
@@ -172,6 +173,8 @@
 		0A7B31C620B82DB2001076FA /* KMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMP.m; sourceTree = "<group>"; };
 		0A7B4B3A20F465BA00D12E7D /* RestoreIPAddresses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestoreIPAddresses.h; sourceTree = "<group>"; };
 		0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestoreIPAddresses.m; sourceTree = "<group>"; };
+		0A7B9CE1211D35B500B493D0 /* TwoSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum2.h; sourceTree = "<group>"; };
+		0A7B9CE2211D35B500B493D0 /* TwoSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum2.m; sourceTree = "<group>"; };
 		0A7BF28121097BDB00441F4A /* PalindromePartitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromePartitioning.h; sourceTree = "<group>"; };
 		0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromePartitioning.m; sourceTree = "<group>"; };
 		0A7C2C3220E500F100549F5F /* SetMatrixZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetMatrixZeroes.h; sourceTree = "<group>"; };
@@ -511,6 +514,8 @@
 				0A78105E21194329004A0771 /* MaximumProductSubarray.m */,
 				0A79B975211BD2B20010BA78 /* MaximumGap.h */,
 				0A79B976211BD2B20010BA78 /* MaximumGap.m */,
+				0A7B9CE1211D35B500B493D0 /* TwoSum2.h */,
+				0A7B9CE2211D35B500B493D0 /* TwoSum2.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -672,6 +677,7 @@
 				0A96D7252071C0A0000720CA /* Recurrence.m in Sources */,
 				0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */,
 				0A7A0BC220E1D232009AC44D /* UniquePaths.m in Sources */,
+				0A7B9CE3211D35B500B493D0 /* TwoSum2.m in Sources */,
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
 				0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */,
 				0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */,
