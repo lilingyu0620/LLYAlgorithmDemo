@@ -42,7 +42,7 @@
     
     for (int i = 0; i < array.count && [array[i] intValue] <= target; i++) {
         
-        for (int j = i; j < array.count && [array[j] intValue] <= target; j++) {
+        for (int j = i+1; j < array.count && [array[j] intValue] <= target; j++) {
             
             if ([array[i] intValue] + [array[j] intValue] == target) {
                 return @[@(i+1),@(j+1)];
