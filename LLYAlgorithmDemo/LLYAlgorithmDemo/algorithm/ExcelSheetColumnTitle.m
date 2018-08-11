@@ -15,8 +15,12 @@
     self = [super init];
     if (self) {
         
-        NSMutableArray *excelStr = [self excelSheetColumnTitle:26];
+        NSMutableArray *excelStr = [self excelSheetColumnTitle:19010];
         NSLog(@"excelStr = %@",excelStr);
+        
+        int num = [self excelSheetColumnNumber:@"ABCD"];
+        NSLog(@"num = %d",num);
+        
         
     }
     return self;
@@ -46,6 +50,20 @@
     }
     
     return array;
+}
+
+- (int)excelSheetColumnNumber:(NSString *)colStr{
+    
+    int res = 0;
+    int bit = 1;
+    for (int i = colStr.length - 1; i >= 0; i--) {
+        char c = [colStr characterAtIndex:i];
+        int num = c - 'A' + 1;
+        res = res + num*bit;
+        bit *= 26;
+    }
+    return res;
+    
 }
 
 @end
