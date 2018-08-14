@@ -160,7 +160,7 @@
 //    YangHuiTriangle *yangHuiTriangle = [[YangHuiTriangle alloc]init];
 //    YangHuiTriangle2 *yangHuiTriangle2 = [[YangHuiTriangle2 alloc]init];
 //    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
-//    BuySellStock *buySellStock = [[BuySellStock alloc]init];
+    BuySellStock *buySellStock = [[BuySellStock alloc]init];
 //    WordLadder *wordLadder = [[WordLadder alloc]init];
 //    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
 //    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
@@ -174,8 +174,9 @@
 //    MaximumGap *maximumGap = [[MaximumGap alloc]init];
 //    TwoSum2 *twoSum2 = [[TwoSum2 alloc]init];
 //    ExcelSheetColumnTitle *excelSheetColumnTitle = [[ExcelSheetColumnTitle alloc]init];
+//    LargestNumber *largestNumber = [[LargestNumber alloc]init];
     
-    LargestNumber *largestNumber = [[LargestNumber alloc]init];
+
 }
 
 

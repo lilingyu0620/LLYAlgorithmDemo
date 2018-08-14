@@ -46,6 +46,9 @@
         result = [self buySellStock3:@[@3,@3,@5,@0,@0,@3,@1,@4]];
         NSLog(@"result = %d",result);
         
+        result = [self buySellStock4:@[@3,@2,@6,@5,@0,@3] k:2];
+        NSLog(@"result = %d",result);
+        
     }
     return self;
 }
@@ -86,6 +89,32 @@
     }
     
     return sell2;
+}
+
+- (int)buySellStock4:(NSArray *)array k:(int)k{
+    
+    NSMutableArray *retArray = [NSMutableArray array];
+    for (int i = 1; i < array.count; i++) {
+        [retArray addObject:@([array[i] intValue] - [array[i-1] intValue])];
+    }
+    
+    
+    int ret = 0;
+    for (int i = 0; i < retArray.count; i++) {
+        for (int j = 0; j+1 < retArray.count-i; j++) {
+            if ([retArray[j] intValue] < [retArray[j+1] intValue]) {
+                id tmp = retArray[j];
+                retArray[j] = retArray[j+1];
+                retArray[j+1] = tmp;
+            }
+        }
+    }
+    
+    for (int i = 0; i < k; i++) {
+        ret = MAX(ret, ret + [retArray[i] intValue]);
+    }
+    
+    return ret;
 }
 
 @end
