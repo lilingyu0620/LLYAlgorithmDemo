@@ -87,6 +87,7 @@
 		0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA73D20C5441E00475C74 /* CombinationSum.m */; };
 		0A9E3FCF210571F000B1D9B7 /* WordLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E3FCE210571F000B1D9B7 /* WordLadder.m */; };
 		0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */; };
+		0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0043321211AF90099FB14 /* LargestNumber.m */; };
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
@@ -272,6 +273,8 @@
 		0A9E3FCE210571F000B1D9B7 /* WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLadder.m; sourceTree = "<group>"; };
 		0A9E6D1520E9BD8B005FCAB9 /* Combinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Combinations.h; sourceTree = "<group>"; };
 		0A9E6D1620E9BD8B005FCAB9 /* Combinations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Combinations.m; sourceTree = "<group>"; };
+		0AA0043221211AF90099FB14 /* LargestNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargestNumber.h; sourceTree = "<group>"; };
+		0AA0043321211AF90099FB14 /* LargestNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargestNumber.m; sourceTree = "<group>"; };
 		0AA12DEB20D3677E0035530A /* NQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueue.h; sourceTree = "<group>"; };
 		0AA12DEC20D3677E0035530A /* NQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQueue.m; sourceTree = "<group>"; };
 		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
@@ -521,6 +524,8 @@
 				0A7B9CE2211D35B500B493D0 /* TwoSum2.m */,
 				0A7B9CE4211D7A8700B493D0 /* ExcelSheetColumnTitle.h */,
 				0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */,
+				0AA0043221211AF90099FB14 /* LargestNumber.h */,
+				0AA0043321211AF90099FB14 /* LargestNumber.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -700,6 +705,7 @@
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
 				0A930964210C21E5004D4815 /* GasStation.m in Sources */,
+				0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */,
 				0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */,
 				0A66DFC120E64EF600E0F35A /* Search2DMatrix.m in Sources */,
 				0A79697320EC650A00FA72B3 /* RemoveDuplicates.m in Sources */,
