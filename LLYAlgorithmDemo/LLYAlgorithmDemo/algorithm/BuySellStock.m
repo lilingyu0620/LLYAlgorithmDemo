@@ -100,15 +100,27 @@
     
     
     int ret = 0;
-    for (int i = 0; i < retArray.count; i++) {
-        for (int j = 0; j+1 < retArray.count-i; j++) {
-            if ([retArray[j] intValue] < [retArray[j+1] intValue]) {
-                id tmp = retArray[j];
-                retArray[j] = retArray[j+1];
-                retArray[j+1] = tmp;
-            }
+//    for (int i = 0; i < retArray.count; i++) {
+//        for (int j = 0; j+1 < retArray.count-i; j++) {
+//            if ([retArray[j] intValue] < [retArray[j+1] intValue]) {
+//                id tmp = retArray[j];
+//                retArray[j] = retArray[j+1];
+//                retArray[j+1] = tmp;
+//            }
+//        }
+//    }
+    
+    [retArray sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        if ([obj1 intValue] > [obj2 intValue]) {
+            return NSOrderedAscending;
         }
-    }
+        else if ([obj1 intValue] < [obj2 intValue]){
+            return NSOrderedDescending;
+        }
+        else{
+            return NSOrderedSame;
+        }
+    }];
     
     for (int i = 0; i < k; i++) {
         ret = MAX(ret, ret + [retArray[i] intValue]);
