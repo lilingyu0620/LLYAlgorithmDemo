@@ -86,6 +86,7 @@
 #import "TwoSum2.h"
 #import "ExcelSheetColumnTitle.h"
 #import "LargestNumber.h"
+#import "Numberof1Bits.h"
 
 @interface ViewController ()
 
@@ -160,7 +161,7 @@
 //    YangHuiTriangle *yangHuiTriangle = [[YangHuiTriangle alloc]init];
 //    YangHuiTriangle2 *yangHuiTriangle2 = [[YangHuiTriangle2 alloc]init];
 //    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
-    BuySellStock *buySellStock = [[BuySellStock alloc]init];
+//    BuySellStock *buySellStock = [[BuySellStock alloc]init];
 //    WordLadder *wordLadder = [[WordLadder alloc]init];
 //    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
 //    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
@@ -176,6 +177,7 @@
 //    ExcelSheetColumnTitle *excelSheetColumnTitle = [[ExcelSheetColumnTitle alloc]init];
 //    LargestNumber *largestNumber = [[LargestNumber alloc]init];
     
+    Numberof1Bits *numberof1Bits = [[Numberof1Bits alloc]init];
 
 }
 
