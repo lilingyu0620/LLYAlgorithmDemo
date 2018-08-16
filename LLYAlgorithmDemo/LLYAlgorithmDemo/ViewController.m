@@ -87,6 +87,7 @@
 #import "ExcelSheetColumnTitle.h"
 #import "LargestNumber.h"
 #import "Numberof1Bits.h"
+#import "HouseRobber.h"
 
 @interface ViewController ()
 
@@ -176,8 +177,9 @@
 //    TwoSum2 *twoSum2 = [[TwoSum2 alloc]init];
 //    ExcelSheetColumnTitle *excelSheetColumnTitle = [[ExcelSheetColumnTitle alloc]init];
 //    LargestNumber *largestNumber = [[LargestNumber alloc]init];
+//    Numberof1Bits *numberof1Bits = [[Numberof1Bits alloc]init];
     
-    Numberof1Bits *numberof1Bits = [[Numberof1Bits alloc]init];
+    HouseRobber *houseRobber = [[HouseRobber alloc]init];
 
 }
 
