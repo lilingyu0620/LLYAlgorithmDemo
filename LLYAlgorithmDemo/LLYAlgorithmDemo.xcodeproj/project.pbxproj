@@ -40,6 +40,7 @@
 		0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */; };
 		0A7B9CE3211D35B500B493D0 /* TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE2211D35B500B493D0 /* TwoSum2.m */; };
 		0A7B9CE6211D7A8700B493D0 /* ExcelSheetColumnTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */; };
+		0A7BF1392126639F0084B2FF /* NumberofIslands.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF1382126639F0084B2FF /* NumberofIslands.m */; };
 		0A7BF28321097BDB00441F4A /* PalindromePartitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */; };
 		0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C2C3320E500F100549F5F /* SetMatrixZeroes.m */; };
 		0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD33A20CA23CB003D10DF /* RotateImage.m */; };
@@ -181,6 +182,8 @@
 		0A7B9CE2211D35B500B493D0 /* TwoSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum2.m; sourceTree = "<group>"; };
 		0A7B9CE4211D7A8700B493D0 /* ExcelSheetColumnTitle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelSheetColumnTitle.h; sourceTree = "<group>"; };
 		0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelSheetColumnTitle.m; sourceTree = "<group>"; };
+		0A7BF1372126639F0084B2FF /* NumberofIslands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberofIslands.h; sourceTree = "<group>"; };
+		0A7BF1382126639F0084B2FF /* NumberofIslands.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberofIslands.m; sourceTree = "<group>"; };
 		0A7BF28121097BDB00441F4A /* PalindromePartitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromePartitioning.h; sourceTree = "<group>"; };
 		0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromePartitioning.m; sourceTree = "<group>"; };
 		0A7C2C3220E500F100549F5F /* SetMatrixZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetMatrixZeroes.h; sourceTree = "<group>"; };
@@ -536,6 +539,8 @@
 				0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */,
 				0A80F8B121250E900019F075 /* HouseRobber.h */,
 				0A80F8B221250E900019F075 /* HouseRobber.m */,
+				0A7BF1372126639F0084B2FF /* NumberofIslands.h */,
+				0A7BF1382126639F0084B2FF /* NumberofIslands.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -701,6 +706,7 @@
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
 				0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */,
 				0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */,
+				0A7BF1392126639F0084B2FF /* NumberofIslands.m in Sources */,
 				0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */,
 				0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
