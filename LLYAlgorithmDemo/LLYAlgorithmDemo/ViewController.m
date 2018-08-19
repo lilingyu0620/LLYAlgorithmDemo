@@ -89,6 +89,7 @@
 #import "Numberof1Bits.h"
 #import "HouseRobber.h"
 #import "NumberofIslands.h"
+#import "BitwiseANDofNumbersRange.h"
 
 @interface ViewController ()
 
@@ -180,8 +181,9 @@
 //    LargestNumber *largestNumber = [[LargestNumber alloc]init];
 //    Numberof1Bits *numberof1Bits = [[Numberof1Bits alloc]init];
 //    HouseRobber *houseRobber = [[HouseRobber alloc]init];
+//    NumberofIslands *numberofIslands = [[NumberofIslands alloc]init];
     
-    NumberofIslands *numberofIslands = [[NumberofIslands alloc]init];
+    BitwiseANDofNumbersRange *bitwiseANDofNumbersRange = [[BitwiseANDofNumbersRange alloc]init];
 
 }
 

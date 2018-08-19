@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
+		0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */; };
 		0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C48FF20FC6667003DFC44 /* RotateArray2.m */; };
 		0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F54DF20FB8686000EDAF3 /* RotateArray.m */; };
 		0A30B09820EB13710012089F /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A30B09720EB13710012089F /* Subsets.m */; };
@@ -118,6 +119,8 @@
 /* Begin PBXFileReference section */
 		0A23DDF321030A9000BD0625 /* BuySellStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuySellStock.h; sourceTree = "<group>"; };
 		0A23DDF421030A9000BD0625 /* BuySellStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuySellStock.m; sourceTree = "<group>"; };
+		0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitwiseANDofNumbersRange.h; sourceTree = "<group>"; };
+		0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitwiseANDofNumbersRange.m; sourceTree = "<group>"; };
 		0A2C48FE20FC6667003DFC44 /* RotateArray2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray2.h; sourceTree = "<group>"; };
 		0A2C48FF20FC6667003DFC44 /* RotateArray2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateArray2.m; sourceTree = "<group>"; };
 		0A2F54DE20FB8686000EDAF3 /* RotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray.h; sourceTree = "<group>"; };
@@ -541,6 +544,8 @@
 				0A80F8B221250E900019F075 /* HouseRobber.m */,
 				0A7BF1372126639F0084B2FF /* NumberofIslands.h */,
 				0A7BF1382126639F0084B2FF /* NumberofIslands.m */,
+				0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */,
+				0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -719,6 +724,7 @@
 				0A79025E210181BE004037A1 /* TriangleMinPath.m in Sources */,
 				0A79025B21017BCD004037A1 /* YangHuiTriangle2.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
+				0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
 				0A930964210C21E5004D4815 /* GasStation.m in Sources */,
 				0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */,
