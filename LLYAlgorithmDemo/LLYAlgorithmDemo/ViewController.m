@@ -90,6 +90,7 @@
 #import "HouseRobber.h"
 #import "NumberofIslands.h"
 #import "BitwiseANDofNumbersRange.h"
+#import "CountPrimes.h"
 
 @interface ViewController ()
 
@@ -182,8 +183,9 @@
 //    Numberof1Bits *numberof1Bits = [[Numberof1Bits alloc]init];
 //    HouseRobber *houseRobber = [[HouseRobber alloc]init];
 //    NumberofIslands *numberofIslands = [[NumberofIslands alloc]init];
+//    BitwiseANDofNumbersRange *bitwiseANDofNumbersRange = [[BitwiseANDofNumbersRange alloc]init];
     
-    BitwiseANDofNumbersRange *bitwiseANDofNumbersRange = [[BitwiseANDofNumbersRange alloc]init];
+    CountPrimes *countPrimes = [[CountPrimes alloc]init];
 
 }
 

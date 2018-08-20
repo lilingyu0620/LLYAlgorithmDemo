@@ -86,6 +86,7 @@
 		0A96D7252071C0A0000720CA /* Recurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96D7242071C0A0000720CA /* Recurrence.m */; };
 		0A983D5820F5AB5D00066AA1 /* InterleavingString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A983D5720F5AB5D00066AA1 /* InterleavingString.m */; };
 		0A9C205920E0811C00CB1914 /* RotateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C205820E0811C00CB1914 /* RotateList.m */; };
+		0A9CD6D7212A559700F93469 /* CountPrimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CD6D6212A559700F93469 /* CountPrimes.m */; };
 		0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D49822073A14E0040A3C8 /* ArrayToSum.m */; };
 		0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA6F920C4D32F00475C74 /* SearchforaRange.m */; };
 		0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA73D20C5441E00475C74 /* CombinationSum.m */; };
@@ -275,6 +276,8 @@
 		0A983D5720F5AB5D00066AA1 /* InterleavingString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterleavingString.m; sourceTree = "<group>"; };
 		0A9C205720E0811C00CB1914 /* RotateList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateList.h; sourceTree = "<group>"; };
 		0A9C205820E0811C00CB1914 /* RotateList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateList.m; sourceTree = "<group>"; };
+		0A9CD6D5212A559700F93469 /* CountPrimes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountPrimes.h; sourceTree = "<group>"; };
+		0A9CD6D6212A559700F93469 /* CountPrimes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountPrimes.m; sourceTree = "<group>"; };
 		0A9D49812073A14E0040A3C8 /* ArrayToSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayToSum.h; sourceTree = "<group>"; };
 		0A9D49822073A14E0040A3C8 /* ArrayToSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayToSum.m; sourceTree = "<group>"; };
 		0A9DA6F820C4D32F00475C74 /* SearchforaRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchforaRange.h; sourceTree = "<group>"; };
@@ -546,6 +549,8 @@
 				0A7BF1382126639F0084B2FF /* NumberofIslands.m */,
 				0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */,
 				0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */,
+				0A9CD6D5212A559700F93469 /* CountPrimes.h */,
+				0A9CD6D6212A559700F93469 /* CountPrimes.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -734,6 +739,7 @@
 				0A983D5820F5AB5D00066AA1 /* InterleavingString.m in Sources */,
 				0A94B28420A9837E00477751 /* StringToInteger.m in Sources */,
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,
+				0A9CD6D7212A559700F93469 /* CountPrimes.m in Sources */,
 				0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */,
 				0A80F8B321250E900019F075 /* HouseRobber.m in Sources */,
 				0A7E268320B501AE000902C6 /* QuickSort.m in Sources */,
