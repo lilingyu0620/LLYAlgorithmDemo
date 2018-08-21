@@ -91,6 +91,7 @@
 #import "NumberofIslands.h"
 #import "BitwiseANDofNumbersRange.h"
 #import "CountPrimes.h"
+#import "MinimumSizeSubarraySum.h"
 
 @interface ViewController ()
 
@@ -184,8 +185,9 @@
 //    HouseRobber *houseRobber = [[HouseRobber alloc]init];
 //    NumberofIslands *numberofIslands = [[NumberofIslands alloc]init];
 //    BitwiseANDofNumbersRange *bitwiseANDofNumbersRange = [[BitwiseANDofNumbersRange alloc]init];
+//    CountPrimes *countPrimes = [[CountPrimes alloc]init];
     
-    CountPrimes *countPrimes = [[CountPrimes alloc]init];
+    MinimumSizeSubarraySum *minimumSizeSubarraySum = [[MinimumSizeSubarraySum alloc]init];
 
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */; };
 		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
 		0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */; };
 		0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C48FF20FC6667003DFC44 /* RotateArray2.m */; };
@@ -118,6 +119,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A064C48212BF47A00219851 /* MinimumSizeSubarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumSizeSubarraySum.h; sourceTree = "<group>"; };
+		0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumSizeSubarraySum.m; sourceTree = "<group>"; };
 		0A23DDF321030A9000BD0625 /* BuySellStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuySellStock.h; sourceTree = "<group>"; };
 		0A23DDF421030A9000BD0625 /* BuySellStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuySellStock.m; sourceTree = "<group>"; };
 		0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitwiseANDofNumbersRange.h; sourceTree = "<group>"; };
@@ -551,6 +554,8 @@
 				0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */,
 				0A9CD6D5212A559700F93469 /* CountPrimes.h */,
 				0A9CD6D6212A559700F93469 /* CountPrimes.m */,
+				0A064C48212BF47A00219851 /* MinimumSizeSubarraySum.h */,
+				0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -740,6 +745,7 @@
 				0A94B28420A9837E00477751 /* StringToInteger.m in Sources */,
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,
 				0A9CD6D7212A559700F93469 /* CountPrimes.m in Sources */,
+				0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */,
 				0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */,
 				0A80F8B321250E900019F075 /* HouseRobber.m in Sources */,
 				0A7E268320B501AE000902C6 /* QuickSort.m in Sources */,
