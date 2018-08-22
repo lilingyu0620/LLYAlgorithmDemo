@@ -38,7 +38,7 @@
 //        int sum = [self houseRobber:@[@2,@7,@9,@3,@1] index:4];
 //        int sum = [self houseRobber:@[@2,@1,@1,@2] index:3];
 
-        int sum = [self houseRobber:@[@2,@1,@1,@2]];
+        int sum = [self houseRobber:@[@2,@3,@2]];
         NSLog(@"sum = %d",sum);
         
     }

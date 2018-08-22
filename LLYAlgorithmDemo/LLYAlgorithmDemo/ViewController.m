@@ -92,6 +92,7 @@
 #import "BitwiseANDofNumbersRange.h"
 #import "CountPrimes.h"
 #import "MinimumSizeSubarraySum.h"
+#import "KthLargestElement.h"
 
 @interface ViewController ()
 
@@ -186,8 +187,9 @@
 //    NumberofIslands *numberofIslands = [[NumberofIslands alloc]init];
 //    BitwiseANDofNumbersRange *bitwiseANDofNumbersRange = [[BitwiseANDofNumbersRange alloc]init];
 //    CountPrimes *countPrimes = [[CountPrimes alloc]init];
+//    MinimumSizeSubarraySum *minimumSizeSubarraySum = [[MinimumSizeSubarraySum alloc]init];
     
-    MinimumSizeSubarraySum *minimumSizeSubarraySum = [[MinimumSizeSubarraySum alloc]init];
+    KthLargestElement *kthLargestElement = [[KthLargestElement alloc]init];
 
 }
 

@@ -61,6 +61,7 @@
 		0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FA18F20EDC02E00E55D56 /* LargestRectangle.m */; };
 		0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FF36C21003EE90004FF8C /* YangHuiTriangle.m */; };
 		0A80F8B321250E900019F075 /* HouseRobber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80F8B221250E900019F075 /* HouseRobber.m */; };
+		0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A81F0D1212D4C5F0030EC92 /* KthLargestElement.m */; };
 		0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8444A7207F6AC800E5E598 /* ArrayMedian.m */; };
 		0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8496092063B4610060FC6D /* AppDelegate.m */; };
 		0A84960D2063B4610060FC6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84960C2063B4610060FC6D /* ViewController.m */; };
@@ -227,6 +228,8 @@
 		0A7FF36C21003EE90004FF8C /* YangHuiTriangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YangHuiTriangle.m; sourceTree = "<group>"; };
 		0A80F8B121250E900019F075 /* HouseRobber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseRobber.h; sourceTree = "<group>"; };
 		0A80F8B221250E900019F075 /* HouseRobber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseRobber.m; sourceTree = "<group>"; };
+		0A81F0D0212D4C5F0030EC92 /* KthLargestElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KthLargestElement.h; sourceTree = "<group>"; };
+		0A81F0D1212D4C5F0030EC92 /* KthLargestElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KthLargestElement.m; sourceTree = "<group>"; };
 		0A8444A6207F6AC800E5E598 /* ArrayMedian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMedian.h; sourceTree = "<group>"; };
 		0A8444A7207F6AC800E5E598 /* ArrayMedian.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayMedian.m; sourceTree = "<group>"; };
 		0A8496052063B4610060FC6D /* LLYAlgorithmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYAlgorithmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -556,6 +559,8 @@
 				0A9CD6D6212A559700F93469 /* CountPrimes.m */,
 				0A064C48212BF47A00219851 /* MinimumSizeSubarraySum.h */,
 				0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */,
+				0A81F0D0212D4C5F0030EC92 /* KthLargestElement.h */,
+				0A81F0D1212D4C5F0030EC92 /* KthLargestElement.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -726,6 +731,7 @@
 				0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
+				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,
 				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,
 				0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */,
 				0A30B09820EB13710012089F /* Subsets.m in Sources */,
