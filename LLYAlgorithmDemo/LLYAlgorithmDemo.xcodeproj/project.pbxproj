@@ -81,6 +81,7 @@
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
 		0A8D12CD212E49E900B6CC86 /* CombinationSum3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */; };
+		0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */; };
 		0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D9414210FFF0700C890E2 /* WordBreak.m */; };
 		0A930964210C21E5004D4815 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A930963210C21E5004D4815 /* GasStation.m */; };
 		0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28020A94FD500477751 /* ReverseInteger.m */; };
@@ -269,6 +270,8 @@
 		0A8B296020DC926B006AF03B /* InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertInterval.m; sourceTree = "<group>"; };
 		0A8D12CB212E49E900B6CC86 /* CombinationSum3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum3.h; sourceTree = "<group>"; };
 		0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum3.m; sourceTree = "<group>"; };
+		0A8D12CE212E579F00B6CC86 /* ContainsDuplicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainsDuplicate.h; sourceTree = "<group>"; };
+		0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainsDuplicate.m; sourceTree = "<group>"; };
 		0A8D9413210FFF0700C890E2 /* WordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordBreak.h; sourceTree = "<group>"; };
 		0A8D9414210FFF0700C890E2 /* WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBreak.m; sourceTree = "<group>"; };
 		0A930962210C21E5004D4815 /* GasStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
@@ -566,6 +569,8 @@
 				0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */,
 				0A81F0D0212D4C5F0030EC92 /* KthLargestElement.h */,
 				0A81F0D1212D4C5F0030EC92 /* KthLargestElement.m */,
+				0A8D12CE212E579F00B6CC86 /* ContainsDuplicate.h */,
+				0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -737,6 +742,7 @@
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,
+				0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */,
 				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,
 				0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */,
 				0A30B09820EB13710012089F /* Subsets.m in Sources */,

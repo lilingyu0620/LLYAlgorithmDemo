@@ -94,6 +94,7 @@
 #import "MinimumSizeSubarraySum.h"
 #import "KthLargestElement.h"
 #import "CombinationSum3.h"
+#import "ContainsDuplicate.h"
 
 @interface ViewController ()
 
@@ -190,8 +191,9 @@
 //    CountPrimes *countPrimes = [[CountPrimes alloc]init];
 //    MinimumSizeSubarraySum *minimumSizeSubarraySum = [[MinimumSizeSubarraySum alloc]init];
 //    KthLargestElement *kthLargestElement = [[KthLargestElement alloc]init];
+//    CombinationSum3 *combinationSum3 = [[CombinationSum3 alloc]init];
     
-    CombinationSum3 *combinationSum3 = [[CombinationSum3 alloc]init];
+    ContainsDuplicate *containsDuplicate = [[ContainsDuplicate alloc]init];
 
 }
 
