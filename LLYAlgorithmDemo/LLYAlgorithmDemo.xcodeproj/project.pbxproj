@@ -80,6 +80,7 @@
 		0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
+		0A8D12CD212E49E900B6CC86 /* CombinationSum3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */; };
 		0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D9414210FFF0700C890E2 /* WordBreak.m */; };
 		0A930964210C21E5004D4815 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A930963210C21E5004D4815 /* GasStation.m */; };
 		0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28020A94FD500477751 /* ReverseInteger.m */; };
@@ -266,6 +267,8 @@
 		0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistinctSubsequences.m; sourceTree = "<group>"; };
 		0A8B295F20DC926B006AF03B /* InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertInterval.h; sourceTree = "<group>"; };
 		0A8B296020DC926B006AF03B /* InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertInterval.m; sourceTree = "<group>"; };
+		0A8D12CB212E49E900B6CC86 /* CombinationSum3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum3.h; sourceTree = "<group>"; };
+		0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum3.m; sourceTree = "<group>"; };
 		0A8D9413210FFF0700C890E2 /* WordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordBreak.h; sourceTree = "<group>"; };
 		0A8D9414210FFF0700C890E2 /* WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBreak.m; sourceTree = "<group>"; };
 		0A930962210C21E5004D4815 /* GasStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
@@ -447,6 +450,8 @@
 				0A9DA73D20C5441E00475C74 /* CombinationSum.m */,
 				0A7A869620C62CE700F48A3C /* CombinationSum2.h */,
 				0A7A869720C62CE700F48A3C /* CombinationSum2.m */,
+				0A8D12CB212E49E900B6CC86 /* CombinationSum3.h */,
+				0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */,
 				0A7A869D20C68EA400F48A3C /* FirstMissingPositive.h */,
 				0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */,
 				0A7DB7E120C78424002EB139 /* TrappingRainWater.h */,
@@ -766,6 +771,7 @@
 				0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */,
 				0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */,
 				0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */,
+				0A8D12CD212E49E900B6CC86 /* CombinationSum3.m in Sources */,
 				0A7B9CE6211D7A8700B493D0 /* ExcelSheetColumnTitle.m in Sources */,
 				0A7F3138210D826B00BB8DC7 /* Candy.m in Sources */,
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,

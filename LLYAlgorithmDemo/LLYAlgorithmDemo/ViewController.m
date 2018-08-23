@@ -93,6 +93,7 @@
 #import "CountPrimes.h"
 #import "MinimumSizeSubarraySum.h"
 #import "KthLargestElement.h"
+#import "CombinationSum3.h"
 
 @interface ViewController ()
 
@@ -188,8 +189,9 @@
 //    BitwiseANDofNumbersRange *bitwiseANDofNumbersRange = [[BitwiseANDofNumbersRange alloc]init];
 //    CountPrimes *countPrimes = [[CountPrimes alloc]init];
 //    MinimumSizeSubarraySum *minimumSizeSubarraySum = [[MinimumSizeSubarraySum alloc]init];
+//    KthLargestElement *kthLargestElement = [[KthLargestElement alloc]init];
     
-    KthLargestElement *kthLargestElement = [[KthLargestElement alloc]init];
+    CombinationSum3 *combinationSum3 = [[CombinationSum3 alloc]init];
 
 }
 
