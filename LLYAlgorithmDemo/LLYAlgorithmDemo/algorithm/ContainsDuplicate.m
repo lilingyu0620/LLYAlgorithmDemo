@@ -35,7 +35,9 @@
         
 //        BOOL contains = [self containsDuplicate:@[@1,@2,@3,@1]];
 //        BOOL contains = [self containsDuplicate:@[@1,@2,@3,@4]];
-        BOOL contains = [self containsDuplicate:@[@1,@1,@1,@3,@3,@4,@3,@2,@4,@2]];
+//        BOOL contains = [self containsDuplicate:@[@1,@1,@1,@3,@3,@4,@3,@2,@4,@2]];
+        
+        BOOL contains = [self containsDuplicate2:@[@1,@2,@3,@1,@2,@3] k:2];
         NSLog(@"contains = %d",contains);
         
     }
@@ -46,10 +48,6 @@
 - (BOOL)containsDuplicate:(NSArray *)array{
     
     int max = [self maxArray:array];
-    if (max < array.count) {
-        return YES;
-    }
-    
     NSMutableArray *tmpArray = [NSMutableArray array];
     for (int i = 0; i <= max; i++) {
         [tmpArray addObject:@(0)];
@@ -75,5 +73,36 @@
     }
     return max;
 }
+
+
+
+- (BOOL)containsDuplicate2:(NSArray *)array k:(int)k{
+    
+    int max = [self maxArray:array];
+    NSMutableArray *tmpArray = [NSMutableArray array];
+    for (int i = 0; i <= max; i++) {
+        [tmpArray addObject:@(0)];
+    }
+    
+    for (int i = 0; i < array.count; i++) {
+        
+        if ([tmpArray[[array[i] intValue]] intValue] == 1) {
+            continue;
+        }else{
+            tmpArray[[array[i] intValue]] = @(1);
+        }
+    }
+    
+    int count = 0;
+    for (int i = 0; i < tmpArray.count; i++) {
+        if ([tmpArray[i] intValue] == 1) {
+            count++;
+        }
+    }
+    
+    return k >= count;
+    
+}
+
 
 @end

@@ -40,6 +40,7 @@
 		0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */; };
 		0A7B31C720B82DB3001076FA /* KMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C620B82DB2001076FA /* KMP.m */; };
 		0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */; };
+		0A7B5941212FB21B00A48B22 /* MaximalSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B5940212FB21B00A48B22 /* MaximalSquare.m */; };
 		0A7B9CE3211D35B500B493D0 /* TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE2211D35B500B493D0 /* TwoSum2.m */; };
 		0A7B9CE6211D7A8700B493D0 /* ExcelSheetColumnTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B9CE5211D7A8700B493D0 /* ExcelSheetColumnTitle.m */; };
 		0A7BF1392126639F0084B2FF /* NumberofIslands.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF1382126639F0084B2FF /* NumberofIslands.m */; };
@@ -188,6 +189,8 @@
 		0A7B31C620B82DB2001076FA /* KMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMP.m; sourceTree = "<group>"; };
 		0A7B4B3A20F465BA00D12E7D /* RestoreIPAddresses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestoreIPAddresses.h; sourceTree = "<group>"; };
 		0A7B4B3B20F465BA00D12E7D /* RestoreIPAddresses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestoreIPAddresses.m; sourceTree = "<group>"; };
+		0A7B593F212FB21B00A48B22 /* MaximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximalSquare.h; sourceTree = "<group>"; };
+		0A7B5940212FB21B00A48B22 /* MaximalSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximalSquare.m; sourceTree = "<group>"; };
 		0A7B9CE1211D35B500B493D0 /* TwoSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum2.h; sourceTree = "<group>"; };
 		0A7B9CE2211D35B500B493D0 /* TwoSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum2.m; sourceTree = "<group>"; };
 		0A7B9CE4211D7A8700B493D0 /* ExcelSheetColumnTitle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelSheetColumnTitle.h; sourceTree = "<group>"; };
@@ -571,6 +574,8 @@
 				0A81F0D1212D4C5F0030EC92 /* KthLargestElement.m */,
 				0A8D12CE212E579F00B6CC86 /* ContainsDuplicate.h */,
 				0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */,
+				0A7B593F212FB21B00A48B22 /* MaximalSquare.h */,
+				0A7B5940212FB21B00A48B22 /* MaximalSquare.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -718,6 +723,7 @@
 				0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */,
 				0AA12DED20D3677E0035530A /* NQueue.m in Sources */,
 				0A7E6D51210811B80010735A /* SurroundedRegions.m in Sources */,
+				0A7B5941212FB21B00A48B22 /* MaximalSquare.m in Sources */,
 				0AA5246920E746C800EB1A2C /* SortColors.m in Sources */,
 				0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */,
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
