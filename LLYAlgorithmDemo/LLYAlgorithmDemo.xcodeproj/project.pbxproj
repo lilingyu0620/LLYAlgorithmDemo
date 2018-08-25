@@ -10,6 +10,7 @@
 		0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */; };
 		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
 		0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */; };
+		0A2BFDA2213109F000E93358 /* BasicCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFDA1213109F000E93358 /* BasicCalculator.m */; };
 		0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C48FF20FC6667003DFC44 /* RotateArray2.m */; };
 		0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F54DF20FB8686000EDAF3 /* RotateArray.m */; };
 		0A30B09820EB13710012089F /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A30B09720EB13710012089F /* Subsets.m */; };
@@ -129,6 +130,8 @@
 		0A23DDF421030A9000BD0625 /* BuySellStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuySellStock.m; sourceTree = "<group>"; };
 		0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitwiseANDofNumbersRange.h; sourceTree = "<group>"; };
 		0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitwiseANDofNumbersRange.m; sourceTree = "<group>"; };
+		0A2BFDA0213109F000E93358 /* BasicCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicCalculator.h; sourceTree = "<group>"; };
+		0A2BFDA1213109F000E93358 /* BasicCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicCalculator.m; sourceTree = "<group>"; };
 		0A2C48FE20FC6667003DFC44 /* RotateArray2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray2.h; sourceTree = "<group>"; };
 		0A2C48FF20FC6667003DFC44 /* RotateArray2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateArray2.m; sourceTree = "<group>"; };
 		0A2F54DE20FB8686000EDAF3 /* RotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateArray.h; sourceTree = "<group>"; };
@@ -576,6 +579,8 @@
 				0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */,
 				0A7B593F212FB21B00A48B22 /* MaximalSquare.h */,
 				0A7B5940212FB21B00A48B22 /* MaximalSquare.m */,
+				0A2BFDA0213109F000E93358 /* BasicCalculator.h */,
+				0A2BFDA1213109F000E93358 /* BasicCalculator.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -789,6 +794,7 @@
 				0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */,
 				0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */,
 				0A7BF28321097BDB00441F4A /* PalindromePartitioning.m in Sources */,
+				0A2BFDA2213109F000E93358 /* BasicCalculator.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
 				0A9E3FCF210571F000B1D9B7 /* WordLadder.m in Sources */,
 				0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */,
