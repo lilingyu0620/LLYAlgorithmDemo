@@ -37,6 +37,7 @@
 		0A7988BC20C3A69200729764 /* JosephRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7988BB20C3A69200729764 /* JosephRing.m */; };
 		0A79B977211BD2B20010BA78 /* MaximumGap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B976211BD2B20010BA78 /* MaximumGap.m */; };
 		0A7A0BC220E1D232009AC44D /* UniquePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0BC120E1D232009AC44D /* UniquePaths.m */; };
+		0A7A605F2134E71000869D60 /* MajorityElementII.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A605E2134E71000869D60 /* MajorityElementII.m */; };
 		0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869720C62CE700F48A3C /* CombinationSum2.m */; };
 		0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A869E20C68EA400F48A3C /* FirstMissingPositive.m */; };
 		0A7B31C720B82DB3001076FA /* KMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C620B82DB2001076FA /* KMP.m */; };
@@ -184,6 +185,8 @@
 		0A79B976211BD2B20010BA78 /* MaximumGap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximumGap.m; sourceTree = "<group>"; };
 		0A7A0BC020E1D232009AC44D /* UniquePaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniquePaths.h; sourceTree = "<group>"; };
 		0A7A0BC120E1D232009AC44D /* UniquePaths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniquePaths.m; sourceTree = "<group>"; };
+		0A7A605D2134E71000869D60 /* MajorityElementII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MajorityElementII.h; sourceTree = "<group>"; };
+		0A7A605E2134E71000869D60 /* MajorityElementII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajorityElementII.m; sourceTree = "<group>"; };
 		0A7A869620C62CE700F48A3C /* CombinationSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum2.h; sourceTree = "<group>"; };
 		0A7A869720C62CE700F48A3C /* CombinationSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum2.m; sourceTree = "<group>"; };
 		0A7A869D20C68EA400F48A3C /* FirstMissingPositive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstMissingPositive.h; sourceTree = "<group>"; };
@@ -581,6 +584,8 @@
 				0A7B5940212FB21B00A48B22 /* MaximalSquare.m */,
 				0A2BFDA0213109F000E93358 /* BasicCalculator.h */,
 				0A2BFDA1213109F000E93358 /* BasicCalculator.m */,
+				0A7A605D2134E71000869D60 /* MajorityElementII.h */,
+				0A7A605E2134E71000869D60 /* MajorityElementII.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -776,6 +781,7 @@
 				0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */,
 				0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */,
 				0A80F8B321250E900019F075 /* HouseRobber.m in Sources */,
+				0A7A605F2134E71000869D60 /* MajorityElementII.m in Sources */,
 				0A7E268320B501AE000902C6 /* QuickSort.m in Sources */,
 				0A84960A2063B4610060FC6D /* AppDelegate.m in Sources */,
 				0A9D49832073A14E0040A3C8 /* ArrayToSum.m in Sources */,

@@ -97,6 +97,7 @@
 #import "ContainsDuplicate.h"
 #import "MaximalSquare.h"
 #import "BasicCalculator.h"
+#import "MajorityElementII.h"
 
 @interface ViewController ()
 
@@ -196,7 +197,9 @@
 //    CombinationSum3 *combinationSum3 = [[CombinationSum3 alloc]init];
 //    ContainsDuplicate *containsDuplicate = [[ContainsDuplicate alloc]init];
 //    MaximalSquare *maximalSquare = [[MaximalSquare alloc]init];
-    BasicCalculator *basicCalculator = [[BasicCalculator alloc]init];
+//    BasicCalculator *basicCalculator = [[BasicCalculator alloc]init];
+    
+    MajorityElementII *majorityElementII = [[MajorityElementII alloc]init];
 
 }
 
