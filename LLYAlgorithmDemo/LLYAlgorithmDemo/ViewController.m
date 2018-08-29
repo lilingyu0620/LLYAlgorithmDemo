@@ -98,6 +98,8 @@
 #import "MaximalSquare.h"
 #import "BasicCalculator.h"
 #import "MajorityElementII.h"
+#import "PowerOfTwo.h"
+#import "NumberofDigitOne.h"
 
 @interface ViewController ()
 
@@ -198,8 +200,10 @@
 //    ContainsDuplicate *containsDuplicate = [[ContainsDuplicate alloc]init];
 //    MaximalSquare *maximalSquare = [[MaximalSquare alloc]init];
 //    BasicCalculator *basicCalculator = [[BasicCalculator alloc]init];
+//    MajorityElementII *majorityElementII = [[MajorityElementII alloc]init];
+//    PowerOfTwo *powerOfTwo = [[PowerOfTwo alloc]init];
     
-    MajorityElementII *majorityElementII = [[MajorityElementII alloc]init];
+    NumberofDigitOne *numberofDigitOne = [[NumberofDigitOne alloc]init];
 
 }
 
