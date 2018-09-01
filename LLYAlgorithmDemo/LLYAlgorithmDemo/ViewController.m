@@ -100,7 +100,7 @@
 #import "MajorityElementII.h"
 #import "PowerOfTwo.h"
 #import "NumberofDigitOne.h"
-
+#import "ProductofArrayExceptSelf.h"
 @interface ViewController ()
 
 @end
@@ -202,8 +202,9 @@
 //    BasicCalculator *basicCalculator = [[BasicCalculator alloc]init];
 //    MajorityElementII *majorityElementII = [[MajorityElementII alloc]init];
 //    PowerOfTwo *powerOfTwo = [[PowerOfTwo alloc]init];
+//    NumberofDigitOne *numberofDigitOne = [[NumberofDigitOne alloc]init];
     
-    NumberofDigitOne *numberofDigitOne = [[NumberofDigitOne alloc]init];
+    ProductofArrayExceptSelf *productofArrayExceptSelf = [[ProductofArrayExceptSelf alloc]init];
 
 }
 
