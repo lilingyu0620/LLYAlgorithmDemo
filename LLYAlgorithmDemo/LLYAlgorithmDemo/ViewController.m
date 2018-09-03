@@ -101,6 +101,8 @@
 #import "PowerOfTwo.h"
 #import "NumberofDigitOne.h"
 #import "ProductofArrayExceptSelf.h"
+#import "SlidingWindowMaximum.h"
+
 @interface ViewController ()
 
 @end
@@ -203,8 +205,9 @@
 //    MajorityElementII *majorityElementII = [[MajorityElementII alloc]init];
 //    PowerOfTwo *powerOfTwo = [[PowerOfTwo alloc]init];
 //    NumberofDigitOne *numberofDigitOne = [[NumberofDigitOne alloc]init];
+//    ProductofArrayExceptSelf *productofArrayExceptSelf = [[ProductofArrayExceptSelf alloc]init];
     
-    ProductofArrayExceptSelf *productofArrayExceptSelf = [[ProductofArrayExceptSelf alloc]init];
+    SlidingWindowMaximum *slidingWindowMaximum = [[SlidingWindowMaximum alloc]init];
 
 }
 
