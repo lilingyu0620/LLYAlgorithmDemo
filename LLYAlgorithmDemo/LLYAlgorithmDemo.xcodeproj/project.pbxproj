@@ -81,6 +81,7 @@
 		0A86F4172117E2D0008CE881 /* ReverseWordsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A86F4162117E2D0008CE881 /* ReverseWordsString.m */; };
 		0A8845CB21363E3F00F921E4 /* PowerOfTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845CA21363E3F00F921E4 /* PowerOfTwo.m */; };
 		0A8845CE213641D800F921E4 /* NumberofDigitOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845CD213641D800F921E4 /* NumberofDigitOne.m */; };
+		0A8954A3213F7CB4008C0F20 /* Search2DMatrixII.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8954A2213F7CB4008C0F20 /* Search2DMatrixII.m */; };
 		0A89F88020B15914008E5811 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F87F20B15914008E5811 /* HeapSort.m */; };
 		0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
@@ -277,6 +278,8 @@
 		0A8845CA21363E3F00F921E4 /* PowerOfTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerOfTwo.m; sourceTree = "<group>"; };
 		0A8845CC213641D800F921E4 /* NumberofDigitOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberofDigitOne.h; sourceTree = "<group>"; };
 		0A8845CD213641D800F921E4 /* NumberofDigitOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberofDigitOne.m; sourceTree = "<group>"; };
+		0A8954A1213F7CB4008C0F20 /* Search2DMatrixII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search2DMatrixII.h; sourceTree = "<group>"; };
+		0A8954A2213F7CB4008C0F20 /* Search2DMatrixII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Search2DMatrixII.m; sourceTree = "<group>"; };
 		0A89F87E20B15914008E5811 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
 		0A89F87F20B15914008E5811 /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
 		0A8A52DA2123CD48008E4047 /* Numberof1Bits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Numberof1Bits.h; sourceTree = "<group>"; };
@@ -606,6 +609,8 @@
 				0A94BFAA213A78BD0094CDD4 /* ProductofArrayExceptSelf.m */,
 				0AA2895B213CD015005BCA16 /* SlidingWindowMaximum.h */,
 				0AA2895C213CD015005BCA16 /* SlidingWindowMaximum.m */,
+				0A8954A1213F7CB4008C0F20 /* Search2DMatrixII.h */,
+				0A8954A2213F7CB4008C0F20 /* Search2DMatrixII.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -783,6 +788,7 @@
 				0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */,
 				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,
 				0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */,
+				0A8954A3213F7CB4008C0F20 /* Search2DMatrixII.m in Sources */,
 				0A30B09820EB13710012089F /* Subsets.m in Sources */,
 				0A8845CB21363E3F00F921E4 /* PowerOfTwo.m in Sources */,
 				0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */,
