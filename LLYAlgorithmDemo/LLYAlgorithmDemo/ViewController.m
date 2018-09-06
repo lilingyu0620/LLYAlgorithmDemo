@@ -103,6 +103,7 @@
 #import "ProductofArrayExceptSelf.h"
 #import "SlidingWindowMaximum.h"
 #import "Search2DMatrixII.h"
+#import "DifferentWaysAddParentheses.h"
 
 @interface ViewController ()
 
@@ -208,8 +209,9 @@
 //    NumberofDigitOne *numberofDigitOne = [[NumberofDigitOne alloc]init];
 //    ProductofArrayExceptSelf *productofArrayExceptSelf = [[ProductofArrayExceptSelf alloc]init];
 //    SlidingWindowMaximum *slidingWindowMaximum = [[SlidingWindowMaximum alloc]init];
+//    Search2DMatrixII *search2DMatrixII = [[Search2DMatrixII alloc]init];
     
-    Search2DMatrixII *search2DMatrixII = [[Search2DMatrixII alloc]init];
+    DifferentWaysAddParentheses *differentWaysAddParentheses = [[DifferentWaysAddParentheses alloc]init];
 
 }
 
