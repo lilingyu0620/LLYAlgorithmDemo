@@ -104,6 +104,7 @@
 #import "SlidingWindowMaximum.h"
 #import "Search2DMatrixII.h"
 #import "DifferentWaysAddParentheses.h"
+#import "ValidAnagram.h"
 
 @interface ViewController ()
 
@@ -210,8 +211,9 @@
 //    ProductofArrayExceptSelf *productofArrayExceptSelf = [[ProductofArrayExceptSelf alloc]init];
 //    SlidingWindowMaximum *slidingWindowMaximum = [[SlidingWindowMaximum alloc]init];
 //    Search2DMatrixII *search2DMatrixII = [[Search2DMatrixII alloc]init];
+//    DifferentWaysAddParentheses *differentWaysAddParentheses = [[DifferentWaysAddParentheses alloc]init];
     
-    DifferentWaysAddParentheses *differentWaysAddParentheses = [[DifferentWaysAddParentheses alloc]init];
+    ValidAnagram *validAnagram = [[ValidAnagram alloc]init];
 
 }
 

@@ -15,6 +15,7 @@
 		0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F54DF20FB8686000EDAF3 /* RotateArray.m */; };
 		0A30B09820EB13710012089F /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A30B09720EB13710012089F /* Subsets.m */; };
 		0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */; };
+		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
 		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
 		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
@@ -147,6 +148,8 @@
 		0A30B09720EB13710012089F /* Subsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets.m; sourceTree = "<group>"; };
 		0A361D3D20E8967000CE410D /* MinimumWindowSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumWindowSubstring.h; sourceTree = "<group>"; };
 		0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumWindowSubstring.m; sourceTree = "<group>"; };
+		0A3B4D6C2143D5F20080898B /* ValidAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidAnagram.h; sourceTree = "<group>"; };
+		0A3B4D6D2143D5F20080898B /* ValidAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagram.m; sourceTree = "<group>"; };
 		0A49421D20D27AA5000B3A78 /* GroupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnagrams.h; sourceTree = "<group>"; };
 		0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnagrams.m; sourceTree = "<group>"; };
 		0A4A2FA420DF7266006183F5 /* PermutationSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermutationSequence.h; sourceTree = "<group>"; };
@@ -616,6 +619,8 @@
 				0A8954A2213F7CB4008C0F20 /* Search2DMatrixII.m */,
 				0A85EB592141317B00749F32 /* DifferentWaysAddParentheses.h */,
 				0A85EB5A2141317B00749F32 /* DifferentWaysAddParentheses.m */,
+				0A3B4D6C2143D5F20080898B /* ValidAnagram.h */,
+				0A3B4D6D2143D5F20080898B /* ValidAnagram.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -777,6 +782,7 @@
 				0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */,
 				0A96D7252071C0A0000720CA /* Recurrence.m in Sources */,
 				0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */,
+				0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */,
 				0A7A0BC220E1D232009AC44D /* UniquePaths.m in Sources */,
 				0A7B9CE3211D35B500B493D0 /* TwoSum2.m in Sources */,
 				0A76527E20BCEF0100A3BA70 /* PhoneNumToStr.m in Sources */,
