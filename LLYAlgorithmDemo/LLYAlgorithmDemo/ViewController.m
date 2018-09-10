@@ -186,7 +186,7 @@
 //    PalindromePartitioning *palindromePartitioning = [[PalindromePartitioning alloc]init];
 //    GasStation *gasStation = [[GasStation alloc]init];
 //    Candy *candy = [[Candy alloc]init];
-//    SingleNumber *singleNumber = [[SingleNumber alloc]init];
+    SingleNumber *singleNumber = [[SingleNumber alloc]init];
 //    WordBreak *wordBreak = [[WordBreak alloc]init];
 //    ReverseWordsString *reverseWordsString = [[ReverseWordsString alloc]init];
 //    MaximumProductSubarray *maximumProductSubarray = [[MaximumProductSubarray alloc]init];
@@ -213,7 +213,7 @@
 //    Search2DMatrixII *search2DMatrixII = [[Search2DMatrixII alloc]init];
 //    DifferentWaysAddParentheses *differentWaysAddParentheses = [[DifferentWaysAddParentheses alloc]init];
     
-    ValidAnagram *validAnagram = [[ValidAnagram alloc]init];
+//    ValidAnagram *validAnagram = [[ValidAnagram alloc]init];
 
 }
 

@@ -40,6 +40,9 @@
         single = [self singleNumber3:@[@0,@1,@0,@1,@0,@1,@99]];
         NSLog(@"single = %ld",(long)single);
         
+        NSArray *array = [self singleNumbers:@[@1,@1,@2,@2,@5,@4]];
+        NSLog(@"array = %@",array);
+        
     }
     return self;
 }
@@ -93,12 +96,34 @@
     int one = 0,two = 0;
     for (int i = 0; i < array.count; i++) {
         
-        one = (one ^ [array[i] intValue]) & ~two;
-        two = (two ^ [array[i] intValue]) & ~one;
+        one = (one ^ [array[i] intValue]) & ~two;//记录出现一次的
+        two = (two ^ [array[i] intValue]) & ~one;//记录出现二次的
         
     }
     
     return one;
+}
+
+- (NSArray *)singleNumbers:(NSArray *)array{
+    
+    int ret = 0;
+    for (int i = 0; i < array.count; i++) {
+        ret ^= [array[i] intValue];
+    }
+    
+//    ret &= -ret;
+    
+    int num1 = 0,num2 = 0;
+    for (int i = 0; i < array.count; i++) {
+        if (([array[i] intValue] & ret) == 0) {
+            num1 ^= [array[i] intValue];
+        }else{
+            num2 ^= [array[i] intValue];
+        }
+    }
+
+    return @[@(num1),@(num2)];
+    
 }
 
 @end
