@@ -18,6 +18,7 @@
 		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
 		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
+		0A4C2F942147C00700810000 /* UglyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C2F932147C00700810000 /* UglyNumber.m */; };
 		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
 		0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A579C5220958A80004B78A3 /* HanoiTower.m */; };
 		0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6424C920E32C0D00D356E5 /* MinimumPathSum.m */; };
@@ -154,6 +155,8 @@
 		0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnagrams.m; sourceTree = "<group>"; };
 		0A4A2FA420DF7266006183F5 /* PermutationSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermutationSequence.h; sourceTree = "<group>"; };
 		0A4A2FA520DF7266006183F5 /* PermutationSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermutationSequence.m; sourceTree = "<group>"; };
+		0A4C2F922147C00700810000 /* UglyNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UglyNumber.h; sourceTree = "<group>"; };
+		0A4C2F932147C00700810000 /* UglyNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UglyNumber.m; sourceTree = "<group>"; };
 		0A5728D020C25B5F008E5F6D /* MaxMinInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxMinInArray.h; sourceTree = "<group>"; };
 		0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxMinInArray.m; sourceTree = "<group>"; };
 		0A579C5120958A80004B78A3 /* HanoiTower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTower.h; sourceTree = "<group>"; };
@@ -621,6 +624,8 @@
 				0A85EB5A2141317B00749F32 /* DifferentWaysAddParentheses.m */,
 				0A3B4D6C2143D5F20080898B /* ValidAnagram.h */,
 				0A3B4D6D2143D5F20080898B /* ValidAnagram.m */,
+				0A4C2F922147C00700810000 /* UglyNumber.h */,
+				0A4C2F932147C00700810000 /* UglyNumber.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -773,6 +778,7 @@
 				0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */,
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
 				0A7F313B210D9FF400BB8DC7 /* SingleNumber.m in Sources */,
+				0A4C2F942147C00700810000 /* UglyNumber.m in Sources */,
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
 				0A78105F21194329004A0771 /* MaximumProductSubarray.m in Sources */,
 				0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */,
