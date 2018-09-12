@@ -35,8 +35,11 @@
     self = [super init];
     if (self) {
         
-        BOOL bRet = [self uglyNumber:25];
+        BOOL bRet = [self uglyNumber:80];
         NSLog(@"bRet = %d",bRet);
+        
+        int num = [self uglyNumber2:30];
+        NSLog(@"num = %d",num);
         
     }
     return self;
@@ -60,6 +63,19 @@
         }
     }
     return bRet;
+}
+
+- (int)uglyNumber2:(int)num{
+    
+    int nums = 0,i = 1;
+    while (nums < num) {
+        if ([self uglyNumber:i]) {
+            nums++;
+        }
+        i++;
+    }
+    return i-1;
+    
 }
 
 @end
