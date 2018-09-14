@@ -50,6 +50,7 @@
 		0A7BF1392126639F0084B2FF /* NumberofIslands.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF1382126639F0084B2FF /* NumberofIslands.m */; };
 		0A7BF28321097BDB00441F4A /* PalindromePartitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */; };
 		0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C2C3320E500F100549F5F /* SetMatrixZeroes.m */; };
+		0A7C65F3214B664400FF5861 /* MissingNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C65F2214B664400FF5861 /* MissingNumber.m */; };
 		0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD33A20CA23CB003D10DF /* RotateImage.m */; };
 		0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */; };
 		0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E220C78424002EB139 /* TrappingRainWater.m */; };
@@ -219,6 +220,8 @@
 		0A7BF28221097BDB00441F4A /* PalindromePartitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromePartitioning.m; sourceTree = "<group>"; };
 		0A7C2C3220E500F100549F5F /* SetMatrixZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetMatrixZeroes.h; sourceTree = "<group>"; };
 		0A7C2C3320E500F100549F5F /* SetMatrixZeroes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetMatrixZeroes.m; sourceTree = "<group>"; };
+		0A7C65F1214B664400FF5861 /* MissingNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissingNumber.h; sourceTree = "<group>"; };
+		0A7C65F2214B664400FF5861 /* MissingNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MissingNumber.m; sourceTree = "<group>"; };
 		0A7CD33920CA23CB003D10DF /* RotateImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateImage.h; sourceTree = "<group>"; };
 		0A7CD33A20CA23CB003D10DF /* RotateImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateImage.m; sourceTree = "<group>"; };
 		0A7D76A120BE36A60084C7A9 /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
@@ -626,6 +629,8 @@
 				0A3B4D6D2143D5F20080898B /* ValidAnagram.m */,
 				0A4C2F922147C00700810000 /* UglyNumber.h */,
 				0A4C2F932147C00700810000 /* UglyNumber.m */,
+				0A7C65F1214B664400FF5861 /* MissingNumber.h */,
+				0A7C65F2214B664400FF5861 /* MissingNumber.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -850,6 +855,7 @@
 				0A2BFDA2213109F000E93358 /* BasicCalculator.m in Sources */,
 				0A7E268620B50235000902C6 /* MergeSort.m in Sources */,
 				0A9E3FCF210571F000B1D9B7 /* WordLadder.m in Sources */,
+				0A7C65F3214B664400FF5861 /* MissingNumber.m in Sources */,
 				0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */,
 				0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */,
 				0A7B4B3C20F465BA00D12E7D /* RestoreIPAddresses.m in Sources */,

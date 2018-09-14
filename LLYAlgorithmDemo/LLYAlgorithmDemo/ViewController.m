@@ -106,6 +106,7 @@
 #import "DifferentWaysAddParentheses.h"
 #import "ValidAnagram.h"
 #import "UglyNumber.h"
+#import "MissingNumber.h"
 
 @interface ViewController ()
 
@@ -214,8 +215,9 @@
 //    Search2DMatrixII *search2DMatrixII = [[Search2DMatrixII alloc]init];
 //    DifferentWaysAddParentheses *differentWaysAddParentheses = [[DifferentWaysAddParentheses alloc]init];
 //    ValidAnagram *validAnagram = [[ValidAnagram alloc]init];
+//    UglyNumber *uglyNumber = [[UglyNumber alloc]init];
     
-    UglyNumber *uglyNumber = [[UglyNumber alloc]init];
+    MissingNumber *missingNumber = [[MissingNumber alloc]init];
 
 }
 
