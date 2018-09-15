@@ -107,6 +107,7 @@
 #import "ValidAnagram.h"
 #import "UglyNumber.h"
 #import "MissingNumber.h"
+#import "PerfectSquares.h"
 
 @interface ViewController ()
 
@@ -216,8 +217,9 @@
 //    DifferentWaysAddParentheses *differentWaysAddParentheses = [[DifferentWaysAddParentheses alloc]init];
 //    ValidAnagram *validAnagram = [[ValidAnagram alloc]init];
 //    UglyNumber *uglyNumber = [[UglyNumber alloc]init];
+//    MissingNumber *missingNumber = [[MissingNumber alloc]init];
     
-    MissingNumber *missingNumber = [[MissingNumber alloc]init];
+    PerfectSquares *perfectSquares = [[PerfectSquares alloc]init];
 
 }
 

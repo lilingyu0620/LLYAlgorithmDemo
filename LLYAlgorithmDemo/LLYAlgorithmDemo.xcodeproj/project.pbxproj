@@ -111,6 +111,7 @@
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 		0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2895C213CD015005BCA16 /* SlidingWindowMaximum.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
+		0AB506C5214CD5BC00D7582D /* PerfectSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB506C4214CD5BC00D7582D /* PerfectSquares.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
 		0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB488D20F3140D008C786A /* DecodeWays.m */; };
@@ -342,6 +343,8 @@
 		0AA2895C213CD015005BCA16 /* SlidingWindowMaximum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingWindowMaximum.m; sourceTree = "<group>"; };
 		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
 		0AA5246820E746C800EB1A2C /* SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortColors.m; sourceTree = "<group>"; };
+		0AB506C3214CD5BC00D7582D /* PerfectSquares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfectSquares.h; sourceTree = "<group>"; };
+		0AB506C4214CD5BC00D7582D /* PerfectSquares.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectSquares.m; sourceTree = "<group>"; };
 		0ABC520220F1E2CF00F9D854 /* Subsets2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subsets2.h; sourceTree = "<group>"; };
 		0ABC520320F1E2CF00F9D854 /* Subsets2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets2.m; sourceTree = "<group>"; };
 		0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiralMatrix.h; sourceTree = "<group>"; };
@@ -631,6 +634,8 @@
 				0A4C2F932147C00700810000 /* UglyNumber.m */,
 				0A7C65F1214B664400FF5861 /* MissingNumber.h */,
 				0A7C65F2214B664400FF5861 /* MissingNumber.m */,
+				0AB506C3214CD5BC00D7582D /* PerfectSquares.h */,
+				0AB506C4214CD5BC00D7582D /* PerfectSquares.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -803,6 +808,7 @@
 				0A7BF1392126639F0084B2FF /* NumberofIslands.m in Sources */,
 				0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */,
 				0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */,
+				0AB506C5214CD5BC00D7582D /* PerfectSquares.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */,
