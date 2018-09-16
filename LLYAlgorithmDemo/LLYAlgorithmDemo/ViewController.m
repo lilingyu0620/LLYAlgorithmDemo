@@ -108,6 +108,7 @@
 #import "UglyNumber.h"
 #import "MissingNumber.h"
 #import "PerfectSquares.h"
+#import "MoveZeroes.h"
 
 @interface ViewController ()
 
@@ -218,8 +219,9 @@
 //    ValidAnagram *validAnagram = [[ValidAnagram alloc]init];
 //    UglyNumber *uglyNumber = [[UglyNumber alloc]init];
 //    MissingNumber *missingNumber = [[MissingNumber alloc]init];
+//    PerfectSquares *perfectSquares = [[PerfectSquares alloc]init];
     
-    PerfectSquares *perfectSquares = [[PerfectSquares alloc]init];
+    MoveZeroes *moveZeroes = [[MoveZeroes alloc]init];
 
 }
 

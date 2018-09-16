@@ -94,6 +94,7 @@
 		0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */; };
 		0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D9414210FFF0700C890E2 /* WordBreak.m */; };
 		0A930964210C21E5004D4815 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A930963210C21E5004D4815 /* GasStation.m */; };
+		0A942BD2214E395B00354708 /* MoveZeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A942BD1214E395B00354708 /* MoveZeroes.m */; };
 		0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28020A94FD500477751 /* ReverseInteger.m */; };
 		0A94B28420A9837E00477751 /* StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28320A9837E00477751 /* StringToInteger.m */; };
 		0A94BFAB213A78BD0094CDD4 /* ProductofArrayExceptSelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94BFAA213A78BD0094CDD4 /* ProductofArrayExceptSelf.m */; };
@@ -309,6 +310,8 @@
 		0A8D9414210FFF0700C890E2 /* WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBreak.m; sourceTree = "<group>"; };
 		0A930962210C21E5004D4815 /* GasStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
 		0A930963210C21E5004D4815 /* GasStation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasStation.m; sourceTree = "<group>"; };
+		0A942BD0214E395B00354708 /* MoveZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveZeroes.h; sourceTree = "<group>"; };
+		0A942BD1214E395B00354708 /* MoveZeroes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZeroes.m; sourceTree = "<group>"; };
 		0A94B27F20A94FD500477751 /* ReverseInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
 		0A94B28020A94FD500477751 /* ReverseInteger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseInteger.m; sourceTree = "<group>"; };
 		0A94B28220A9837E00477751 /* StringToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringToInteger.h; sourceTree = "<group>"; };
@@ -636,6 +639,8 @@
 				0A7C65F2214B664400FF5861 /* MissingNumber.m */,
 				0AB506C3214CD5BC00D7582D /* PerfectSquares.h */,
 				0AB506C4214CD5BC00D7582D /* PerfectSquares.m */,
+				0A942BD0214E395B00354708 /* MoveZeroes.h */,
+				0A942BD1214E395B00354708 /* MoveZeroes.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -835,6 +840,7 @@
 				0A94B28420A9837E00477751 /* StringToInteger.m in Sources */,
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,
 				0A9CD6D7212A559700F93469 /* CountPrimes.m in Sources */,
+				0A942BD2214E395B00354708 /* MoveZeroes.m in Sources */,
 				0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */,
 				0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */,
 				0A80F8B321250E900019F075 /* HouseRobber.m in Sources */,
