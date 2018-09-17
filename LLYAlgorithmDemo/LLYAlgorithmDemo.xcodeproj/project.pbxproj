@@ -99,6 +99,7 @@
 		0A94B28420A9837E00477751 /* StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28320A9837E00477751 /* StringToInteger.m */; };
 		0A94BFAB213A78BD0094CDD4 /* ProductofArrayExceptSelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94BFAA213A78BD0094CDD4 /* ProductofArrayExceptSelf.m */; };
 		0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A95A39A20BBAA2F00804608 /* ArrayThreeSumZero.m */; };
+		0A961E77214F5525007FF4DA /* FindDuplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A961E76214F5525007FF4DA /* FindDuplicateNumber.m */; };
 		0A96D7252071C0A0000720CA /* Recurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96D7242071C0A0000720CA /* Recurrence.m */; };
 		0A983D5820F5AB5D00066AA1 /* InterleavingString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A983D5720F5AB5D00066AA1 /* InterleavingString.m */; };
 		0A9C205920E0811C00CB1914 /* RotateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C205820E0811C00CB1914 /* RotateList.m */; };
@@ -320,6 +321,8 @@
 		0A94BFAA213A78BD0094CDD4 /* ProductofArrayExceptSelf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductofArrayExceptSelf.m; sourceTree = "<group>"; };
 		0A95A39920BBAA2F00804608 /* ArrayThreeSumZero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayThreeSumZero.h; sourceTree = "<group>"; };
 		0A95A39A20BBAA2F00804608 /* ArrayThreeSumZero.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayThreeSumZero.m; sourceTree = "<group>"; };
+		0A961E75214F5525007FF4DA /* FindDuplicateNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindDuplicateNumber.h; sourceTree = "<group>"; };
+		0A961E76214F5525007FF4DA /* FindDuplicateNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindDuplicateNumber.m; sourceTree = "<group>"; };
 		0A96D7232071C0A0000720CA /* Recurrence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recurrence.h; sourceTree = "<group>"; };
 		0A96D7242071C0A0000720CA /* Recurrence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recurrence.m; sourceTree = "<group>"; };
 		0A983D5620F5AB5D00066AA1 /* InterleavingString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterleavingString.h; sourceTree = "<group>"; };
@@ -641,6 +644,8 @@
 				0AB506C4214CD5BC00D7582D /* PerfectSquares.m */,
 				0A942BD0214E395B00354708 /* MoveZeroes.h */,
 				0A942BD1214E395B00354708 /* MoveZeroes.m */,
+				0A961E75214F5525007FF4DA /* FindDuplicateNumber.h */,
+				0A961E76214F5525007FF4DA /* FindDuplicateNumber.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -787,6 +792,7 @@
 				0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */,
 				0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */,
 				0AA12DED20D3677E0035530A /* NQueue.m in Sources */,
+				0A961E77214F5525007FF4DA /* FindDuplicateNumber.m in Sources */,
 				0A7E6D51210811B80010735A /* SurroundedRegions.m in Sources */,
 				0A7B5941212FB21B00A48B22 /* MaximalSquare.m in Sources */,
 				0AA5246920E746C800EB1A2C /* SortColors.m in Sources */,

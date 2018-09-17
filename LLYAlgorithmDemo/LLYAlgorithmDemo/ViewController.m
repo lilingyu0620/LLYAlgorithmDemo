@@ -109,6 +109,7 @@
 #import "MissingNumber.h"
 #import "PerfectSquares.h"
 #import "MoveZeroes.h"
+#import "FindDuplicateNumber.h"
 
 @interface ViewController ()
 
@@ -220,8 +221,9 @@
 //    UglyNumber *uglyNumber = [[UglyNumber alloc]init];
 //    MissingNumber *missingNumber = [[MissingNumber alloc]init];
 //    PerfectSquares *perfectSquares = [[PerfectSquares alloc]init];
+//    MoveZeroes *moveZeroes = [[MoveZeroes alloc]init];
     
-    MoveZeroes *moveZeroes = [[MoveZeroes alloc]init];
+    FindDuplicateNumber *findDuplicateNumber = [[FindDuplicateNumber alloc]init];
 
 }
 
