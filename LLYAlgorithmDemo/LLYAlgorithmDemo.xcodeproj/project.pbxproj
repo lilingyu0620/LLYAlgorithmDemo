@@ -90,6 +90,7 @@
 		0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
+		0A8CBDA42150ED3C008EEDDC /* WordPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CBDA32150ED3C008EEDDC /* WordPattern.m */; };
 		0A8D12CD212E49E900B6CC86 /* CombinationSum3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */; };
 		0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */; };
 		0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D9414210FFF0700C890E2 /* WordBreak.m */; };
@@ -303,6 +304,8 @@
 		0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistinctSubsequences.m; sourceTree = "<group>"; };
 		0A8B295F20DC926B006AF03B /* InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertInterval.h; sourceTree = "<group>"; };
 		0A8B296020DC926B006AF03B /* InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertInterval.m; sourceTree = "<group>"; };
+		0A8CBDA22150ED3C008EEDDC /* WordPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordPattern.h; sourceTree = "<group>"; };
+		0A8CBDA32150ED3C008EEDDC /* WordPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPattern.m; sourceTree = "<group>"; };
 		0A8D12CB212E49E900B6CC86 /* CombinationSum3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum3.h; sourceTree = "<group>"; };
 		0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum3.m; sourceTree = "<group>"; };
 		0A8D12CE212E579F00B6CC86 /* ContainsDuplicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainsDuplicate.h; sourceTree = "<group>"; };
@@ -646,6 +649,8 @@
 				0A942BD1214E395B00354708 /* MoveZeroes.m */,
 				0A961E75214F5525007FF4DA /* FindDuplicateNumber.h */,
 				0A961E76214F5525007FF4DA /* FindDuplicateNumber.m */,
+				0A8CBDA22150ED3C008EEDDC /* WordPattern.h */,
+				0A8CBDA32150ED3C008EEDDC /* WordPattern.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -821,6 +826,7 @@
 				0A7FF36D21003EE90004FF8C /* YangHuiTriangle.m in Sources */,
 				0AB506C5214CD5BC00D7582D /* PerfectSquares.m in Sources */,
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
+				0A8CBDA42150ED3C008EEDDC /* WordPattern.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */,
 				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,

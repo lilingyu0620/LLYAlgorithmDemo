@@ -110,6 +110,7 @@
 #import "PerfectSquares.h"
 #import "MoveZeroes.h"
 #import "FindDuplicateNumber.h"
+#import "WordPattern.h"
 
 @interface ViewController ()
 
@@ -222,8 +223,9 @@
 //    MissingNumber *missingNumber = [[MissingNumber alloc]init];
 //    PerfectSquares *perfectSquares = [[PerfectSquares alloc]init];
 //    MoveZeroes *moveZeroes = [[MoveZeroes alloc]init];
+//    FindDuplicateNumber *findDuplicateNumber = [[FindDuplicateNumber alloc]init];
     
-    FindDuplicateNumber *findDuplicateNumber = [[FindDuplicateNumber alloc]init];
+    WordPattern *wordPattern = [[WordPattern alloc]init];
 
 }
 
