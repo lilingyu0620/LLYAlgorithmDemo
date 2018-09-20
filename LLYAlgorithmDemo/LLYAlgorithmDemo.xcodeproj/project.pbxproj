@@ -94,6 +94,7 @@
 		0A8D12CD212E49E900B6CC86 /* CombinationSum3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */; };
 		0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */; };
 		0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D9414210FFF0700C890E2 /* WordBreak.m */; };
+		0A92A05821533C6D001EAEF7 /* BullsCows.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A05721533C6D001EAEF7 /* BullsCows.m */; };
 		0A930964210C21E5004D4815 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A930963210C21E5004D4815 /* GasStation.m */; };
 		0A942BD2214E395B00354708 /* MoveZeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A942BD1214E395B00354708 /* MoveZeroes.m */; };
 		0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94B28020A94FD500477751 /* ReverseInteger.m */; };
@@ -312,6 +313,8 @@
 		0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainsDuplicate.m; sourceTree = "<group>"; };
 		0A8D9413210FFF0700C890E2 /* WordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordBreak.h; sourceTree = "<group>"; };
 		0A8D9414210FFF0700C890E2 /* WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBreak.m; sourceTree = "<group>"; };
+		0A92A05621533C6D001EAEF7 /* BullsCows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsCows.h; sourceTree = "<group>"; };
+		0A92A05721533C6D001EAEF7 /* BullsCows.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsCows.m; sourceTree = "<group>"; };
 		0A930962210C21E5004D4815 /* GasStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
 		0A930963210C21E5004D4815 /* GasStation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasStation.m; sourceTree = "<group>"; };
 		0A942BD0214E395B00354708 /* MoveZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveZeroes.h; sourceTree = "<group>"; };
@@ -651,6 +654,8 @@
 				0A961E76214F5525007FF4DA /* FindDuplicateNumber.m */,
 				0A8CBDA22150ED3C008EEDDC /* WordPattern.h */,
 				0A8CBDA32150ED3C008EEDDC /* WordPattern.m */,
+				0A92A05621533C6D001EAEF7 /* BullsCows.h */,
+				0A92A05721533C6D001EAEF7 /* BullsCows.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -829,6 +834,7 @@
 				0A8CBDA42150ED3C008EEDDC /* WordPattern.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
 				0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */,
+				0A92A05821533C6D001EAEF7 /* BullsCows.m in Sources */,
 				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,
 				0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */,
 				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,

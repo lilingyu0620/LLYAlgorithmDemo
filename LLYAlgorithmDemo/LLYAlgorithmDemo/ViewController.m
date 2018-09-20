@@ -111,6 +111,7 @@
 #import "MoveZeroes.h"
 #import "FindDuplicateNumber.h"
 #import "WordPattern.h"
+#import "BullsCows.h"
 
 @interface ViewController ()
 
@@ -224,8 +225,9 @@
 //    PerfectSquares *perfectSquares = [[PerfectSquares alloc]init];
 //    MoveZeroes *moveZeroes = [[MoveZeroes alloc]init];
 //    FindDuplicateNumber *findDuplicateNumber = [[FindDuplicateNumber alloc]init];
+//    WordPattern *wordPattern = [[WordPattern alloc]init];
     
-    WordPattern *wordPattern = [[WordPattern alloc]init];
+    BullsCows *bullsCows = [[BullsCows alloc]init];
 
 }
 
