@@ -112,6 +112,7 @@
 #import "FindDuplicateNumber.h"
 #import "WordPattern.h"
 #import "BullsCows.h"
+#import "LongestIncreasingSubsequence.h"
 
 @interface ViewController ()
 
@@ -226,8 +227,9 @@
 //    MoveZeroes *moveZeroes = [[MoveZeroes alloc]init];
 //    FindDuplicateNumber *findDuplicateNumber = [[FindDuplicateNumber alloc]init];
 //    WordPattern *wordPattern = [[WordPattern alloc]init];
+//    BullsCows *bullsCows = [[BullsCows alloc]init];
     
-    BullsCows *bullsCows = [[BullsCows alloc]init];
+    LongestIncreasingSubsequence *longestIncreasingSubsequence = [[LongestIncreasingSubsequence alloc]init];
 
 }
 

@@ -114,6 +114,7 @@
 		0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0043321211AF90099FB14 /* LargestNumber.m */; };
 		0AA12DED20D3677E0035530A /* NQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12DEC20D3677E0035530A /* NQueue.m */; };
 		0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2895C213CD015005BCA16 /* SlidingWindowMaximum.m */; };
+		0AA32A792154FE00000C2A06 /* LongestIncreasingSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
 		0AB506C5214CD5BC00D7582D /* PerfectSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB506C4214CD5BC00D7582D /* PerfectSquares.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
@@ -353,6 +354,8 @@
 		0AA12DEC20D3677E0035530A /* NQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQueue.m; sourceTree = "<group>"; };
 		0AA2895B213CD015005BCA16 /* SlidingWindowMaximum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingWindowMaximum.h; sourceTree = "<group>"; };
 		0AA2895C213CD015005BCA16 /* SlidingWindowMaximum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingWindowMaximum.m; sourceTree = "<group>"; };
+		0AA32A772154FE00000C2A06 /* LongestIncreasingSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingSubsequence.h; sourceTree = "<group>"; };
+		0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequence.m; sourceTree = "<group>"; };
 		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
 		0AA5246820E746C800EB1A2C /* SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortColors.m; sourceTree = "<group>"; };
 		0AB506C3214CD5BC00D7582D /* PerfectSquares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfectSquares.h; sourceTree = "<group>"; };
@@ -656,6 +659,8 @@
 				0A8CBDA32150ED3C008EEDDC /* WordPattern.m */,
 				0A92A05621533C6D001EAEF7 /* BullsCows.h */,
 				0A92A05721533C6D001EAEF7 /* BullsCows.m */,
+				0AA32A772154FE00000C2A06 /* LongestIncreasingSubsequence.h */,
+				0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -836,6 +841,7 @@
 				0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */,
 				0A92A05821533C6D001EAEF7 /* BullsCows.m in Sources */,
 				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,
+				0AA32A792154FE00000C2A06 /* LongestIncreasingSubsequence.m in Sources */,
 				0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */,
 				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,
 				0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */,

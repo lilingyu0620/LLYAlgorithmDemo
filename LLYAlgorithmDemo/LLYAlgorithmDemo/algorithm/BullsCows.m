@@ -43,7 +43,6 @@
                 wrongPosition++;
                 [secretArray replaceObjectAtIndex:index withObject:@"-1"];
             }
-            
         }
     }
     
