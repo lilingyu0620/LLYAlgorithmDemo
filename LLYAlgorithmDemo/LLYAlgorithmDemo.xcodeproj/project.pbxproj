@@ -87,6 +87,7 @@
 		0A8845CE213641D800F921E4 /* NumberofDigitOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845CD213641D800F921E4 /* NumberofDigitOne.m */; };
 		0A8954A3213F7CB4008C0F20 /* Search2DMatrixII.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8954A2213F7CB4008C0F20 /* Search2DMatrixII.m */; };
 		0A89F88020B15914008E5811 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F87F20B15914008E5811 /* HeapSort.m */; };
+		0A8A51D3215A32980043E294 /* RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A51D2215A32980043E294 /* RemoveInvalidParentheses.m */; };
 		0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
@@ -300,6 +301,8 @@
 		0A8954A2213F7CB4008C0F20 /* Search2DMatrixII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Search2DMatrixII.m; sourceTree = "<group>"; };
 		0A89F87E20B15914008E5811 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
 		0A89F87F20B15914008E5811 /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
+		0A8A51D1215A32980043E294 /* RemoveInvalidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveInvalidParentheses.h; sourceTree = "<group>"; };
+		0A8A51D2215A32980043E294 /* RemoveInvalidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveInvalidParentheses.m; sourceTree = "<group>"; };
 		0A8A52DA2123CD48008E4047 /* Numberof1Bits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Numberof1Bits.h; sourceTree = "<group>"; };
 		0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Numberof1Bits.m; sourceTree = "<group>"; };
 		0A8ACDF520FED9DB00895CED /* DistinctSubsequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistinctSubsequences.h; sourceTree = "<group>"; };
@@ -661,6 +664,8 @@
 				0A92A05721533C6D001EAEF7 /* BullsCows.m */,
 				0AA32A772154FE00000C2A06 /* LongestIncreasingSubsequence.h */,
 				0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */,
+				0A8A51D1215A32980043E294 /* RemoveInvalidParentheses.h */,
+				0A8A51D2215A32980043E294 /* RemoveInvalidParentheses.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -904,6 +909,7 @@
 				0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */,
 				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
 				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
+				0A8A51D3215A32980043E294 /* RemoveInvalidParentheses.m in Sources */,
 				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,
 				0A86B76820B4389100D17FC6 /* GenerateParentheses.m in Sources */,
 			);

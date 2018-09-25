@@ -113,6 +113,7 @@
 #import "WordPattern.h"
 #import "BullsCows.h"
 #import "LongestIncreasingSubsequence.h"
+#import "RemoveInvalidParentheses.h"
 
 @interface ViewController ()
 
@@ -228,8 +229,9 @@
 //    FindDuplicateNumber *findDuplicateNumber = [[FindDuplicateNumber alloc]init];
 //    WordPattern *wordPattern = [[WordPattern alloc]init];
 //    BullsCows *bullsCows = [[BullsCows alloc]init];
+//    LongestIncreasingSubsequence *longestIncreasingSubsequence = [[LongestIncreasingSubsequence alloc]init];
     
-    LongestIncreasingSubsequence *longestIncreasingSubsequence = [[LongestIncreasingSubsequence alloc]init];
+    RemoveInvalidParentheses *removeInvalidParentheses = [[RemoveInvalidParentheses alloc]init];
 
 }
 
