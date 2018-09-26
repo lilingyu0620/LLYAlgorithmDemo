@@ -81,6 +81,7 @@
 		0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84B6282074743C00CD815E /* MaxSubStr.m */; };
 		0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85B34E20DB3CE200EF4DBB /* MergeIntervals.m */; };
 		0A85EB5B2141317B00749F32 /* DifferentWaysAddParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85EB5A2141317B00749F32 /* DifferentWaysAddParentheses.m */; };
+		0A8610F2215B6EE3002DE41A /* RangeSumQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8610F1215B6EE3002DE41A /* RangeSumQuery.m */; };
 		0A86B76820B4389100D17FC6 /* GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A86B76720B4389100D17FC6 /* GenerateParentheses.m */; };
 		0A86F4172117E2D0008CE881 /* ReverseWordsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A86F4162117E2D0008CE881 /* ReverseWordsString.m */; };
 		0A8845CB21363E3F00F921E4 /* PowerOfTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845CA21363E3F00F921E4 /* PowerOfTwo.m */; };
@@ -289,6 +290,8 @@
 		0A85B34E20DB3CE200EF4DBB /* MergeIntervals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeIntervals.m; sourceTree = "<group>"; };
 		0A85EB592141317B00749F32 /* DifferentWaysAddParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifferentWaysAddParentheses.h; sourceTree = "<group>"; };
 		0A85EB5A2141317B00749F32 /* DifferentWaysAddParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferentWaysAddParentheses.m; sourceTree = "<group>"; };
+		0A8610F0215B6EE3002DE41A /* RangeSumQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSumQuery.h; sourceTree = "<group>"; };
+		0A8610F1215B6EE3002DE41A /* RangeSumQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangeSumQuery.m; sourceTree = "<group>"; };
 		0A86B76620B4389100D17FC6 /* GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateParentheses.h; sourceTree = "<group>"; };
 		0A86B76720B4389100D17FC6 /* GenerateParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateParentheses.m; sourceTree = "<group>"; };
 		0A86F4152117E2D0008CE881 /* ReverseWordsString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseWordsString.h; sourceTree = "<group>"; };
@@ -666,6 +669,8 @@
 				0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */,
 				0A8A51D1215A32980043E294 /* RemoveInvalidParentheses.h */,
 				0A8A51D2215A32980043E294 /* RemoveInvalidParentheses.m */,
+				0A8610F0215B6EE3002DE41A /* RangeSumQuery.h */,
+				0A8610F1215B6EE3002DE41A /* RangeSumQuery.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -847,6 +852,7 @@
 				0A92A05821533C6D001EAEF7 /* BullsCows.m in Sources */,
 				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,
 				0AA32A792154FE00000C2A06 /* LongestIncreasingSubsequence.m in Sources */,
+				0A8610F2215B6EE3002DE41A /* RangeSumQuery.m in Sources */,
 				0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */,
 				0A9E6D1720E9BD8B005FCAB9 /* Combinations.m in Sources */,
 				0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */,
