@@ -115,6 +115,7 @@
 #import "LongestIncreasingSubsequence.h"
 #import "RemoveInvalidParentheses.h"
 #import "RangeSumQuery.h"
+#import "AdditiveNumber.h"
 
 @interface ViewController ()
 
@@ -232,8 +233,9 @@
 //    BullsCows *bullsCows = [[BullsCows alloc]init];
 //    LongestIncreasingSubsequence *longestIncreasingSubsequence = [[LongestIncreasingSubsequence alloc]init];
 //    RemoveInvalidParentheses *removeInvalidParentheses = [[RemoveInvalidParentheses alloc]init];
+//    RangeSumQuery *rangeSumQuery = [[RangeSumQuery alloc]init];
     
-    RangeSumQuery *rangeSumQuery = [[RangeSumQuery alloc]init];
+    AdditiveNumber *additiveNumber = [[AdditiveNumber alloc]init];
 
 }
 
