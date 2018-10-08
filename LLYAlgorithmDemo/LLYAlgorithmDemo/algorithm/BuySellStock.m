@@ -36,8 +36,9 @@
     self = [super init];
     if (self) {
         
-        int result = [self buySellStock:@[@7,@1,@5,@3,@6,@4]];
+//        int result = [self buySellStock:@[@7,@1,@5,@3,@6,@4]];
 //        int result = [self buySellStock:@[@7,@6,@4,@3,@2,@1]];
+        int result = [self buySellStock:@[@1,@2,@3,@0,@2]];
         NSLog(@"result = %d",result);
         
         result = [self buySellStock2:@[@7,@1,@5,@3,@6,@4]];
@@ -47,6 +48,9 @@
         NSLog(@"result = %d",result);
         
         result = [self buySellStock4:@[@3,@2,@6,@5,@0,@3] k:2];
+        NSLog(@"result = %d",result);
+        
+        result = [self buySellStock5:@[@1,@2,@3,@0,@2]];
         NSLog(@"result = %d",result);
         
     }
@@ -127,6 +131,33 @@
     }
     
     return ret;
+}
+
+- (int)buySellStock5:(NSArray *)array{
+    
+    NSMutableArray *dpArray = [NSMutableArray array];
+    for (int i = 0; i < array.count; i++) {
+        [dpArray addObject:@(0)];
+    }
+    
+    for (int i = 1; i < array.count; i++) {
+        dpArray[i] = @([array[i] intValue] - [array[i-1] intValue]);
+    }
+    
+    NSLog(@"dpArray = %@",dpArray);
+    
+    if (!(dpArray.count & 0x1)) {
+        [dpArray addObject:@(0)];
+    }
+    
+    int max = 0;
+    for (int i = 1; i < dpArray.count; i+=2) {
+        
+        max = max + MAX([dpArray[i] intValue], [dpArray[i+1] intValue]);
+        
+    }
+    return max;
+    
 }
 
 @end
