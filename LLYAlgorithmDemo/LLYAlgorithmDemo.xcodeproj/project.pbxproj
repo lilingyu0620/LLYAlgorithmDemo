@@ -119,6 +119,7 @@
 		0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2895C213CD015005BCA16 /* SlidingWindowMaximum.m */; };
 		0AA32A792154FE00000C2A06 /* LongestIncreasingSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */; };
 		0AA5246920E746C800EB1A2C /* SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5246820E746C800EB1A2C /* SortColors.m */; };
+		0AAA898421758D5B001F4165 /* MinimumHeightTrees.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA898321758D5B001F4165 /* MinimumHeightTrees.m */; };
 		0AB506C5214CD5BC00D7582D /* PerfectSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB506C4214CD5BC00D7582D /* PerfectSquares.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
@@ -367,6 +368,8 @@
 		0AA32A782154FE00000C2A06 /* LongestIncreasingSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequence.m; sourceTree = "<group>"; };
 		0AA5246720E746C800EB1A2C /* SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
 		0AA5246820E746C800EB1A2C /* SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortColors.m; sourceTree = "<group>"; };
+		0AAA898221758D5B001F4165 /* MinimumHeightTrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumHeightTrees.h; sourceTree = "<group>"; };
+		0AAA898321758D5B001F4165 /* MinimumHeightTrees.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumHeightTrees.m; sourceTree = "<group>"; };
 		0AB506C3214CD5BC00D7582D /* PerfectSquares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfectSquares.h; sourceTree = "<group>"; };
 		0AB506C4214CD5BC00D7582D /* PerfectSquares.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectSquares.m; sourceTree = "<group>"; };
 		0ABC520220F1E2CF00F9D854 /* Subsets2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subsets2.h; sourceTree = "<group>"; };
@@ -676,6 +679,8 @@
 				0A8610F1215B6EE3002DE41A /* RangeSumQuery.m */,
 				0A98B9FA215CFBD400CEEC4C /* AdditiveNumber.h */,
 				0A98B9FB215CFBD400CEEC4C /* AdditiveNumber.m */,
+				0AAA898221758D5B001F4165 /* MinimumHeightTrees.h */,
+				0AAA898321758D5B001F4165 /* MinimumHeightTrees.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -820,6 +825,7 @@
 				0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */,
 				0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */,
 				0A6FB48320A13C4C00F9504D /* ZigZagStr.m in Sources */,
+				0AAA898421758D5B001F4165 /* MinimumHeightTrees.m in Sources */,
 				0A7A869820C62CE700F48A3C /* CombinationSum2.m in Sources */,
 				0AA12DED20D3677E0035530A /* NQueue.m in Sources */,
 				0A961E77214F5525007FF4DA /* FindDuplicateNumber.m in Sources */,

@@ -116,6 +116,7 @@
 #import "RemoveInvalidParentheses.h"
 #import "RangeSumQuery.h"
 #import "AdditiveNumber.h"
+#import "MinimumHeightTrees.h"
 
 @interface ViewController ()
 
@@ -190,7 +191,7 @@
 //    YangHuiTriangle *yangHuiTriangle = [[YangHuiTriangle alloc]init];
 //    YangHuiTriangle2 *yangHuiTriangle2 = [[YangHuiTriangle2 alloc]init];
 //    TriangleMinPath *triangleMinPath = [[TriangleMinPath alloc]init];
-    BuySellStock *buySellStock = [[BuySellStock alloc]init];
+//    BuySellStock *buySellStock = [[BuySellStock alloc]init];
 //    WordLadder *wordLadder = [[WordLadder alloc]init];
 //    LongestConsecutiveSequence *longestConsecutiveSequence = [[LongestConsecutiveSequence alloc]init];
 //    SurroundedRegions *surroundedRegions = [[SurroundedRegions alloc]init];
@@ -235,6 +236,8 @@
 //    RemoveInvalidParentheses *removeInvalidParentheses = [[RemoveInvalidParentheses alloc]init];
 //    RangeSumQuery *rangeSumQuery = [[RangeSumQuery alloc]init];
 //    AdditiveNumber *additiveNumber = [[AdditiveNumber alloc]init];
+    
+    MinimumHeightTrees *minimumHeightTrees = [[MinimumHeightTrees alloc]init];
 
 }
 
