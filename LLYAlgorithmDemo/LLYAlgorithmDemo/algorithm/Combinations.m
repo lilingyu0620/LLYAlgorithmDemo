@@ -34,7 +34,7 @@
     if (self) {
         
         _array = [NSMutableArray array];
-        [self combinations:[NSMutableArray array] n:4 k:3 index:1];
+        [self combinations:[NSMutableArray array] n:4 k:4 index:1];
         NSLog(@"_array = %@",_array);
         
     }
