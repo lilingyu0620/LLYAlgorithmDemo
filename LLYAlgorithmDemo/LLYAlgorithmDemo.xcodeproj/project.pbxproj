@@ -19,6 +19,7 @@
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
 		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
 		0A4C2F942147C00700810000 /* UglyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C2F932147C00700810000 /* UglyNumber.m */; };
+		0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E4E40217F44AE00D66BA7 /* SmallerNumbers.m */; };
 		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
 		0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A579C5220958A80004B78A3 /* HanoiTower.m */; };
 		0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6424C920E32C0D00D356E5 /* MinimumPathSum.m */; };
@@ -169,6 +170,8 @@
 		0A4A2FA520DF7266006183F5 /* PermutationSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermutationSequence.m; sourceTree = "<group>"; };
 		0A4C2F922147C00700810000 /* UglyNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UglyNumber.h; sourceTree = "<group>"; };
 		0A4C2F932147C00700810000 /* UglyNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UglyNumber.m; sourceTree = "<group>"; };
+		0A4E4E3F217F44AE00D66BA7 /* SmallerNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallerNumbers.h; sourceTree = "<group>"; };
+		0A4E4E40217F44AE00D66BA7 /* SmallerNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallerNumbers.m; sourceTree = "<group>"; };
 		0A5728D020C25B5F008E5F6D /* MaxMinInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxMinInArray.h; sourceTree = "<group>"; };
 		0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxMinInArray.m; sourceTree = "<group>"; };
 		0A579C5120958A80004B78A3 /* HanoiTower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTower.h; sourceTree = "<group>"; };
@@ -686,6 +689,8 @@
 				0AAA898321758D5B001F4165 /* MinimumHeightTrees.m */,
 				0A9C546E21783BB0005F7887 /* BurstBalloons.h */,
 				0A9C546F21783BB0005F7887 /* BurstBalloons.m */,
+				0A4E4E3F217F44AE00D66BA7 /* SmallerNumbers.h */,
+				0A4E4E40217F44AE00D66BA7 /* SmallerNumbers.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -824,6 +829,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
+				0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
 				0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */,
 				0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */,

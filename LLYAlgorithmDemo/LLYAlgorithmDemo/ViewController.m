@@ -118,6 +118,7 @@
 #import "AdditiveNumber.h"
 #import "MinimumHeightTrees.h"
 #import "BurstBalloons.h"
+#import "SmallerNumbers.h"
 
 @interface ViewController ()
 
@@ -238,8 +239,9 @@
 //    RangeSumQuery *rangeSumQuery = [[RangeSumQuery alloc]init];
 //    AdditiveNumber *additiveNumber = [[AdditiveNumber alloc]init];
 //    MinimumHeightTrees *minimumHeightTrees = [[MinimumHeightTrees alloc]init];
+//    BurstBalloons *burstBalloons = [[BurstBalloons alloc]init];
     
-    BurstBalloons *burstBalloons = [[BurstBalloons alloc]init];
+    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
 
 }
 
