@@ -61,6 +61,7 @@
 		0A7E268620B50235000902C6 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E268520B50235000902C6 /* MergeSort.m */; };
 		0A7E4F7620AEE10C00D363F7 /* RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E4F7520AEE10C00D363F7 /* RegularExpressionMatching.m */; };
 		0A7E6D51210811B80010735A /* SurroundedRegions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E6D50210811B80010735A /* SurroundedRegions.m */; };
+		0A7ECBDE2180608300AF26A5 /* RemoveDuplicateLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7ECBDD2180608300AF26A5 /* RemoveDuplicateLetters.m */; };
 		0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F0FEA20D9F4C30017F480 /* JumpGame.m */; };
 		0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F2AED206E4785001C56E6 /* BinarySearch.m */; };
 		0A7F3138210D826B00BB8DC7 /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F3137210D826B00BB8DC7 /* Candy.m */; };
@@ -254,6 +255,8 @@
 		0A7E4F7520AEE10C00D363F7 /* RegularExpressionMatching.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionMatching.m; sourceTree = "<group>"; };
 		0A7E6D4F210811B80010735A /* SurroundedRegions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurroundedRegions.h; sourceTree = "<group>"; };
 		0A7E6D50210811B80010735A /* SurroundedRegions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurroundedRegions.m; sourceTree = "<group>"; };
+		0A7ECBDC2180608300AF26A5 /* RemoveDuplicateLetters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicateLetters.h; sourceTree = "<group>"; };
+		0A7ECBDD2180608300AF26A5 /* RemoveDuplicateLetters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveDuplicateLetters.m; sourceTree = "<group>"; };
 		0A7F0FE920D9F4C30017F480 /* JumpGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpGame.h; sourceTree = "<group>"; };
 		0A7F0FEA20D9F4C30017F480 /* JumpGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpGame.m; sourceTree = "<group>"; };
 		0A7F2AEC206E4785001C56E6 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
@@ -691,6 +694,8 @@
 				0A9C546F21783BB0005F7887 /* BurstBalloons.m */,
 				0A4E4E3F217F44AE00D66BA7 /* SmallerNumbers.h */,
 				0A4E4E40217F44AE00D66BA7 /* SmallerNumbers.m */,
+				0A7ECBDC2180608300AF26A5 /* RemoveDuplicateLetters.h */,
+				0A7ECBDD2180608300AF26A5 /* RemoveDuplicateLetters.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -883,6 +888,7 @@
 				0A30B09820EB13710012089F /* Subsets.m in Sources */,
 				0A8845CB21363E3F00F921E4 /* PowerOfTwo.m in Sources */,
 				0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */,
+				0A7ECBDE2180608300AF26A5 /* RemoveDuplicateLetters.m in Sources */,
 				0A7F0FEB20D9F4C30017F480 /* JumpGame.m in Sources */,
 				0A79025E210181BE004037A1 /* TriangleMinPath.m in Sources */,
 				0A79025B21017BCD004037A1 /* YangHuiTriangle2.m in Sources */,

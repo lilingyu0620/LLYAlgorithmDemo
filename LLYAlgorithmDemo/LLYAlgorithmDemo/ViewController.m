@@ -119,6 +119,7 @@
 #import "MinimumHeightTrees.h"
 #import "BurstBalloons.h"
 #import "SmallerNumbers.h"
+#import "RemoveDuplicateLetters.h"
 
 @interface ViewController ()
 
@@ -240,8 +241,9 @@
 //    AdditiveNumber *additiveNumber = [[AdditiveNumber alloc]init];
 //    MinimumHeightTrees *minimumHeightTrees = [[MinimumHeightTrees alloc]init];
 //    BurstBalloons *burstBalloons = [[BurstBalloons alloc]init];
+//    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
     
-    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
+    RemoveDuplicateLetters *removeDuplicateLetters = [[RemoveDuplicateLetters alloc]init];
 
 }
 
