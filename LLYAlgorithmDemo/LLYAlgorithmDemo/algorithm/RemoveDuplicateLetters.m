@@ -45,6 +45,7 @@
                     [array removeObject:c];
                     [array addObject:c];
                 }
+                
             }
         }
     }

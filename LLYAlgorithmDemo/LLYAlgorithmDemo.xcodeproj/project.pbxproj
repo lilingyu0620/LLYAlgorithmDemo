@@ -84,6 +84,7 @@
 		0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85B34E20DB3CE200EF4DBB /* MergeIntervals.m */; };
 		0A85EB5B2141317B00749F32 /* DifferentWaysAddParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85EB5A2141317B00749F32 /* DifferentWaysAddParentheses.m */; };
 		0A8610F2215B6EE3002DE41A /* RangeSumQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8610F1215B6EE3002DE41A /* RangeSumQuery.m */; };
+		0A866A612181D51600402CB0 /* MaximumProductWordLengths.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A866A602181D51600402CB0 /* MaximumProductWordLengths.m */; };
 		0A86B76820B4389100D17FC6 /* GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A86B76720B4389100D17FC6 /* GenerateParentheses.m */; };
 		0A86F4172117E2D0008CE881 /* ReverseWordsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A86F4162117E2D0008CE881 /* ReverseWordsString.m */; };
 		0A8845CB21363E3F00F921E4 /* PowerOfTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845CA21363E3F00F921E4 /* PowerOfTwo.m */; };
@@ -301,6 +302,8 @@
 		0A85EB5A2141317B00749F32 /* DifferentWaysAddParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferentWaysAddParentheses.m; sourceTree = "<group>"; };
 		0A8610F0215B6EE3002DE41A /* RangeSumQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSumQuery.h; sourceTree = "<group>"; };
 		0A8610F1215B6EE3002DE41A /* RangeSumQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangeSumQuery.m; sourceTree = "<group>"; };
+		0A866A5F2181D51600402CB0 /* MaximumProductWordLengths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumProductWordLengths.h; sourceTree = "<group>"; };
+		0A866A602181D51600402CB0 /* MaximumProductWordLengths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaximumProductWordLengths.m; sourceTree = "<group>"; };
 		0A86B76620B4389100D17FC6 /* GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateParentheses.h; sourceTree = "<group>"; };
 		0A86B76720B4389100D17FC6 /* GenerateParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateParentheses.m; sourceTree = "<group>"; };
 		0A86F4152117E2D0008CE881 /* ReverseWordsString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseWordsString.h; sourceTree = "<group>"; };
@@ -696,6 +699,8 @@
 				0A4E4E40217F44AE00D66BA7 /* SmallerNumbers.m */,
 				0A7ECBDC2180608300AF26A5 /* RemoveDuplicateLetters.h */,
 				0A7ECBDD2180608300AF26A5 /* RemoveDuplicateLetters.m */,
+				0A866A5F2181D51600402CB0 /* MaximumProductWordLengths.h */,
+				0A866A602181D51600402CB0 /* MaximumProductWordLengths.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -943,6 +948,7 @@
 				0A9C205920E0811C00CB1914 /* RotateList.m in Sources */,
 				0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */,
 				0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */,
+				0A866A612181D51600402CB0 /* MaximumProductWordLengths.m in Sources */,
 				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
 				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
 				0A8A51D3215A32980043E294 /* RemoveInvalidParentheses.m in Sources */,

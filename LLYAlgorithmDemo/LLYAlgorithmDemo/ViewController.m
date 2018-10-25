@@ -120,6 +120,7 @@
 #import "BurstBalloons.h"
 #import "SmallerNumbers.h"
 #import "RemoveDuplicateLetters.h"
+#import "MaximumProductWordLengths.h"
 
 @interface ViewController ()
 
@@ -242,8 +243,9 @@
 //    MinimumHeightTrees *minimumHeightTrees = [[MinimumHeightTrees alloc]init];
 //    BurstBalloons *burstBalloons = [[BurstBalloons alloc]init];
 //    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
+//    RemoveDuplicateLetters *removeDuplicateLetters = [[RemoveDuplicateLetters alloc]init];
     
-    RemoveDuplicateLetters *removeDuplicateLetters = [[RemoveDuplicateLetters alloc]init];
+    MaximumProductWordLengths *maximumProductWordLengths = [[MaximumProductWordLengths alloc]init];
 
 }
 
