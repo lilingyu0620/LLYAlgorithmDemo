@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A019A00218302B900B9F342 /* CreateMaximumNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */; };
 		0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */; };
 		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
 		0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */; };
@@ -148,6 +149,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0199FE218302B900B9F342 /* CreateMaximumNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateMaximumNumber.h; sourceTree = "<group>"; };
+		0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateMaximumNumber.m; sourceTree = "<group>"; };
 		0A064C48212BF47A00219851 /* MinimumSizeSubarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumSizeSubarraySum.h; sourceTree = "<group>"; };
 		0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumSizeSubarraySum.m; sourceTree = "<group>"; };
 		0A23DDF321030A9000BD0625 /* BuySellStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuySellStock.h; sourceTree = "<group>"; };
@@ -701,6 +704,8 @@
 				0A7ECBDD2180608300AF26A5 /* RemoveDuplicateLetters.m */,
 				0A866A5F2181D51600402CB0 /* MaximumProductWordLengths.h */,
 				0A866A602181D51600402CB0 /* MaximumProductWordLengths.m */,
+				0A0199FE218302B900B9F342 /* CreateMaximumNumber.h */,
+				0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -899,6 +904,7 @@
 				0A79025B21017BCD004037A1 /* YangHuiTriangle2.m in Sources */,
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */,
+				0A019A00218302B900B9F342 /* CreateMaximumNumber.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
 				0A930964210C21E5004D4815 /* GasStation.m in Sources */,
 				0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */,

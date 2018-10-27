@@ -121,6 +121,7 @@
 #import "SmallerNumbers.h"
 #import "RemoveDuplicateLetters.h"
 #import "MaximumProductWordLengths.h"
+#import "CreateMaximumNumber.h"
 
 @interface ViewController ()
 
@@ -244,8 +245,9 @@
 //    BurstBalloons *burstBalloons = [[BurstBalloons alloc]init];
 //    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
 //    RemoveDuplicateLetters *removeDuplicateLetters = [[RemoveDuplicateLetters alloc]init];
+//    MaximumProductWordLengths *maximumProductWordLengths = [[MaximumProductWordLengths alloc]init];
     
-    MaximumProductWordLengths *maximumProductWordLengths = [[MaximumProductWordLengths alloc]init];
+    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
 
 }
 
