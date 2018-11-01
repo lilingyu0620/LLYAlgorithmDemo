@@ -122,6 +122,7 @@
 #import "RemoveDuplicateLetters.h"
 #import "MaximumProductWordLengths.h"
 #import "CreateMaximumNumber.h"
+#import "CoinChange.h"
 
 @interface ViewController ()
 
@@ -246,8 +247,9 @@
 //    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
 //    RemoveDuplicateLetters *removeDuplicateLetters = [[RemoveDuplicateLetters alloc]init];
 //    MaximumProductWordLengths *maximumProductWordLengths = [[MaximumProductWordLengths alloc]init];
+//    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
     
-    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
+    CoinChange *coinChange = [[CoinChange alloc]init];
 
 }
 

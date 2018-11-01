@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A019A00218302B900B9F342 /* CreateMaximumNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */; };
 		0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */; };
+		0A14BA27218AF92F00E1C93E /* CoinChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BA26218AF92F00E1C93E /* CoinChange.m */; };
 		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
 		0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */; };
 		0A2BFDA2213109F000E93358 /* BasicCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFDA1213109F000E93358 /* BasicCalculator.m */; };
@@ -153,6 +154,8 @@
 		0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateMaximumNumber.m; sourceTree = "<group>"; };
 		0A064C48212BF47A00219851 /* MinimumSizeSubarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumSizeSubarraySum.h; sourceTree = "<group>"; };
 		0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumSizeSubarraySum.m; sourceTree = "<group>"; };
+		0A14BA25218AF92F00E1C93E /* CoinChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinChange.h; sourceTree = "<group>"; };
+		0A14BA26218AF92F00E1C93E /* CoinChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinChange.m; sourceTree = "<group>"; };
 		0A23DDF321030A9000BD0625 /* BuySellStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuySellStock.h; sourceTree = "<group>"; };
 		0A23DDF421030A9000BD0625 /* BuySellStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuySellStock.m; sourceTree = "<group>"; };
 		0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitwiseANDofNumbersRange.h; sourceTree = "<group>"; };
@@ -706,6 +709,8 @@
 				0A866A602181D51600402CB0 /* MaximumProductWordLengths.m */,
 				0A0199FE218302B900B9F342 /* CreateMaximumNumber.h */,
 				0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */,
+				0A14BA25218AF92F00E1C93E /* CoinChange.h */,
+				0A14BA26218AF92F00E1C93E /* CoinChange.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -929,6 +934,7 @@
 				0A7B31C720B82DB3001076FA /* KMP.m in Sources */,
 				0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */,
 				0A85EB5B2141317B00749F32 /* DifferentWaysAddParentheses.m in Sources */,
+				0A14BA27218AF92F00E1C93E /* CoinChange.m in Sources */,
 				0A67A5D520C168D9001AB5EF /* HalfRepeat.m in Sources */,
 				0A85B34F20DB3CE200EF4DBB /* MergeIntervals.m in Sources */,
 				0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */,
