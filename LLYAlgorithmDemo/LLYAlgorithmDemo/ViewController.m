@@ -124,6 +124,8 @@
 #import "CreateMaximumNumber.h"
 #import "CoinChange.h"
 #import "WiggleSort.h"
+#import "LongestIncreasingPathMatrix.h"
+
 
 @interface ViewController ()
 
@@ -250,8 +252,9 @@
 //    MaximumProductWordLengths *maximumProductWordLengths = [[MaximumProductWordLengths alloc]init];
 //    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
 //    CoinChange *coinChange = [[CoinChange alloc]init];
+//    WiggleSort *wiggleSort = [[WiggleSort alloc]init];
     
-    WiggleSort *wiggleSort = [[WiggleSort alloc]init];
+    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
 
 }
 
