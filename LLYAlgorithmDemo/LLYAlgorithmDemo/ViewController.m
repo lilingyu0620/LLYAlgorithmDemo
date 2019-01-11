@@ -125,7 +125,7 @@
 #import "CoinChange.h"
 #import "WiggleSort.h"
 #import "LongestIncreasingPathMatrix.h"
-
+#import "PatchingArray.h"
 
 @interface ViewController ()
 
@@ -253,8 +253,9 @@
 //    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
 //    CoinChange *coinChange = [[CoinChange alloc]init];
 //    WiggleSort *wiggleSort = [[WiggleSort alloc]init];
+//    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
     
-    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
+    PatchingArray *patchingArray = [[PatchingArray alloc]init];
 
 }
 
