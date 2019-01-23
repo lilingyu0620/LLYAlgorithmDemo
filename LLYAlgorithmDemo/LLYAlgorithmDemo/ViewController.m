@@ -126,6 +126,8 @@
 #import "WiggleSort.h"
 #import "LongestIncreasingPathMatrix.h"
 #import "PatchingArray.h"
+#import "IncreasingTripletSubsequence.h"
+
 
 @interface ViewController ()
 
@@ -254,8 +256,9 @@
 //    CoinChange *coinChange = [[CoinChange alloc]init];
 //    WiggleSort *wiggleSort = [[WiggleSort alloc]init];
 //    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
+//    PatchingArray *patchingArray = [[PatchingArray alloc]init];
     
-    PatchingArray *patchingArray = [[PatchingArray alloc]init];
+    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
 
 }
 
