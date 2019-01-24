@@ -127,7 +127,7 @@
 #import "LongestIncreasingPathMatrix.h"
 #import "PatchingArray.h"
 #import "IncreasingTripletSubsequence.h"
-
+#import "PalindromePairs.h"
 
 @interface ViewController ()
 
@@ -257,8 +257,9 @@
 //    WiggleSort *wiggleSort = [[WiggleSort alloc]init];
 //    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
 //    PatchingArray *patchingArray = [[PatchingArray alloc]init];
+//    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
     
-    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
+    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
 
 }
 
