@@ -128,6 +128,8 @@
 #import "PatchingArray.h"
 #import "IncreasingTripletSubsequence.h"
 #import "PalindromePairs.h"
+#import "PowerOfFour.h"
+
 
 @interface ViewController ()
 
@@ -258,8 +260,9 @@
 //    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
 //    PatchingArray *patchingArray = [[PatchingArray alloc]init];
 //    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
+//    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
     
-    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
+    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
 
 }
 
