@@ -32,11 +32,7 @@
     }
     
     NSInteger tmp = element;
-    NSInteger div;
-    
-    div = tmp % 4;
-    tmp = tmp / 4;
-    
+    NSInteger div = 0;
     while (div == 0 && tmp > 1) {
         div = tmp % 4;
         tmp = tmp / 4;
