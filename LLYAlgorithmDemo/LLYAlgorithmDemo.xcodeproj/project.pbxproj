@@ -23,6 +23,7 @@
 		0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */; };
 		0A389BAB21A6880B005E2227 /* WiggleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A389BAA21A6880B005E2227 /* WiggleSort.m */; };
 		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
+		0A47A34D2202D41E00D19965 /* IntegerBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47A34C2202D41E00D19965 /* IntegerBreak.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
 		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
 		0A4C2F942147C00700810000 /* UglyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C2F932147C00700810000 /* UglyNumber.m */; };
@@ -188,6 +189,8 @@
 		0A389BAA21A6880B005E2227 /* WiggleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiggleSort.m; sourceTree = "<group>"; };
 		0A3B4D6C2143D5F20080898B /* ValidAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidAnagram.h; sourceTree = "<group>"; };
 		0A3B4D6D2143D5F20080898B /* ValidAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagram.m; sourceTree = "<group>"; };
+		0A47A34B2202D41E00D19965 /* IntegerBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerBreak.h; sourceTree = "<group>"; };
+		0A47A34C2202D41E00D19965 /* IntegerBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegerBreak.m; sourceTree = "<group>"; };
 		0A49421D20D27AA5000B3A78 /* GroupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnagrams.h; sourceTree = "<group>"; };
 		0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnagrams.m; sourceTree = "<group>"; };
 		0A4A2FA420DF7266006183F5 /* PermutationSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermutationSequence.h; sourceTree = "<group>"; };
@@ -741,6 +744,8 @@
 				0A33496821F9667F00679B2B /* PalindromePairs.m */,
 				0A360FFF2200447600E6C0AE /* PowerOfFour.h */,
 				0A3610002200447600E6C0AE /* PowerOfFour.m */,
+				0A47A34B2202D41E00D19965 /* IntegerBreak.h */,
+				0A47A34C2202D41E00D19965 /* IntegerBreak.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -953,6 +958,7 @@
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,
 				0A9CD6D7212A559700F93469 /* CountPrimes.m in Sources */,
 				0A942BD2214E395B00354708 /* MoveZeroes.m in Sources */,
+				0A47A34D2202D41E00D19965 /* IntegerBreak.m in Sources */,
 				0A33496921F9667F00679B2B /* PalindromePairs.m in Sources */,
 				0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */,
 				0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */,

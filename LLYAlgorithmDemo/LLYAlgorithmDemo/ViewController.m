@@ -129,6 +129,7 @@
 #import "IncreasingTripletSubsequence.h"
 #import "PalindromePairs.h"
 #import "PowerOfFour.h"
+#import "IntegerBreak.h"
 
 
 @interface ViewController ()
@@ -261,8 +262,9 @@
 //    PatchingArray *patchingArray = [[PatchingArray alloc]init];
 //    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
 //    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
+//    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
     
-    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
+    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
 
 }
 
