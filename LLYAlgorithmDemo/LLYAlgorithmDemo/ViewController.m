@@ -130,6 +130,8 @@
 #import "PalindromePairs.h"
 #import "PowerOfFour.h"
 #import "IntegerBreak.h"
+#import "CountingBits.h"
+
 
 
 @interface ViewController ()
@@ -263,8 +265,9 @@
 //    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
 //    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
 //    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
+//    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
     
-    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
+    CountingBits *countingBits = [[CountingBits alloc]init];
 
 }
 
