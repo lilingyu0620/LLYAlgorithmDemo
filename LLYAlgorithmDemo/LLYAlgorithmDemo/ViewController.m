@@ -131,7 +131,7 @@
 #import "PowerOfFour.h"
 #import "IntegerBreak.h"
 #import "CountingBits.h"
-
+#import "ReverseString.h"
 
 
 @interface ViewController ()
@@ -266,8 +266,9 @@
 //    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
 //    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
 //    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
+//    CountingBits *countingBits = [[CountingBits alloc]init];
     
-    CountingBits *countingBits = [[CountingBits alloc]init];
+    ReverseString *reverseString = [[ReverseString alloc]init];
 
 }
 
