@@ -15,7 +15,7 @@
     self = [super init];
     if (self) {
         
-        [self countingBits:15];
+        [self countingBits2:15];
         
     }
     return self;
@@ -30,6 +30,22 @@
     for (int i = 1; i <= num; i++) {
         int c = [array[i & (i-1)] intValue] + 1;
         [array addObject:@(c)];
+    }
+    
+    NSLog(@"array = %@",array);
+    
+}
+
+- (void)countingBits2:(int)num{
+    
+    NSMutableArray *array = [NSMutableArray array];
+    [array addObject:@(0)];
+    
+    for (int i = 1; i <= num; i++) {
+        
+        int c = [array[i >> 1] intValue] + (i & 0x1);
+        [array addObject:@(c)];
+        
     }
     
     NSLog(@"array = %@",array);
