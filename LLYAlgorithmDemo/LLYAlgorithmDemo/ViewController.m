@@ -122,6 +122,17 @@
 #import "RemoveDuplicateLetters.h"
 #import "MaximumProductWordLengths.h"
 #import "CreateMaximumNumber.h"
+#import "CoinChange.h"
+#import "WiggleSort.h"
+#import "LongestIncreasingPathMatrix.h"
+#import "PatchingArray.h"
+#import "IncreasingTripletSubsequence.h"
+#import "PalindromePairs.h"
+#import "PowerOfFour.h"
+#import "IntegerBreak.h"
+#import "CountingBits.h"
+#import "ReverseString.h"
+
 
 @interface ViewController ()
 
@@ -246,8 +257,18 @@
 //    SmallerNumbers *smallerNumbers = [[SmallerNumbers alloc]init];
 //    RemoveDuplicateLetters *removeDuplicateLetters = [[RemoveDuplicateLetters alloc]init];
 //    MaximumProductWordLengths *maximumProductWordLengths = [[MaximumProductWordLengths alloc]init];
+//    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
+//    CoinChange *coinChange = [[CoinChange alloc]init];
+//    WiggleSort *wiggleSort = [[WiggleSort alloc]init];
+//    LongestIncreasingPathMatrix *longestIncreasingPathMatrix = [[LongestIncreasingPathMatrix alloc]init];
+//    PatchingArray *patchingArray = [[PatchingArray alloc]init];
+//    IncreasingTripletSubsequence *increasingTripletSubsequence = [[IncreasingTripletSubsequence alloc]init];
+//    PalindromePairs *palindromePairs = [[PalindromePairs alloc]init];
+//    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
+//    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
+//    CountingBits *countingBits = [[CountingBits alloc]init];
     
-    CreateMaximumNumber *createMaximumNumber = [[CreateMaximumNumber alloc]init];
+    ReverseString *reverseString = [[ReverseString alloc]init];
 
 }
 
