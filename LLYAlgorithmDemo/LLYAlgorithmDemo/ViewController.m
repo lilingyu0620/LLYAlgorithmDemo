@@ -133,6 +133,8 @@
 #import "CountingBits.h"
 #import "ReverseString.h"
 #import "ReverseVowelsString.h"
+#import "TopKFrequentElements.h"
+
 
 
 @interface ViewController ()
@@ -269,8 +271,9 @@
 //    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
 //    CountingBits *countingBits = [[CountingBits alloc]init];
 //    ReverseString *reverseString = [[ReverseString alloc]init];
+//    ReverseVowelsString *reverseVowelsString = [[ReverseVowelsString alloc]init];
     
-    ReverseVowelsString *reverseVowelsString = [[ReverseVowelsString alloc]init];
+    TopKFrequentElements *topKFrequentElements = [[TopKFrequentElements alloc]init];
 
 }
 
