@@ -132,6 +132,7 @@
 #import "IntegerBreak.h"
 #import "CountingBits.h"
 #import "ReverseString.h"
+#import "ReverseVowelsString.h"
 
 
 @interface ViewController ()
@@ -267,8 +268,9 @@
 //    PowerOfFour *powerOfFour = [[PowerOfFour alloc]init];
 //    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
 //    CountingBits *countingBits = [[CountingBits alloc]init];
+//    ReverseString *reverseString = [[ReverseString alloc]init];
     
-    ReverseString *reverseString = [[ReverseString alloc]init];
+    ReverseVowelsString *reverseVowelsString = [[ReverseVowelsString alloc]init];
 
 }
 
