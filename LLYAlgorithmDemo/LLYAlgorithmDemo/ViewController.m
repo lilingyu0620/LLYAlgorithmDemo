@@ -132,6 +132,8 @@
 #import "IntegerBreak.h"
 #import "CountingBits.h"
 #import "ReverseString.h"
+#import "ReverseVowelsString.h"
+#import "TopKFrequentElements.h"
 #import "IntersectionTwoArrays.h"
 
 
@@ -269,7 +271,8 @@
 //    IntegerBreak *integerBreak = [[IntegerBreak alloc]init];
 //    CountingBits *countingBits = [[CountingBits alloc]init];
 //    ReverseString *reverseString = [[ReverseString alloc]init];
-    
+//    ReverseVowelsString *reverseVowelsString = [[ReverseVowelsString alloc]init];
+//    TopKFrequentElements *topKFrequentElements = [[TopKFrequentElements alloc]init];
     IntersectionTwoArrays *intersectionTwoArrays = [[IntersectionTwoArrays alloc]init];
 
 }

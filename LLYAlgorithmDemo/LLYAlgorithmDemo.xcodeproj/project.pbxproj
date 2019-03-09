@@ -24,6 +24,8 @@
 		0A3610012200447600E6C0AE /* PowerOfFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3610002200447600E6C0AE /* PowerOfFour.m */; };
 		0A361D3F20E8967000CE410D /* MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */; };
 		0A389BAB21A6880B005E2227 /* WiggleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A389BAA21A6880B005E2227 /* WiggleSort.m */; };
+		0A39E6C2221AA09B007C4542 /* ReverseVowelsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39E6C1221AA09B007C4542 /* ReverseVowelsString.m */; };
+		0A39E6C5221AAC08007C4542 /* TopKFrequentElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39E6C4221AAC08007C4542 /* TopKFrequentElements.m */; };
 		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
 		0A47A34D2202D41E00D19965 /* IntegerBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47A34C2202D41E00D19965 /* IntegerBreak.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
@@ -194,6 +196,10 @@
 		0A361D3E20E8967000CE410D /* MinimumWindowSubstring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumWindowSubstring.m; sourceTree = "<group>"; };
 		0A389BA921A6880B005E2227 /* WiggleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiggleSort.h; sourceTree = "<group>"; };
 		0A389BAA21A6880B005E2227 /* WiggleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiggleSort.m; sourceTree = "<group>"; };
+		0A39E6C0221AA09B007C4542 /* ReverseVowelsString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseVowelsString.h; sourceTree = "<group>"; };
+		0A39E6C1221AA09B007C4542 /* ReverseVowelsString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseVowelsString.m; sourceTree = "<group>"; };
+		0A39E6C3221AAC08007C4542 /* TopKFrequentElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopKFrequentElements.h; sourceTree = "<group>"; };
+		0A39E6C4221AAC08007C4542 /* TopKFrequentElements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopKFrequentElements.m; sourceTree = "<group>"; };
 		0A3B4D6C2143D5F20080898B /* ValidAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidAnagram.h; sourceTree = "<group>"; };
 		0A3B4D6D2143D5F20080898B /* ValidAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagram.m; sourceTree = "<group>"; };
 		0A47A34B2202D41E00D19965 /* IntegerBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerBreak.h; sourceTree = "<group>"; };
@@ -761,6 +767,10 @@
 				0A35BAD02216C98D00F5994B /* ReverseString.m */,
 				0A9EF86C2233D50200E4F61F /* IntersectionTwoArrays.h */,
 				0A9EF86D2233D50200E4F61F /* IntersectionTwoArrays.m */,
+				0A39E6C0221AA09B007C4542 /* ReverseVowelsString.h */,
+				0A39E6C1221AA09B007C4542 /* ReverseVowelsString.m */,
+				0A39E6C3221AAC08007C4542 /* TopKFrequentElements.h */,
+				0A39E6C4221AAC08007C4542 /* TopKFrequentElements.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -901,6 +911,7 @@
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
 				0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
+				0A39E6C2221AA09B007C4542 /* ReverseVowelsString.m in Sources */,
 				0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */,
 				0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */,
 				0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */,
@@ -918,6 +929,7 @@
 				0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */,
 				0A7F313B210D9FF400BB8DC7 /* SingleNumber.m in Sources */,
 				0A4C2F942147C00700810000 /* UglyNumber.m in Sources */,
+				0A39E6C5221AAC08007C4542 /* TopKFrequentElements.m in Sources */,
 				0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */,
 				0A78105F21194329004A0771 /* MaximumProductSubarray.m in Sources */,
 				0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */,
