@@ -135,6 +135,7 @@
 #import "ReverseVowelsString.h"
 #import "TopKFrequentElements.h"
 #import "IntersectionTwoArrays.h"
+#import "NumbersUniqueDigits.h"
 
 
 @interface ViewController ()
@@ -273,7 +274,9 @@
 //    ReverseString *reverseString = [[ReverseString alloc]init];
 //    ReverseVowelsString *reverseVowelsString = [[ReverseVowelsString alloc]init];
 //    TopKFrequentElements *topKFrequentElements = [[TopKFrequentElements alloc]init];
-    IntersectionTwoArrays *intersectionTwoArrays = [[IntersectionTwoArrays alloc]init];
+//    IntersectionTwoArrays *intersectionTwoArrays = [[IntersectionTwoArrays alloc]init];
+    
+    NumbersUniqueDigits *numbersUniqueDigits = [[NumbersUniqueDigits alloc]init];
 
 }
 
