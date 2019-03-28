@@ -47,7 +47,7 @@
         NSTimeInterval start = CFAbsoluteTimeGetCurrent();
         
         for (int i = 1; i < 10000; i++) {
-            if ([self isPerfectSquare:i]) {
+            if ([self isPerfectSquare2:i]) {
                 NSLog(@"i = %d Square = %ld",i,(long)sqrtl(i));
                 squareNum++;
             }
@@ -73,7 +73,7 @@
 
 - (BOOL)isPerfectSquare2:(NSInteger)num{
     
-    NSInteger begin = 1,end = num/3 + 1;
+    NSInteger begin = 1,end = ceil(num/3.0);
     NSInteger mid;
     
     while (begin <= end) {
