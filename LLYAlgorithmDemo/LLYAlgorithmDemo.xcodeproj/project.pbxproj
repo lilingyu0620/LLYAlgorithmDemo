@@ -17,6 +17,7 @@
 		0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C48FF20FC6667003DFC44 /* RotateArray2.m */; };
 		0A2F54E020FB8686000EDAF3 /* RotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F54DF20FB8686000EDAF3 /* RotateArray.m */; };
 		0A30B09820EB13710012089F /* Subsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A30B09720EB13710012089F /* Subsets.m */; };
+		0A3149FA224CBC5C0051376E /* PerfectSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3149F9224CBC5C0051376E /* PerfectSquare.m */; };
 		0A32169121F868640053A397 /* IncreasingTripletSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A32169021F868640053A397 /* IncreasingTripletSubsequence.m */; };
 		0A33496921F9667F00679B2B /* PalindromePairs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33496821F9667F00679B2B /* PalindromePairs.m */; };
 		0A35BACE2216BEA500F5994B /* CountingBits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A35BACD2216BEA500F5994B /* CountingBits.m */; };
@@ -183,6 +184,8 @@
 		0A2F54DF20FB8686000EDAF3 /* RotateArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateArray.m; sourceTree = "<group>"; };
 		0A30B09620EB13710012089F /* Subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subsets.h; sourceTree = "<group>"; };
 		0A30B09720EB13710012089F /* Subsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets.m; sourceTree = "<group>"; };
+		0A3149F8224CBC5C0051376E /* PerfectSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfectSquare.h; sourceTree = "<group>"; };
+		0A3149F9224CBC5C0051376E /* PerfectSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectSquare.m; sourceTree = "<group>"; };
 		0A32168F21F868640053A397 /* IncreasingTripletSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncreasingTripletSubsequence.h; sourceTree = "<group>"; };
 		0A32169021F868640053A397 /* IncreasingTripletSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncreasingTripletSubsequence.m; sourceTree = "<group>"; };
 		0A33496721F9667F00679B2B /* PalindromePairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromePairs.h; sourceTree = "<group>"; };
@@ -776,6 +779,8 @@
 				0A39E6C4221AAC08007C4542 /* TopKFrequentElements.m */,
 				0A65868F224786F70007DDB3 /* NumbersUniqueDigits.h */,
 				0A658690224786F70007DDB3 /* NumbersUniqueDigits.m */,
+				0A3149F8224CBC5C0051376E /* PerfectSquare.h */,
+				0A3149F9224CBC5C0051376E /* PerfectSquare.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -917,6 +922,7 @@
 				0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
 				0A39E6C2221AA09B007C4542 /* ReverseVowelsString.m in Sources */,
+				0A3149FA224CBC5C0051376E /* PerfectSquare.m in Sources */,
 				0A8D9415210FFF0700C890E2 /* WordBreak.m in Sources */,
 				0A8444A8207F6AC800E5E598 /* ArrayMedian.m in Sources */,
 				0A783E7320EF10DE002C134A /* MaximalRectangle.m in Sources */,

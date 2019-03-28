@@ -136,6 +136,7 @@
 #import "TopKFrequentElements.h"
 #import "IntersectionTwoArrays.h"
 #import "NumbersUniqueDigits.h"
+#import "PerfectSquare.h"
 
 
 @interface ViewController ()
@@ -275,9 +276,10 @@
 //    ReverseVowelsString *reverseVowelsString = [[ReverseVowelsString alloc]init];
 //    TopKFrequentElements *topKFrequentElements = [[TopKFrequentElements alloc]init];
 //    IntersectionTwoArrays *intersectionTwoArrays = [[IntersectionTwoArrays alloc]init];
-    
-    NumbersUniqueDigits *numbersUniqueDigits = [[NumbersUniqueDigits alloc]init];
+//    NumbersUniqueDigits *numbersUniqueDigits = [[NumbersUniqueDigits alloc]init];
 
+    PerfectSquare *perfectSquare = [[PerfectSquare alloc]init];
+    
 }
 
 
