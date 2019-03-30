@@ -138,8 +138,7 @@
 #import "NumbersUniqueDigits.h"
 #import "PerfectSquare.h"
 #import "SumTwoIntegers.h"
-
-
+#import "MaxSubArray.h"
 
 @interface ViewController ()
 
@@ -280,7 +279,9 @@
 //    IntersectionTwoArrays *intersectionTwoArrays = [[IntersectionTwoArrays alloc]init];
 //    NumbersUniqueDigits *numbersUniqueDigits = [[NumbersUniqueDigits alloc]init];
 //    PerfectSquare *perfectSquare = [[PerfectSquare alloc]init];
-    SumTwoIntegers *sumTwoIntegers = [[SumTwoIntegers alloc]init];
+//    SumTwoIntegers *sumTwoIntegers = [[SumTwoIntegers alloc]init];
+    
+    MaxSubArray *maxSubArray = [[MaxSubArray alloc]init];
     
 }
 
