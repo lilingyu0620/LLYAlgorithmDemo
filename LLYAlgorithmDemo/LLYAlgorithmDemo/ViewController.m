@@ -139,6 +139,8 @@
 #import "PerfectSquare.h"
 #import "SumTwoIntegers.h"
 #import "MaxSubArray.h"
+#import "GetMoneyAmount.h"
+#import "WiggleSubsequence.h"
 
 @interface ViewController ()
 
@@ -280,8 +282,10 @@
 //    NumbersUniqueDigits *numbersUniqueDigits = [[NumbersUniqueDigits alloc]init];
 //    PerfectSquare *perfectSquare = [[PerfectSquare alloc]init];
 //    SumTwoIntegers *sumTwoIntegers = [[SumTwoIntegers alloc]init];
+//    MaxSubArray *maxSubArray = [[MaxSubArray alloc]init];
+//    GetMoneyAmount *getMoneyAmount = [[GetMoneyAmount alloc]init];
     
-    MaxSubArray *maxSubArray = [[MaxSubArray alloc]init];
+    WiggleSubsequence *wiggleSubsequence = [[WiggleSubsequence alloc]init];
     
 }
 

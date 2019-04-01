@@ -27,6 +27,8 @@
 		0A389BAB21A6880B005E2227 /* WiggleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A389BAA21A6880B005E2227 /* WiggleSort.m */; };
 		0A39E6C2221AA09B007C4542 /* ReverseVowelsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39E6C1221AA09B007C4542 /* ReverseVowelsString.m */; };
 		0A39E6C5221AAC08007C4542 /* TopKFrequentElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39E6C4221AAC08007C4542 /* TopKFrequentElements.m */; };
+		0A3A94A42252237700DF5C82 /* GetMoneyAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A94A32252237700DF5C82 /* GetMoneyAmount.m */; };
+		0A3A94A72252326C00DF5C82 /* WiggleSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */; };
 		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
 		0A417F03224F313200803616 /* SumTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A417F02224F313200803616 /* SumTwoIntegers.m */; };
 		0A417F09224F800E00803616 /* MaxSubArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A417F08224F800D00803616 /* MaxSubArray.m */; };
@@ -206,6 +208,10 @@
 		0A39E6C1221AA09B007C4542 /* ReverseVowelsString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseVowelsString.m; sourceTree = "<group>"; };
 		0A39E6C3221AAC08007C4542 /* TopKFrequentElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopKFrequentElements.h; sourceTree = "<group>"; };
 		0A39E6C4221AAC08007C4542 /* TopKFrequentElements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopKFrequentElements.m; sourceTree = "<group>"; };
+		0A3A94A22252237700DF5C82 /* GetMoneyAmount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetMoneyAmount.h; sourceTree = "<group>"; };
+		0A3A94A32252237700DF5C82 /* GetMoneyAmount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMoneyAmount.m; sourceTree = "<group>"; };
+		0A3A94A52252326C00DF5C82 /* WiggleSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiggleSubsequence.h; sourceTree = "<group>"; };
+		0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiggleSubsequence.m; sourceTree = "<group>"; };
 		0A3B4D6C2143D5F20080898B /* ValidAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidAnagram.h; sourceTree = "<group>"; };
 		0A3B4D6D2143D5F20080898B /* ValidAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagram.m; sourceTree = "<group>"; };
 		0A417F01224F313200803616 /* SumTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumTwoIntegers.h; sourceTree = "<group>"; };
@@ -791,6 +797,10 @@
 				0A417F02224F313200803616 /* SumTwoIntegers.m */,
 				0A417F07224F800D00803616 /* MaxSubArray.h */,
 				0A417F08224F800D00803616 /* MaxSubArray.m */,
+				0A3A94A22252237700DF5C82 /* GetMoneyAmount.h */,
+				0A3A94A32252237700DF5C82 /* GetMoneyAmount.m */,
+				0A3A94A52252326C00DF5C82 /* WiggleSubsequence.h */,
+				0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -976,6 +986,7 @@
 				0A79658D20C8E2A80028836F /* Permutations2.m in Sources */,
 				0A8CBDA42150ED3C008EEDDC /* WordPattern.m in Sources */,
 				0A9DA73E20C5441E00475C74 /* CombinationSum.m in Sources */,
+				0A3A94A72252326C00DF5C82 /* WiggleSubsequence.m in Sources */,
 				0AA2895D213CD015005BCA16 /* SlidingWindowMaximum.m in Sources */,
 				0A92A05821533C6D001EAEF7 /* BullsCows.m in Sources */,
 				0A81F0D2212D4C5F0030EC92 /* KthLargestElement.m in Sources */,
@@ -998,6 +1009,7 @@
 				0A84963D2063B5110060FC6D /* TwoSum.m in Sources */,
 				0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */,
 				0A019A00218302B900B9F342 /* CreateMaximumNumber.m in Sources */,
+				0A3A94A42252237700DF5C82 /* GetMoneyAmount.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
 				0A930964210C21E5004D4815 /* GasStation.m in Sources */,
 				0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */,
