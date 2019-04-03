@@ -148,6 +148,7 @@
 		0AB5C8C321C78EF4005DF08A /* LongestIncreasingPathMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5C8C221C78EF4005DF08A /* LongestIncreasingPathMatrix.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
+		0ACBE35C2254B25C003F9613 /* CombinationSum4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACBE35B2254B25C003F9613 /* CombinationSum4.m */; };
 		0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB488D20F3140D008C786A /* DecodeWays.m */; };
 /* End PBXBuildFile section */
 
@@ -451,6 +452,8 @@
 		0ABC520320F1E2CF00F9D854 /* Subsets2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets2.m; sourceTree = "<group>"; };
 		0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiralMatrix.h; sourceTree = "<group>"; };
 		0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiralMatrix.m; sourceTree = "<group>"; };
+		0ACBE35A2254B25C003F9613 /* CombinationSum4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum4.h; sourceTree = "<group>"; };
+		0ACBE35B2254B25C003F9613 /* CombinationSum4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum4.m; sourceTree = "<group>"; };
 		0ADB488C20F3140D008C786A /* DecodeWays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecodeWays.h; sourceTree = "<group>"; };
 		0ADB488D20F3140D008C786A /* DecodeWays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecodeWays.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -806,6 +809,8 @@
 				0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */,
 				0A462B6E225451140086237D /* BinaryTree.h */,
 				0A462B6F225451140086237D /* BinaryTree.m */,
+				0ACBE35A2254B25C003F9613 /* CombinationSum4.h */,
+				0ACBE35B2254B25C003F9613 /* CombinationSum4.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1039,6 +1044,7 @@
 				0A9EF86E2233D50200E4F61F /* IntersectionTwoArrays.m in Sources */,
 				0A86F4172117E2D0008CE881 /* ReverseWordsString.m in Sources */,
 				0A67A5D220C0EE97001AB5EF /* LongestValidParentheses.m in Sources */,
+				0ACBE35C2254B25C003F9613 /* CombinationSum4.m in Sources */,
 				0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */,
 				0A7B31C720B82DB3001076FA /* KMP.m in Sources */,
 				0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */,

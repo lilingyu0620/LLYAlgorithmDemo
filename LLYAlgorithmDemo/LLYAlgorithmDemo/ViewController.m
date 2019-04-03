@@ -142,6 +142,7 @@
 #import "GetMoneyAmount.h"
 #import "WiggleSubsequence.h"
 #import "BinaryTree.h"
+#import "CombinationSum4.h"
 
 @interface ViewController ()
 
@@ -286,8 +287,9 @@
 //    MaxSubArray *maxSubArray = [[MaxSubArray alloc]init];
 //    GetMoneyAmount *getMoneyAmount = [[GetMoneyAmount alloc]init];
 //    WiggleSubsequence *wiggleSubsequence = [[WiggleSubsequence alloc]init];
+//    BinaryTree *binaryTree = [[BinaryTree alloc]init];
     
-    BinaryTree *binaryTree = [[BinaryTree alloc]init];
+    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
     
 }
 
