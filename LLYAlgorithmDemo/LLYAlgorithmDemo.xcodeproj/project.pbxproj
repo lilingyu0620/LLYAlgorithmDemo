@@ -32,6 +32,7 @@
 		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
 		0A417F03224F313200803616 /* SumTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A417F02224F313200803616 /* SumTwoIntegers.m */; };
 		0A417F09224F800E00803616 /* MaxSubArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A417F08224F800D00803616 /* MaxSubArray.m */; };
+		0A462B70225451140086237D /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A462B6F225451140086237D /* BinaryTree.m */; };
 		0A47A34D2202D41E00D19965 /* IntegerBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47A34C2202D41E00D19965 /* IntegerBreak.m */; };
 		0A49421F20D27AA5000B3A78 /* GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49421E20D27AA5000B3A78 /* GroupAnagrams.m */; };
 		0A4A2FA620DF7266006183F5 /* PermutationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A2FA520DF7266006183F5 /* PermutationSequence.m */; };
@@ -218,6 +219,8 @@
 		0A417F02224F313200803616 /* SumTwoIntegers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumTwoIntegers.m; sourceTree = "<group>"; };
 		0A417F07224F800D00803616 /* MaxSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxSubArray.h; sourceTree = "<group>"; };
 		0A417F08224F800D00803616 /* MaxSubArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxSubArray.m; sourceTree = "<group>"; };
+		0A462B6E225451140086237D /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		0A462B6F225451140086237D /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 		0A47A34B2202D41E00D19965 /* IntegerBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerBreak.h; sourceTree = "<group>"; };
 		0A47A34C2202D41E00D19965 /* IntegerBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegerBreak.m; sourceTree = "<group>"; };
 		0A49421D20D27AA5000B3A78 /* GroupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnagrams.h; sourceTree = "<group>"; };
@@ -801,6 +804,8 @@
 				0A3A94A32252237700DF5C82 /* GetMoneyAmount.m */,
 				0A3A94A52252326C00DF5C82 /* WiggleSubsequence.h */,
 				0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */,
+				0A462B6E225451140086237D /* BinaryTree.h */,
+				0A462B6F225451140086237D /* BinaryTree.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1068,6 +1073,7 @@
 				0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */,
 				0A866A612181D51600402CB0 /* MaximumProductWordLengths.m in Sources */,
 				0A35BAD12216C98D00F5994B /* ReverseString.m in Sources */,
+				0A462B70225451140086237D /* BinaryTree.m in Sources */,
 				0A9DA6FA20C4D32F00475C74 /* SearchforaRange.m in Sources */,
 				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
 				0A389BAB21A6880B005E2227 /* WiggleSort.m in Sources */,
