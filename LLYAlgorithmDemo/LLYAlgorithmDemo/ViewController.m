@@ -143,6 +143,7 @@
 #import "WiggleSubsequence.h"
 #import "BinaryTree.h"
 #import "CombinationSum4.h"
+#import "LinkList.h"
 
 @interface ViewController ()
 
@@ -288,8 +289,9 @@
 //    GetMoneyAmount *getMoneyAmount = [[GetMoneyAmount alloc]init];
 //    WiggleSubsequence *wiggleSubsequence = [[WiggleSubsequence alloc]init];
 //    BinaryTree *binaryTree = [[BinaryTree alloc]init];
+//    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
     
-    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
+    LinkList *linkList = [[LinkList alloc]init];
     
 }
 
