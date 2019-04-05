@@ -288,10 +288,9 @@
 //    MaxSubArray *maxSubArray = [[MaxSubArray alloc]init];
 //    GetMoneyAmount *getMoneyAmount = [[GetMoneyAmount alloc]init];
 //    WiggleSubsequence *wiggleSubsequence = [[WiggleSubsequence alloc]init];
-//    BinaryTree *binaryTree = [[BinaryTree alloc]init];
+    BinaryTree *binaryTree = [[BinaryTree alloc]init];
 //    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
-    
-    LinkList *linkList = [[LinkList alloc]init];
+//    LinkList *linkList = [[LinkList alloc]init];
     
 }
 

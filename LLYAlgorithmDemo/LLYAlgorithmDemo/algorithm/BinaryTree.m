@@ -8,6 +8,7 @@
 
 #import "BinaryTree.h"
 
+static int maxDis = 0;
 
 typedef struct BTree {
     NSInteger data;
@@ -21,6 +22,15 @@ typedef struct BTree {
 {
     self = [super init];
     if (self) {
+                    //建立一颗如下的二叉树
+                    /*
+                     
+                                    1
+                              2           3
+                          4      5     #     6
+                        #   7  8   9
+                     
+                    */
         NSArray *array = @[@1,@2,@3,@4,@5,@"#",@6,@"#",@7,@8,@9];
         BTree *root = [self createBTreeFromArray:array index:0];
 
@@ -64,10 +74,13 @@ typedef struct BTree {
 //        NSLog(@"leafCount = %ld",leafCount);
         
         //公共祖先
-        NSInteger node1 = 5,node2 = 7;
-        NSInteger parent = [self btreeCommonParent:root node1:node1 node2:node2];
-        NSLog(@"node1 = %ld,node2 = %ld,parent = %ld",node1,node2,parent);
+//        NSInteger node1 = 5,node2 = 7;
+//        NSInteger parent = [self btreeCommonParent:root node1:node1 node2:node2];
+//        NSLog(@"node1 = %ld,node2 = %ld,parent = %ld",node1,node2,parent);
         
+        //最大距离
+        [self btreeMaxDistance:root];
+        NSLog(@"maxDis = %d",maxDis);
         
     }
     return self;
@@ -294,13 +307,29 @@ typedef struct BTree {
     NSInteger length = MIN(path1.count, path2.count);
     
     for (NSInteger i = 0;i < length;i++) {
-        if ([path1[i] integerValue] != [path2[i] integerValue]) {
+        if ([path1[i] integerValue] != [path2[i] integerValue] && i > 0) {
             //返回最后一个相等的节点
             return [path1[i-1] integerValue];
         }
     }
     return NSNotFound;
     
+}
+
+
+- (int)btreeMaxDistance:(BTree *)root{
+    
+    if (!root) {
+        return 0;
+    }
+    
+    int leftDis = [self btreeMaxDistance:root->left];
+    int rightDis = [self btreeMaxDistance:root->right];
+    
+    int lrDis = leftDis + rightDis;
+    maxDis = MAX(lrDis, maxDis);
+    
+    return MAX(leftDis+1,rightDis+1);
 }
 
 @end
