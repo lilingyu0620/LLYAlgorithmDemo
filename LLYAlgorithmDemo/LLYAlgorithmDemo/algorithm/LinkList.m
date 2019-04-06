@@ -46,6 +46,12 @@ typedef struct LinkNode {
 //        LinkNode *reverseHead = [self reverseLinkList:head1];
 //        [self printLinkList:reverseHead];
         
+        //随机节点
+        LinkNode *node1 = [self randomNode:head1];
+        LinkNode *node2 = [self randomNode:head1];
+        LinkNode *node3 = [self randomNode:head1];
+        LinkNode *node4 = [self randomNode:head1];
+        NSLog(@"node1 = %ld,node2 = %ld,node3 = %ld,node4 = %ld",node1->data,node2->data,node3->data,node4->data);
         
     }
     return self;
@@ -247,6 +253,26 @@ typedef struct LinkNode {
     q->next = p;
     
     return q;
+}
+
+- (LinkNode *)randomNode:(LinkNode *)head{
+    
+    NSInteger length = 0;
+    LinkNode *h = head;
+    while (h) {
+        length++;
+        h = h->next;
+    }
+    
+    NSInteger random = arc4random()%length;
+    h = head;
+    
+    while (random > 0 && h) {
+        random--;
+        h = h->next;
+    }
+    
+    return h;
 }
 
 @end
