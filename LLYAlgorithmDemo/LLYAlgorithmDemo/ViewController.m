@@ -144,6 +144,7 @@
 #import "BinaryTree.h"
 #import "CombinationSum4.h"
 #import "LinkList.h"
+#import "FirstUniqueCharacter.h"
 
 @interface ViewController ()
 
@@ -290,7 +291,9 @@
 //    WiggleSubsequence *wiggleSubsequence = [[WiggleSubsequence alloc]init];
 //    BinaryTree *binaryTree = [[BinaryTree alloc]init];
 //    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
-    LinkList *linkList = [[LinkList alloc]init];
+//    LinkList *linkList = [[LinkList alloc]init];
+    
+    FirstUniqueCharacter *firstUniqueCharacter = [[FirstUniqueCharacter alloc]init];
     
 }
 

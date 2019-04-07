@@ -41,6 +41,7 @@
 		0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E4E40217F44AE00D66BA7 /* SmallerNumbers.m */; };
 		0A5728D220C25B5F008E5F6D /* MaxMinInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */; };
 		0A579C5320958A80004B78A3 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A579C5220958A80004B78A3 /* HanoiTower.m */; };
+		0A6010C02259B31400D45D70 /* FirstUniqueCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6010BF2259B31400D45D70 /* FirstUniqueCharacter.m */; };
 		0A6424CA20E32C0D00D356E5 /* MinimumPathSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6424C920E32C0D00D356E5 /* MinimumPathSum.m */; };
 		0A658691224786F70007DDB3 /* NumbersUniqueDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A658690224786F70007DDB3 /* NumbersUniqueDigits.m */; };
 		0A66DFC120E64EF600E0F35A /* Search2DMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A66DFC020E64EF600E0F35A /* Search2DMatrix.m */; };
@@ -239,6 +240,8 @@
 		0A5728D120C25B5F008E5F6D /* MaxMinInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxMinInArray.m; sourceTree = "<group>"; };
 		0A579C5120958A80004B78A3 /* HanoiTower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTower.h; sourceTree = "<group>"; };
 		0A579C5220958A80004B78A3 /* HanoiTower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanoiTower.m; sourceTree = "<group>"; };
+		0A6010BE2259B31400D45D70 /* FirstUniqueCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstUniqueCharacter.h; sourceTree = "<group>"; };
+		0A6010BF2259B31400D45D70 /* FirstUniqueCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstUniqueCharacter.m; sourceTree = "<group>"; };
 		0A6424C820E32C0D00D356E5 /* MinimumPathSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumPathSum.h; sourceTree = "<group>"; };
 		0A6424C920E32C0D00D356E5 /* MinimumPathSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimumPathSum.m; sourceTree = "<group>"; };
 		0A65868F224786F70007DDB3 /* NumbersUniqueDigits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumbersUniqueDigits.h; sourceTree = "<group>"; };
@@ -816,6 +819,8 @@
 				0ACBE35B2254B25C003F9613 /* CombinationSum4.m */,
 				0A3DD08E2255E6EC00FB33DB /* LinkList.h */,
 				0A3DD08F2255E6EC00FB33DB /* LinkList.m */,
+				0A6010BE2259B31400D45D70 /* FirstUniqueCharacter.h */,
+				0A6010BF2259B31400D45D70 /* FirstUniqueCharacter.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -970,6 +975,7 @@
 				0A7E6D51210811B80010735A /* SurroundedRegions.m in Sources */,
 				0A7B5941212FB21B00A48B22 /* MaximalSquare.m in Sources */,
 				0A98B9FC215CFBD400CEEC4C /* AdditiveNumber.m in Sources */,
+				0A6010C02259B31400D45D70 /* FirstUniqueCharacter.m in Sources */,
 				0AA5246920E746C800EB1A2C /* SortColors.m in Sources */,
 				0A7A869F20C68EA400F48A3C /* FirstMissingPositive.m in Sources */,
 				0A658691224786F70007DDB3 /* NumbersUniqueDigits.m in Sources */,
