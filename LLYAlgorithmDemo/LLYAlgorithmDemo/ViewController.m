@@ -145,6 +145,7 @@
 #import "CombinationSum4.h"
 #import "LinkList.h"
 #import "FirstUniqueCharacter.h"
+#import "FindDifferenceStr.h"
 
 @interface ViewController ()
 
@@ -292,8 +293,9 @@
 //    BinaryTree *binaryTree = [[BinaryTree alloc]init];
 //    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
 //    LinkList *linkList = [[LinkList alloc]init];
+//    FirstUniqueCharacter *firstUniqueCharacter = [[FirstUniqueCharacter alloc]init];
     
-    FirstUniqueCharacter *firstUniqueCharacter = [[FirstUniqueCharacter alloc]init];
+    FindDifferenceStr *findDifferenceStr = [[FindDifferenceStr alloc]init];
     
 }
 

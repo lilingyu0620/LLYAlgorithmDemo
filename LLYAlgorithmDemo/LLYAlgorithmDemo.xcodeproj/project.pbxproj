@@ -148,6 +148,7 @@
 		0AAA898421758D5B001F4165 /* MinimumHeightTrees.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA898321758D5B001F4165 /* MinimumHeightTrees.m */; };
 		0AB506C5214CD5BC00D7582D /* PerfectSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB506C4214CD5BC00D7582D /* PerfectSquares.m */; };
 		0AB5C8C321C78EF4005DF08A /* LongestIncreasingPathMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5C8C221C78EF4005DF08A /* LongestIncreasingPathMatrix.m */; };
+		0AB7456D225AFD7D00494641 /* FindDifferenceStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB7456C225AFD7D00494641 /* FindDifferenceStr.m */; };
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
 		0ACBE35C2254B25C003F9613 /* CombinationSum4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACBE35B2254B25C003F9613 /* CombinationSum4.m */; };
@@ -454,6 +455,8 @@
 		0AB506C4214CD5BC00D7582D /* PerfectSquares.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectSquares.m; sourceTree = "<group>"; };
 		0AB5C8C121C78EF4005DF08A /* LongestIncreasingPathMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingPathMatrix.h; sourceTree = "<group>"; };
 		0AB5C8C221C78EF4005DF08A /* LongestIncreasingPathMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingPathMatrix.m; sourceTree = "<group>"; };
+		0AB7456B225AFD7D00494641 /* FindDifferenceStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindDifferenceStr.h; sourceTree = "<group>"; };
+		0AB7456C225AFD7D00494641 /* FindDifferenceStr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindDifferenceStr.m; sourceTree = "<group>"; };
 		0ABC520220F1E2CF00F9D854 /* Subsets2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subsets2.h; sourceTree = "<group>"; };
 		0ABC520320F1E2CF00F9D854 /* Subsets2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subsets2.m; sourceTree = "<group>"; };
 		0AC34D2520D8DA1600396A69 /* SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiralMatrix.h; sourceTree = "<group>"; };
@@ -821,6 +824,8 @@
 				0A3DD08F2255E6EC00FB33DB /* LinkList.m */,
 				0A6010BE2259B31400D45D70 /* FirstUniqueCharacter.h */,
 				0A6010BF2259B31400D45D70 /* FirstUniqueCharacter.m */,
+				0AB7456B225AFD7D00494641 /* FindDifferenceStr.h */,
+				0AB7456C225AFD7D00494641 /* FindDifferenceStr.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -960,6 +965,7 @@
 			files = (
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
 				0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */,
+				0AB7456D225AFD7D00494641 /* FindDifferenceStr.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
 				0A39E6C2221AA09B007C4542 /* ReverseVowelsString.m in Sources */,
 				0A3149FA224CBC5C0051376E /* PerfectSquare.m in Sources */,
