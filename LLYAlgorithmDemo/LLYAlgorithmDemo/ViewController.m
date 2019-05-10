@@ -146,6 +146,7 @@
 #import "LinkList.h"
 #import "FirstUniqueCharacter.h"
 #import "FindDifferenceStr.h"
+#import "IntegerReplacement.h"
 
 @interface ViewController ()
 
@@ -294,8 +295,9 @@
 //    CombinationSum4 *combinationSum4 = [[CombinationSum4 alloc]init];
 //    LinkList *linkList = [[LinkList alloc]init];
 //    FirstUniqueCharacter *firstUniqueCharacter = [[FirstUniqueCharacter alloc]init];
+//    FindDifferenceStr *findDifferenceStr = [[FindDifferenceStr alloc]init];
     
-    FindDifferenceStr *findDifferenceStr = [[FindDifferenceStr alloc]init];
+    IntegerReplacement *integerReplacement = [[IntegerReplacement alloc]init];
     
 }
 
