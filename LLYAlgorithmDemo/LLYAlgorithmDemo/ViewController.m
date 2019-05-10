@@ -147,6 +147,7 @@
 #import "FirstUniqueCharacter.h"
 #import "FindDifferenceStr.h"
 #import "IntegerReplacement.h"
+#import "NthDigit.h"
 
 @interface ViewController ()
 
@@ -296,8 +297,9 @@
 //    LinkList *linkList = [[LinkList alloc]init];
 //    FirstUniqueCharacter *firstUniqueCharacter = [[FirstUniqueCharacter alloc]init];
 //    FindDifferenceStr *findDifferenceStr = [[FindDifferenceStr alloc]init];
+//    IntegerReplacement *integerReplacement = [[IntegerReplacement alloc]init];
     
-    IntegerReplacement *integerReplacement = [[IntegerReplacement alloc]init];
+    NthDigit *nthDigit = [[NthDigit alloc]init];
     
 }
 

@@ -30,6 +30,7 @@
 		0A3A94A42252237700DF5C82 /* GetMoneyAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A94A32252237700DF5C82 /* GetMoneyAmount.m */; };
 		0A3A94A72252326C00DF5C82 /* WiggleSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */; };
 		0A3AB5F222857484003CCB1B /* IntegerReplacement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AB5F122857484003CCB1B /* IntegerReplacement.m */; };
+		0A3AB5F5228580DF003CCB1B /* NthDigit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AB5F4228580DF003CCB1B /* NthDigit.m */; };
 		0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B4D6D2143D5F20080898B /* ValidAnagram.m */; };
 		0A3DD0902255E6EC00FB33DB /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DD08F2255E6EC00FB33DB /* LinkList.m */; };
 		0A417F03224F313200803616 /* SumTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A417F02224F313200803616 /* SumTwoIntegers.m */; };
@@ -220,6 +221,8 @@
 		0A3A94A62252326C00DF5C82 /* WiggleSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiggleSubsequence.m; sourceTree = "<group>"; };
 		0A3AB5F022857484003CCB1B /* IntegerReplacement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerReplacement.h; sourceTree = "<group>"; };
 		0A3AB5F122857484003CCB1B /* IntegerReplacement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegerReplacement.m; sourceTree = "<group>"; };
+		0A3AB5F3228580DF003CCB1B /* NthDigit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NthDigit.h; sourceTree = "<group>"; };
+		0A3AB5F4228580DF003CCB1B /* NthDigit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NthDigit.m; sourceTree = "<group>"; };
 		0A3B4D6C2143D5F20080898B /* ValidAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidAnagram.h; sourceTree = "<group>"; };
 		0A3B4D6D2143D5F20080898B /* ValidAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagram.m; sourceTree = "<group>"; };
 		0A3DD08E2255E6EC00FB33DB /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
@@ -831,6 +834,8 @@
 				0AB7456C225AFD7D00494641 /* FindDifferenceStr.m */,
 				0A3AB5F022857484003CCB1B /* IntegerReplacement.h */,
 				0A3AB5F122857484003CCB1B /* IntegerReplacement.m */,
+				0A3AB5F3228580DF003CCB1B /* NthDigit.h */,
+				0A3AB5F4228580DF003CCB1B /* NthDigit.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1001,6 +1006,7 @@
 				0A8496182063B4610060FC6D /* main.m in Sources */,
 				0A7988BC20C3A69200729764 /* JosephRing.m in Sources */,
 				0A94B28120A94FD500477751 /* ReverseInteger.m in Sources */,
+				0A3AB5F5228580DF003CCB1B /* NthDigit.m in Sources */,
 				0A96D7252071C0A0000720CA /* Recurrence.m in Sources */,
 				0A694F3E2099982300694E35 /* PalindromicStr.m in Sources */,
 				0A3B4D6E2143D5F20080898B /* ValidAnagram.m in Sources */,
