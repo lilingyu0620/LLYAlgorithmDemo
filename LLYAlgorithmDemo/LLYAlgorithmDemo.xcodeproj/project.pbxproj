@@ -77,6 +77,7 @@
 		0A7C65F3214B664400FF5861 /* MissingNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C65F2214B664400FF5861 /* MissingNumber.m */; };
 		0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD33A20CA23CB003D10DF /* RotateImage.m */; };
 		0A7D76A320BE36A60084C7A9 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */; };
+		0A7DA28B228945D900760ACE /* ProducerConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DA28A228945D900760ACE /* ProducerConsumer.m */; };
 		0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E220C78424002EB139 /* TrappingRainWater.m */; };
 		0A7DB7E620C7D08C002EB139 /* MultiplyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E520C7D08C002EB139 /* MultiplyStrings.m */; };
 		0A7DB7E920C7D685002EB139 /* Permutations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB7E820C7D685002EB139 /* Permutations.m */; };
@@ -315,6 +316,8 @@
 		0A7CD33A20CA23CB003D10DF /* RotateImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateImage.m; sourceTree = "<group>"; };
 		0A7D76A120BE36A60084C7A9 /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		0A7D76A220BE36A60084C7A9 /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
+		0A7DA289228945D900760ACE /* ProducerConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProducerConsumer.h; sourceTree = "<group>"; };
+		0A7DA28A228945D900760ACE /* ProducerConsumer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProducerConsumer.m; sourceTree = "<group>"; };
 		0A7DB7E120C78424002EB139 /* TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrappingRainWater.h; sourceTree = "<group>"; };
 		0A7DB7E220C78424002EB139 /* TrappingRainWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrappingRainWater.m; sourceTree = "<group>"; };
 		0A7DB7E420C7D08C002EB139 /* MultiplyStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplyStrings.h; sourceTree = "<group>"; };
@@ -836,6 +839,8 @@
 				0A3AB5F122857484003CCB1B /* IntegerReplacement.m */,
 				0A3AB5F3228580DF003CCB1B /* NthDigit.h */,
 				0A3AB5F4228580DF003CCB1B /* NthDigit.m */,
+				0A7DA289228945D900760ACE /* ProducerConsumer.h */,
+				0A7DA28A228945D900760ACE /* ProducerConsumer.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1114,6 +1119,7 @@
 				0A7DB7E320C78424002EB139 /* TrappingRainWater.m in Sources */,
 				0A389BAB21A6880B005E2227 /* WiggleSort.m in Sources */,
 				0A8A51D3215A32980043E294 /* RemoveInvalidParentheses.m in Sources */,
+				0A7DA28B228945D900760ACE /* ProducerConsumer.m in Sources */,
 				0A84B6292074743C00CD815E /* MaxSubStr.m in Sources */,
 				0A86B76820B4389100D17FC6 /* GenerateParentheses.m in Sources */,
 			);
