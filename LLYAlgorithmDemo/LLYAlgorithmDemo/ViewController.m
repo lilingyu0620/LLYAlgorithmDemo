@@ -149,6 +149,7 @@
 #import "IntegerReplacement.h"
 #import "NthDigit.h"
 #import "ProducerConsumer.h"
+#import "Philosopher.h"
 
 @interface ViewController ()
 
@@ -300,8 +301,9 @@
 //    FindDifferenceStr *findDifferenceStr = [[FindDifferenceStr alloc]init];
 //    IntegerReplacement *integerReplacement = [[IntegerReplacement alloc]init];
 //    NthDigit *nthDigit = [[NthDigit alloc]init];
+//    ProducerConsumer *producerConsumer = [[ProducerConsumer alloc]init];
     
-    ProducerConsumer *producerConsumer = [[ProducerConsumer alloc]init];
+    Philosopher *philosopher = [[Philosopher alloc]init];
     
     
 }

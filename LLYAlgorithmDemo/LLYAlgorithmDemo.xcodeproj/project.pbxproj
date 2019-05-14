@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A005D0B22895F5B00D08B97 /* Philosopher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A005D0A22895F5B00D08B97 /* Philosopher.m */; };
 		0A019A00218302B900B9F342 /* CreateMaximumNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */; };
 		0A064C4A212BF47A00219851 /* MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A064C49212BF47A00219851 /* MinimumSizeSubarraySum.m */; };
 		0A14BA27218AF92F00E1C93E /* CoinChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BA26218AF92F00E1C93E /* CoinChange.m */; };
@@ -176,6 +177,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A005D0922895F5B00D08B97 /* Philosopher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Philosopher.h; sourceTree = "<group>"; };
+		0A005D0A22895F5B00D08B97 /* Philosopher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Philosopher.m; sourceTree = "<group>"; };
 		0A0199FE218302B900B9F342 /* CreateMaximumNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateMaximumNumber.h; sourceTree = "<group>"; };
 		0A0199FF218302B900B9F342 /* CreateMaximumNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateMaximumNumber.m; sourceTree = "<group>"; };
 		0A064C48212BF47A00219851 /* MinimumSizeSubarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumSizeSubarraySum.h; sourceTree = "<group>"; };
@@ -841,6 +844,8 @@
 				0A3AB5F4228580DF003CCB1B /* NthDigit.m */,
 				0A7DA289228945D900760ACE /* ProducerConsumer.h */,
 				0A7DA28A228945D900760ACE /* ProducerConsumer.m */,
+				0A005D0922895F5B00D08B97 /* Philosopher.h */,
+				0A005D0A22895F5B00D08B97 /* Philosopher.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -979,6 +984,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7F2AEE206E4785001C56E6 /* BinarySearch.m in Sources */,
+				0A005D0B22895F5B00D08B97 /* Philosopher.m in Sources */,
 				0A4E4E41217F44AE00D66BA7 /* SmallerNumbers.m in Sources */,
 				0AB7456D225AFD7D00494641 /* FindDifferenceStr.m in Sources */,
 				0A84960D2063B4610060FC6D /* ViewController.m in Sources */,
