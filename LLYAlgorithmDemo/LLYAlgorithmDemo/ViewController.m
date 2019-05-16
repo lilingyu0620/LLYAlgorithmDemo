@@ -150,6 +150,7 @@
 #import "NthDigit.h"
 #import "ProducerConsumer.h"
 #import "Philosopher.h"
+#import "ReaderWriter.h"
 
 @interface ViewController ()
 
@@ -302,8 +303,9 @@
 //    IntegerReplacement *integerReplacement = [[IntegerReplacement alloc]init];
 //    NthDigit *nthDigit = [[NthDigit alloc]init];
 //    ProducerConsumer *producerConsumer = [[ProducerConsumer alloc]init];
+//    Philosopher *philosopher = [[Philosopher alloc]init];
     
-    Philosopher *philosopher = [[Philosopher alloc]init];
+    ReaderWriter *readerWriter = [[ReaderWriter alloc]init];
     
     
 }
