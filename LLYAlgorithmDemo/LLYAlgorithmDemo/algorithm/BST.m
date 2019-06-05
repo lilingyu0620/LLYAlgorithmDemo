@@ -188,8 +188,9 @@ typedef struct BTree {
     if (succeedNode->right) {
         parent->left = succeedNode->right;
     }
-    
-    parent->left = NULL;
+    else{
+        parent->left = NULL;
+    }
     
     succeedNode->left = NULL;
     succeedNode->right = NULL;
