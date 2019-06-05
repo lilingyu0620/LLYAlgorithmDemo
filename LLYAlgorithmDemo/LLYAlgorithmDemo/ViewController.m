@@ -151,6 +151,7 @@
 #import "ProducerConsumer.h"
 #import "Philosopher.h"
 #import "ReaderWriter.h"
+#import "BST.h"
 
 @interface ViewController ()
 
@@ -304,9 +305,9 @@
 //    NthDigit *nthDigit = [[NthDigit alloc]init];
 //    ProducerConsumer *producerConsumer = [[ProducerConsumer alloc]init];
 //    Philosopher *philosopher = [[Philosopher alloc]init];
+//    ReaderWriter *readerWriter = [[ReaderWriter alloc]init];
     
-    ReaderWriter *readerWriter = [[ReaderWriter alloc]init];
-    
+    BST *bst = [[BST alloc]init];
     
 }
 

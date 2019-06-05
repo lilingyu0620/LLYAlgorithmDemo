@@ -31,11 +31,11 @@ typedef struct BTree {
                         #   7  8   9
                      
                     */
-        NSArray *array = @[@1,@2,@3,@4,@5,@"#",@6,@"#",@7,@8,@9];
-        BTree *root = [self createBTreeFromArray:array index:0];
+//        NSArray *array = @[@1,@2,@3,@4,@5,@"#",@6,@"#",@7,@8,@9];
+//        BTree *root = [self createBTreeFromArray:array index:0];
 
-        NSArray *array2 = @[@1,@2,@3];
-        BTree *root2 = [self createBTreeFromArray:array2 index:0];
+//        NSArray *array2 = @[@1,@2,@3];
+//        BTree *root2 = [self createBTreeFromArray:array2 index:0];
         
         //二叉树的遍历
         
@@ -79,9 +79,9 @@ typedef struct BTree {
 //        NSLog(@"node1 = %ld,node2 = %ld,parent = %ld",node1,node2,parent);
         
         //最大距离
-        [self btreeMaxDistance:root];
-        NSLog(@"maxDis = %d",maxDis);
-        
+//        [self btreeMaxDistance:root];
+//        NSLog(@"maxDis = %d",maxDis);
+                
     }
     return self;
 }
