@@ -152,6 +152,8 @@
 #import "Philosopher.h"
 #import "ReaderWriter.h"
 #import "BST.h"
+#import "FolderScan.h"
+#import "NSMutableArrayThreads.h"
 
 @interface ViewController ()
 
@@ -306,9 +308,9 @@
 //    ProducerConsumer *producerConsumer = [[ProducerConsumer alloc]init];
 //    Philosopher *philosopher = [[Philosopher alloc]init];
 //    ReaderWriter *readerWriter = [[ReaderWriter alloc]init];
-    
-    BST *bst = [[BST alloc]init];
-    
+//    BST *bst = [[BST alloc]init];
+//    FolderScan *folderScan = [[FolderScan alloc]init];
+    NSMutableArrayThreads *mutableThread = [[NSMutableArrayThreads alloc]init];
 }
 
 

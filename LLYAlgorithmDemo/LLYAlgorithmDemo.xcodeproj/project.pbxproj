@@ -13,6 +13,7 @@
 		0A14BA27218AF92F00E1C93E /* CoinChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BA26218AF92F00E1C93E /* CoinChange.m */; };
 		0A23DDF521030A9000BD0625 /* BuySellStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23DDF421030A9000BD0625 /* BuySellStock.m */; };
 		0A24C28221291B140082204F /* BitwiseANDofNumbersRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */; };
+		0A2556A622BE2F2D00F1F1BD /* FolderScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2556A522BE2F2D00F1F1BD /* FolderScan.m */; };
 		0A2B1F0321E8794E0091716D /* PatchingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B1F0221E8794E0091716D /* PatchingArray.m */; };
 		0A2BFDA2213109F000E93358 /* BasicCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFDA1213109F000E93358 /* BasicCalculator.m */; };
 		0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C48FF20FC6667003DFC44 /* RotateArray2.m */; };
@@ -158,6 +159,7 @@
 		0ABC520420F1E2CF00F9D854 /* Subsets2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC520320F1E2CF00F9D854 /* Subsets2.m */; };
 		0AC34D2720D8DA1600396A69 /* SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */; };
 		0ACBE35C2254B25C003F9613 /* CombinationSum4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACBE35B2254B25C003F9613 /* CombinationSum4.m */; };
+		0ACD981822CA2CF000444344 /* NSMutableArrayThreads.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD981722CA2CF000444344 /* NSMutableArrayThreads.m */; };
 		0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB488D20F3140D008C786A /* DecodeWays.m */; };
 /* End PBXBuildFile section */
 
@@ -191,6 +193,8 @@
 		0A23DDF421030A9000BD0625 /* BuySellStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuySellStock.m; sourceTree = "<group>"; };
 		0A24C28021291B140082204F /* BitwiseANDofNumbersRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitwiseANDofNumbersRange.h; sourceTree = "<group>"; };
 		0A24C28121291B140082204F /* BitwiseANDofNumbersRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitwiseANDofNumbersRange.m; sourceTree = "<group>"; };
+		0A2556A422BE2F2D00F1F1BD /* FolderScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolderScan.h; sourceTree = "<group>"; };
+		0A2556A522BE2F2D00F1F1BD /* FolderScan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FolderScan.m; sourceTree = "<group>"; };
 		0A2B1F0121E8794E0091716D /* PatchingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatchingArray.h; sourceTree = "<group>"; };
 		0A2B1F0221E8794E0091716D /* PatchingArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatchingArray.m; sourceTree = "<group>"; };
 		0A2BFDA0213109F000E93358 /* BasicCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicCalculator.h; sourceTree = "<group>"; };
@@ -481,6 +485,8 @@
 		0AC34D2620D8DA1600396A69 /* SpiralMatrix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiralMatrix.m; sourceTree = "<group>"; };
 		0ACBE35A2254B25C003F9613 /* CombinationSum4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum4.h; sourceTree = "<group>"; };
 		0ACBE35B2254B25C003F9613 /* CombinationSum4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationSum4.m; sourceTree = "<group>"; };
+		0ACD981622CA2CF000444344 /* NSMutableArrayThreads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayThreads.h; sourceTree = "<group>"; };
+		0ACD981722CA2CF000444344 /* NSMutableArrayThreads.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayThreads.m; sourceTree = "<group>"; };
 		0ADB488C20F3140D008C786A /* DecodeWays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecodeWays.h; sourceTree = "<group>"; };
 		0ADB488D20F3140D008C786A /* DecodeWays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecodeWays.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -856,6 +862,10 @@
 				0A3B45E5228D52A900D699CA /* ReaderWriter.m */,
 				0A3B422322A5400A00599AAC /* BST.h */,
 				0A3B422422A5400A00599AAC /* BST.m */,
+				0A2556A422BE2F2D00F1F1BD /* FolderScan.h */,
+				0A2556A522BE2F2D00F1F1BD /* FolderScan.m */,
+				0ACD981622CA2CF000444344 /* NSMutableArrayThreads.h */,
+				0ACD981722CA2CF000444344 /* NSMutableArrayThreads.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1099,6 +1109,7 @@
 				0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */,
 				0A7B31C720B82DB3001076FA /* KMP.m in Sources */,
 				0A2C490020FC6667003DFC44 /* RotateArray2.m in Sources */,
+				0ACD981822CA2CF000444344 /* NSMutableArrayThreads.m in Sources */,
 				0A85EB5B2141317B00749F32 /* DifferentWaysAddParentheses.m in Sources */,
 				0A14BA27218AF92F00E1C93E /* CoinChange.m in Sources */,
 				0A3DD0902255E6EC00FB33DB /* LinkList.m in Sources */,
@@ -1129,6 +1140,7 @@
 				0A6876742106FD3A00D7D2E2 /* LongestConsecutiveSequence.m in Sources */,
 				0A9C205920E0811C00CB1914 /* RotateList.m in Sources */,
 				0A7CD33B20CA23CB003D10DF /* RotateImage.m in Sources */,
+				0A2556A622BE2F2D00F1F1BD /* FolderScan.m in Sources */,
 				0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */,
 				0A866A612181D51600402CB0 /* MaximumProductWordLengths.m in Sources */,
 				0A35BAD12216C98D00F5994B /* ReverseString.m in Sources */,
