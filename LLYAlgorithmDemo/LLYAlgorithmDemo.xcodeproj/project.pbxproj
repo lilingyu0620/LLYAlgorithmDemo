@@ -161,6 +161,8 @@
 		0ACBE35C2254B25C003F9613 /* CombinationSum4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACBE35B2254B25C003F9613 /* CombinationSum4.m */; };
 		0ACD981822CA2CF000444344 /* NSMutableArrayThreads.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD981722CA2CF000444344 /* NSMutableArrayThreads.m */; };
 		0ADB488E20F3140D008C786A /* DecodeWays.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB488D20F3140D008C786A /* DecodeWays.m */; };
+		0ADE4E8622CC4EAC0047B04B /* BST+AAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE4E8522CC4EAC0047B04B /* BST+AAA.m */; };
+		0ADE4E8922CC4EBA0047B04B /* BST+BBB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE4E8822CC4EBA0047B04B /* BST+BBB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -489,6 +491,10 @@
 		0ACD981722CA2CF000444344 /* NSMutableArrayThreads.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayThreads.m; sourceTree = "<group>"; };
 		0ADB488C20F3140D008C786A /* DecodeWays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecodeWays.h; sourceTree = "<group>"; };
 		0ADB488D20F3140D008C786A /* DecodeWays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecodeWays.m; sourceTree = "<group>"; };
+		0ADE4E8422CC4EAC0047B04B /* BST+AAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BST+AAA.h"; sourceTree = "<group>"; };
+		0ADE4E8522CC4EAC0047B04B /* BST+AAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BST+AAA.m"; sourceTree = "<group>"; };
+		0ADE4E8722CC4EBA0047B04B /* BST+BBB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BST+BBB.h"; sourceTree = "<group>"; };
+		0ADE4E8822CC4EBA0047B04B /* BST+BBB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BST+BBB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -862,6 +868,10 @@
 				0A3B45E5228D52A900D699CA /* ReaderWriter.m */,
 				0A3B422322A5400A00599AAC /* BST.h */,
 				0A3B422422A5400A00599AAC /* BST.m */,
+				0ADE4E8422CC4EAC0047B04B /* BST+AAA.h */,
+				0ADE4E8522CC4EAC0047B04B /* BST+AAA.m */,
+				0ADE4E8722CC4EBA0047B04B /* BST+BBB.h */,
+				0ADE4E8822CC4EBA0047B04B /* BST+BBB.m */,
 				0A2556A422BE2F2D00F1F1BD /* FolderScan.h */,
 				0A2556A522BE2F2D00F1F1BD /* FolderScan.m */,
 				0ACD981622CA2CF000444344 /* NSMutableArrayThreads.h */,
@@ -1070,6 +1080,7 @@
 				0A417F09224F800E00803616 /* MaxSubArray.m in Sources */,
 				0A7FA19020EDC02E00E55D56 /* LargestRectangle.m in Sources */,
 				0A8954A3213F7CB4008C0F20 /* Search2DMatrixII.m in Sources */,
+				0ADE4E8622CC4EAC0047B04B /* BST+AAA.m in Sources */,
 				0A30B09820EB13710012089F /* Subsets.m in Sources */,
 				0A8845CB21363E3F00F921E4 /* PowerOfTwo.m in Sources */,
 				0A7C2C3420E500F100549F5F /* SetMatrixZeroes.m in Sources */,
@@ -1087,6 +1098,7 @@
 				0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */,
 				0A66DFC120E64EF600E0F35A /* Search2DMatrix.m in Sources */,
 				0A79697320EC650A00FA72B3 /* RemoveDuplicates.m in Sources */,
+				0ADE4E8922CC4EBA0047B04B /* BST+BBB.m in Sources */,
 				0A983D5820F5AB5D00066AA1 /* InterleavingString.m in Sources */,
 				0A94B28420A9837E00477751 /* StringToInteger.m in Sources */,
 				0A95A39B20BBAA2F00804608 /* ArrayThreeSumZero.m in Sources */,

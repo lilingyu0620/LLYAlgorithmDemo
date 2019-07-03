@@ -154,6 +154,8 @@
 #import "BST.h"
 #import "FolderScan.h"
 #import "NSMutableArrayThreads.h"
+#import "BST+AAA.h"
+#import "BST+BBB.h"
 
 @interface ViewController ()
 
@@ -309,8 +311,9 @@
 //    Philosopher *philosopher = [[Philosopher alloc]init];
 //    ReaderWriter *readerWriter = [[ReaderWriter alloc]init];
 //    BST *bst = [[BST alloc]init];
+//    [bst test];
 //    FolderScan *folderScan = [[FolderScan alloc]init];
-    NSMutableArrayThreads *mutableThread = [[NSMutableArrayThreads alloc]init];
+//    NSMutableArrayThreads *mutableThread = [[NSMutableArrayThreads alloc]init];
 }
 
 
