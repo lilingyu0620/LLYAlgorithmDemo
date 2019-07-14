@@ -156,6 +156,7 @@
 #import "NSMutableArrayThreads.h"
 #import "BST+AAA.h"
 #import "BST+BBB.h"
+#import "Fibonacci.h"
 
 @interface ViewController ()
 
@@ -314,6 +315,10 @@
 //    [bst test];
 //    FolderScan *folderScan = [[FolderScan alloc]init];
 //    NSMutableArrayThreads *mutableThread = [[NSMutableArrayThreads alloc]init];
+    
+    
+    Fibonacci *fibonacci = [[Fibonacci alloc]init];
+    
 }
 
 
