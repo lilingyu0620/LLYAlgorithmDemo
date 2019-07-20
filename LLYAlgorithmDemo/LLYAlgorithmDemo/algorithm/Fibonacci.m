@@ -15,7 +15,7 @@
     self = [super init];
     if (self) {
         
-        int num = [self fib:20];
+        int num = [self fib:2];
         NSLog(@"num = %d",num);
         
     }
