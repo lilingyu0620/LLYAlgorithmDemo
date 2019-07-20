@@ -15,7 +15,7 @@
     self = [super init];
     if (self) {
         
-        int num = [self Fibonacci:20];
+        int num = [self fib:20];
         NSLog(@"num = %d",num);
         
     }
