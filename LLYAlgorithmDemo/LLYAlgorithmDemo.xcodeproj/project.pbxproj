@@ -124,6 +124,7 @@
 		0A8A52DC2123CD48008E4047 /* Numberof1Bits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A52DB2123CD48008E4047 /* Numberof1Bits.m */; };
 		0A8ACDF720FED9DB00895CED /* DistinctSubsequences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */; };
 		0A8B296120DC926B006AF03B /* InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B296020DC926B006AF03B /* InsertInterval.m */; };
+		0A8CAA7A2483580100C8FA5E /* SumOfTwoIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CAA792483580100C8FA5E /* SumOfTwoIndex.m */; };
 		0A8CBDA42150ED3C008EEDDC /* WordPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CBDA32150ED3C008EEDDC /* WordPattern.m */; };
 		0A8D12CD212E49E900B6CC86 /* CombinationSum3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CC212E49E900B6CC86 /* CombinationSum3.m */; };
 		0A8D12D0212E579F00B6CC86 /* ContainsDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D12CF212E579F00B6CC86 /* ContainsDuplicate.m */; };
@@ -418,6 +419,8 @@
 		0A8ACDF620FED9DB00895CED /* DistinctSubsequences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistinctSubsequences.m; sourceTree = "<group>"; };
 		0A8B295F20DC926B006AF03B /* InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertInterval.h; sourceTree = "<group>"; };
 		0A8B296020DC926B006AF03B /* InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertInterval.m; sourceTree = "<group>"; };
+		0A8CAA782483580100C8FA5E /* SumOfTwoIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumOfTwoIndex.h; sourceTree = "<group>"; };
+		0A8CAA792483580100C8FA5E /* SumOfTwoIndex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumOfTwoIndex.m; sourceTree = "<group>"; };
 		0A8CBDA22150ED3C008EEDDC /* WordPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordPattern.h; sourceTree = "<group>"; };
 		0A8CBDA32150ED3C008EEDDC /* WordPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPattern.m; sourceTree = "<group>"; };
 		0A8D12CB212E49E900B6CC86 /* CombinationSum3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationSum3.h; sourceTree = "<group>"; };
@@ -881,6 +884,8 @@
 				0ACD981722CA2CF000444344 /* NSMutableArrayThreads.m */,
 				0A424B7622CDFB0200505907 /* Fibonacci.h */,
 				0A424B7722CDFB0200505907 /* Fibonacci.m */,
+				0A8CAA782483580100C8FA5E /* SumOfTwoIndex.h */,
+				0A8CAA792483580100C8FA5E /* SumOfTwoIndex.m */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1099,6 +1104,7 @@
 				0A3A94A42252237700DF5C82 /* GetMoneyAmount.m in Sources */,
 				0A89F88020B15914008E5811 /* HeapSort.m in Sources */,
 				0A930964210C21E5004D4815 /* GasStation.m in Sources */,
+				0A8CAA7A2483580100C8FA5E /* SumOfTwoIndex.m in Sources */,
 				0AA0043421211AF90099FB14 /* LargestNumber.m in Sources */,
 				0A7988B920C398A900729764 /* SearchinRotatedSortedArray.m in Sources */,
 				0A66DFC120E64EF600E0F35A /* Search2DMatrix.m in Sources */,

@@ -16,6 +16,9 @@
     if (self) {
         NSMutableArray *array = [self JosephRing:[NSMutableArray arrayWithArray:@[@0,@0,@0,@0,@0]] target:3];
         NSLog(@"array = %@",array);
+        
+        NSInteger last = [self lastJosephRing:5 targte:3];
+        NSLog(@"last = %ld",(long)last);
     }
     
     return self;
@@ -47,6 +50,20 @@
         }
     }
     return arrayRet;
+}
+
+- (NSInteger)lastJosephRing:(NSInteger)count targte:(NSInteger)target {
+    
+    if (count < 1 || target < 1) {
+        return -1;
+    }
+    
+    NSInteger last = 0;
+    for (NSInteger i = 2; i <= count; i++) {
+        last = (last + target) % i;
+    }
+    return last;
+    
 }
 
 @end

@@ -157,6 +157,7 @@
 #import "BST+AAA.h"
 #import "BST+BBB.h"
 #import "Fibonacci.h"
+#import "SumOfTwoIndex.h"
 
 @interface ViewController ()
 
@@ -315,9 +316,9 @@
 //    [bst test];
 //    FolderScan *folderScan = [[FolderScan alloc]init];
 //    NSMutableArrayThreads *mutableThread = [[NSMutableArrayThreads alloc]init];
+//    Fibonacci *fibonacci = [[Fibonacci alloc]init];
     
-    
-    Fibonacci *fibonacci = [[Fibonacci alloc]init];
+    SumOfTwoIndex *twoIndex = [[SumOfTwoIndex alloc]init];
     
 }
 
